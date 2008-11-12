@@ -10,9 +10,8 @@
 $query = "wmic -U ".$argv[2]."%".$argv[3]." //".$argv[1]." \"select DiskReadBytesPersec,DiskReadsPersec,DiskWriteBytesPersec,DiskWritesPersec,Frequency_PerfTime,Timestamp_PerfTime from Win32_PerfRawData_PerfDisk_LogicalDisk where Name='".$argv[4]."'\"";
 
 
-
 // Filename for tmp storage
-$filename = '/tmp/testing/wmi_'.$argv[1].'_'.$argv[4];
+$filename = '/tmp/wmi_'.$argv[1].'_'.$argv[4];
 
 
 // Preset output variable
@@ -33,7 +32,14 @@ $output =
 "DiskReadsPS:" . (int) counter_counter($data1[1],$data2[1],$data1[6],$data2[6],$data2[4]) . " " .
 "DiskWriteBPS:". (int) counter_counter($data1[2],$data2[2],$data1[6],$data2[6],$data2[4]) . " " .
 "DiskWritesPS:". (int) counter_counter($data1[3],$data2[3],$data1[6],$data2[6],$data2[4]);
-};
+} else {
+$output =
+"DiskReadBPS:" . 0 . " " .
+"DiskReadsPS:" . 0 . " " .
+"DiskWriteBPS:". 0 . " " .
+"DiskWritesPS:". 0;
+
+}
 
 
 // Write new data to the tmp file and then close it
@@ -44,9 +50,9 @@ fclose($fp);
 unset($data1);
 
 // Write out some logging of the output variable should there be any data in it
-$fp = fopen('/tmp/testing/wmi.log','a');
-fwrite($fp, $argv[4]." ".$output."\n");
-fclose($fp);
+//$fp = fopen('/tmp/testing/wmi.log','a');
+//fwrite($fp, $argv[4]." ".$output."\n");
+//fclose($fp);
 
 
 echo $output;
