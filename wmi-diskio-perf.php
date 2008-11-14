@@ -27,24 +27,17 @@ $names = explode("|",$query_output[1]);
 // Check to see if the file exists, if it does open it
 if (file_exists($filename)) {
 $data2 = unserialize(file_get_contents($filename));
+} else {
+$data2 = $data1;
+};
 
 $arr = array();
+
 for($i=0;$i<4;$i++) {
 $arr[$names[$i]] = (int) counter_counter($data1[$i],$data2[$i],$data1[6],$data2[6],$data2[4]);
 };
+
 $output = process_output($arr);
-
-} else {
-
-$arr = array();
-for($i=0;$i<4;$i++) {
-$arr[$names[$i]] = 0;
-};
-$output = process_output($arr);
-}
-
-
-
 
 // Write new data to the tmp file and then close it
 $fp = fopen($filename,'w');
