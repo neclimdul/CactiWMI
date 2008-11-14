@@ -34,12 +34,6 @@ $arr[$names[$i]] = (int) counter_counter($data1[$i],$data2[$i],$data1[6],$data2[
 };
 $output = process_output($arr);
 
-
-/*$output =
-"DiskReadBPS:" . (int) counter_counter($data1[0],$data2[0],$data1[6],$data2[6],$data2[4]) . " " .
-"DiskReadsPS:" . (int) counter_counter($data1[1],$data2[1],$data1[6],$data2[6],$data2[4]) . " " .
-"DiskWriteBPS:". (int) counter_counter($data1[2],$data2[2],$data1[6],$data2[6],$data2[4]) . " " .
-"DiskWritesPS:". (int) counter_counter($data1[3],$data2[3],$data1[6],$data2[6],$data2[4]);*/
 } else {
 
 $arr = array();
@@ -57,22 +51,7 @@ $fp = fopen($filename,'w');
 fwrite($fp, serialize($data1));
 fclose($fp);
 
-unset($data1);
-
-// Write out some logging of the output variable should there be any data in it
-//$fp = fopen('/tmp/testing/wmi.log','a');
-//fwrite($fp, $argv[4]." ".$output."\n");
-//fclose($fp);
-
-
 echo $output;
-
-// Skanky function to handle the math calc
-function counter_counter($valueA, $valueB, $perfA, $perfB, $perfFreq) {
-
-return ($valueB-$valueA)/(($perfB-$perfA)/($perfFreq));
-
-}
 
 
 ?>
