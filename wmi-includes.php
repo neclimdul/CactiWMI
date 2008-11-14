@@ -26,7 +26,11 @@ Average function	(Nx-N0)/((Dx-D0)/TB)
 
  */
 function counter_counter($valueA, $valueB, $perfA, $perfB, $perfFreq) {
+	if ($perfA != $perfB) {
 	$return = ($valueB-$valueA)/(($perfB-$perfA)/($perfFreq));
+	} else {
+	$return = 0;
+	};
 	return $return;
 };
 
