@@ -42,7 +42,8 @@ Check to see if the file exists, if it does open it.
 If the file does not exist use the current data which will result in 0's on the output to make things clean.
 */
 if (file_exists($filename)) {
-$data2 = unserialize(file_get_contents($filename));
+$tmp = file($filename);
+$data2 = explode("|",$tmp[0]);
 } else {
 $data2 = $data1;
 };
@@ -60,7 +61,7 @@ $output = process_output($arr);
 
 // Serialize and then write the data to the tmp file and then close it.
 $fp = fopen($filename,'w');
-fwrite($fp, serialize($data1));
+fwrite($fp, $query_output[2]);
 fclose($fp);
 
 // Display the output.
