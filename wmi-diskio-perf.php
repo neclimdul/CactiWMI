@@ -1,22 +1,6 @@
 #!/usr/bin/php -q
 <?php
 
-/*
- +-------------------------------------------------------------------------+
- | Copyright (C) 2008 Ross Fawcett                                         |
- |                                                                         |
- | This program is free software; you can redistribute it and/or           |
- | modify it under the terms of the GNU General Public License             |
- | as published by the Free Software Foundation; either version 3          |
- | of the License, or (at your option) any later version.                  |
- |                                                                         |
- | This program is distributed in the hope that it will be useful,         |
- | but WITHOUT ANY WARRANTY; without even the implied warranty of          |
- | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the           |
- | GNU General Public License for more details.                            |
- +-------------------------------------------------------------------------+
-*/
-
 include('wmi-includes.php');
 
 $user = escapeshellarg($argv[2]);
@@ -28,7 +12,7 @@ $value = escapeshellarg($argv[4]);
 $query = "wmic -U ".$user."%".$pass." //".$argv[1].' "select DiskReadBytesPersec,DiskReadsPersec,DiskWriteBytesPersec,DiskWritesPersec,Frequency_PerfTime,Timestamp_PerfTime from Win32_PerfRawData_PerfDisk_LogicalDisk where Name='.$value.'"';
 
 // Filename for tmp storage - consider saving this in the includes file maybe?
-$filename = '/tmp/wmi_new_'.$argv[1].'_'.$argv[4];
+$filename = '/tmp/wmi_'.$argv[1].'_'.$argv[4];
 
 // Preset output variable
 $output = null;
@@ -65,6 +49,10 @@ $output = process_output($arr);
 $fp = fopen($filename,'w');
 fwrite($fp, serialize($data1));
 fclose($fp);
+
+$dbg = fopen('debug.log','a');
+fwrite($dbg,"Query: ".$query."\n"."Data1: ".implode(" ",$data1)."\n"."Data2: ".implode(" ",$data2)."\n"."QueryOutput: ".$query_output[2]."\n"."TempFile: ".$tmp[0]."\n\n\n");
+fclose($dbg);
 
 // Display the output.
 echo $output;
