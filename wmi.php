@@ -17,8 +17,6 @@
  +-------------------------------------------------------------------------+
 */
 
-include('wmi-includes.php');
-
 // arguments
 $host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
 $user = escapeshellarg($argv[2]); // username in form domain/user.name
@@ -34,7 +32,7 @@ if (count($argv) > 6) {
 };
 
 // globals
-$wmiexe = 'wmic'; // executable for the wmic command
+$wmiexe = '/usr/local/bin/wmic'; // executable for the wmic command
 $output = null; // by default the output is null
 
 $wmiquery = 'SELECT '.$columns.' FROM '.$wmiclass; // basic query built
@@ -55,10 +53,9 @@ for($i=2;$i<count($wmiout);$i++) {
 	$data = explode('|',$wmiout[$i]);
 	$j=0;
 	foreach($data as $item) {
-		echo $names[$j++].':'.str_replace(':','',$item)." ";
+		$output = $output.$names[$j++].':'.str_replace(':','',$item)." ";
 	};
 };
-
 
 echo $output;
 
