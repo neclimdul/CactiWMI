@@ -19,13 +19,16 @@
 
 include('wmi-includes.php');
 
-// Query to run - could be worth splitting this down into cleaner variables for ease of reading and also generating help.
-$query = "wmic -U ".$argv[2]."%".$argv[3]." //".$argv[1]." \"select DiskReadBytesPersec,DiskReadsPersec,DiskWriteBytesPersec,DiskWritesPersec,Frequency_PerfTime,Timestamp_PerfTime from Win32_PerfRawData_PerfDisk_LogicalDisk where Name='".$argv[4]."'\"";
+$user = escapeshellarg($argv[2]);
+$pass = escapeshellarg($argv[3]);
+$host = $argv[1];
+$value = escapeshellarg($argv[4]);
 
+// Query to run - could be worth splitting this down into cleaner variables for ease of reading and also generating help.
+$query = "wmic -U ".$user."%".$pass." //".$argv[1].' "select DiskReadBytesPersec,DiskReadsPersec,DiskWriteBytesPersec,DiskWritesPersec,Frequency_PerfTime,Timestamp_PerfTime from Win32_PerfRawData_PerfDisk_LogicalDisk where Name='.$value.'"';
 
 // Filename for tmp storage - consider saving this in the includes file maybe?
 $filename = '/tmp/wmi_new_'.$argv[1].'_'.$argv[4];
-
 
 // Preset output variable
 $output = null;
@@ -42,8 +45,7 @@ Check to see if the file exists, if it does open it.
 If the file does not exist use the current data which will result in 0's on the output to make things clean.
 */
 if (file_exists($filename)) {
-$tmp = file($filename);
-$data2 = explode("|",$tmp[0]);
+$data2 = unserialize(file_get_contents($filename));
 } else {
 $data2 = $data1;
 };
@@ -61,7 +63,7 @@ $output = process_output($arr);
 
 // Serialize and then write the data to the tmp file and then close it.
 $fp = fopen($filename,'w');
-fwrite($fp, $query_output[2]);
+fwrite($fp, serialize($data1));
 fclose($fp);
 
 // Display the output.
