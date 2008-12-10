@@ -17,16 +17,21 @@
  +-------------------------------------------------------------------------+
 */
 
+// include the logins file which contains the auth credentials
+include('wmi-logins.php');
+
 // arguments
 $host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
-$user = escapeshellarg($argv[2]); // username in form domain/user.name
-$pass = escapeshellarg($argv[3]); // password with characters escaped when passed to cmd line
-$wmiclass = $argv[4]; // what wmic class to query in form Win32_ClassName
-$columns = $argv[5]; // what columns to retrieve
+$credential = $argv[2]; // staff, web, other
+$wmiclass = $argv[3]; // what wmic class to query in form Win32_ClassName
+$columns = $argv[4]; // what columns to retrieve
 
-if (count($argv) > 6) {
-	$condition_key = $argv[6];
-	$condition_val = escapeshellarg($argv[7]);
+$user = escapeshellarg($logins[$credential][0]); // escape the username
+$pass = escapeshellarg($logins[$credential][1]); // escape the password <- very important with highly secure passwords
+
+if (count($argv) > 5) { // if the number of arguments isnt above 5 then don't bother with the where = etc
+	$condition_key = $argv[5];
+	$condition_val = escapeshellarg($argv[6]);
 } else {
 	$condition_key = null;
 };
@@ -43,13 +48,13 @@ $wmiquery = '"'.$wmiquery.'"'; // encapsulate the query in " "
 
 $wmiexec = $wmiexe.' -U '.$user.'%'.$pass.' //'.$host.' '.$wmiquery; // setup the query to be run
 
-//echo "\n\n".$wmiexec."\n\n";
+//echo "\n\n".$wmiexec."\n\n"; // debug :)
 
-exec($wmiexec,$wmiout);
+exec($wmiexec,$wmiout); // execute the query
 
-$names = explode('|',$wmiout[1]);
+$names = explode('|',$wmiout[1]); // build the names list to dymanically output it
 
-for($i=2;$i<count($wmiout);$i++) {
+for($i=2;$i<count($wmiout);$i++) { // dynamically output the key:value pairs to suit cacti
 	$data = explode('|',$wmiout[$i]);
 	$j=0;
 	foreach($data as $item) {
