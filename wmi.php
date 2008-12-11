@@ -52,6 +52,8 @@ $wmiexec = $wmiexe.' -U '.$user.'%'.$pass.' //'.$host.' '.$wmiquery; // setup th
 
 exec($wmiexec,$wmiout); // execute the query
 
+if (count($wmiout) > 0) {
+
 $names = explode('|',$wmiout[1]); // build the names list to dymanically output it
 
 for($i=2;$i<count($wmiout);$i++) { // dynamically output the key:value pairs to suit cacti
@@ -60,6 +62,8 @@ for($i=2;$i<count($wmiout);$i++) { // dynamically output the key:value pairs to 
 	foreach($data as $item) {
 		$output = $output.$names[$j++].':'.str_replace(':','',$item)." ";
 	};
+};
+
 };
 
 echo $output;
