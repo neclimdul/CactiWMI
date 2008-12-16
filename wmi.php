@@ -18,7 +18,10 @@
 */
 
 // include the logins file which contains the auth credentials
-include('wmi-logins.php');
+include('/tmp/wmi-logins.php');
+
+// debug mode
+$dbug = false;
 
 // arguments
 $host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
@@ -39,6 +42,8 @@ if (count($argv) > 5) { // if the number of arguments isnt above 5 then don't bo
 // globals
 $wmiexe = '/usr/local/bin/wmic'; // executable for the wmic command
 $output = null; // by default the output is null
+$inc = null;
+$sep = " ";
 
 $wmiquery = 'SELECT '.$columns.' FROM '.$wmiclass; // basic query built
 if ($condition_key != null) {
@@ -48,7 +53,10 @@ $wmiquery = '"'.$wmiquery.'"'; // encapsulate the query in " "
 
 $wmiexec = $wmiexe.' -U '.$user.'%'.$pass.' //'.$host.' '.$wmiquery; // setup the query to be run
 
-//echo "\n\n".$wmiexec."\n\n"; // debug :)
+if ($dbug == true) {
+echo "\n\n".$wmiexec."\n\n"; // debug :)
+$sep = "\n";
+};
 
 exec($wmiexec,$wmiout); // execute the query
 
@@ -60,7 +68,8 @@ for($i=2;$i<count($wmiout);$i++) { // dynamically output the key:value pairs to 
 	$data = explode('|',$wmiout[$i]);
 	$j=0;
 	foreach($data as $item) {
-		$output = $output.$names[$j++].':'.str_replace(':','',$item)." ";
+		if ( count($wmiout) > 3 ) { $inc = $i-2; };
+		$output = $output.$names[$j++].$inc.':'.str_replace(':','',$item).$sep;
 	};
 };
 
