@@ -18,14 +18,14 @@
 */
 
 // include the logins file which contains the auth credentials
-include('/tmp/wmi-logins.php');
+include('/path/to/wmi-logins.php');
 
 // debug mode
 $dbug = false;
 
 // arguments
 $host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
-$credential = $argv[2]; // staff, web, other
+$credential = $argv[2]; // credential from wmi-logins to use for the query
 $wmiclass = $argv[3]; // what wmic class to query in form Win32_ClassName
 $columns = $argv[4]; // what columns to retrieve
 
@@ -68,7 +68,7 @@ for($i=2;$i<count($wmiout);$i++) { // dynamically output the key:value pairs to 
 	$data = explode('|',$wmiout[$i]);
 	$j=0;
 	foreach($data as $item) {
-		if ( count($wmiout) > 3 ) { $inc = $i-2; };
+		if ( count($wmiout) > 3 ) { $inc = $i-2; }; // if there are multiple rows returned add an incremental number to the returned keyname
 		$output = $output.$names[$j++].$inc.':'.str_replace(':','',$item).$sep;
 	};
 };
