@@ -18,10 +18,13 @@
 */
 
 // include the logins file which contains the auth credentials
-include('/path/to/wmi-logins.php');
+include('/tmp/wmi-logins.php');
+
+// exit if no variables given
+if (count($argv) <= 1) { exit; };
 
 // debug mode
-$dbug = false;
+$dbug = true;
 
 // arguments
 $host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
@@ -59,6 +62,8 @@ $sep = "\n";
 };
 
 exec($wmiexec,$wmiout); // execute the query
+
+if(strstr($wmiout[0],'ERROR') != false) { exit; };
 
 if (count($wmiout) > 0) {
 
