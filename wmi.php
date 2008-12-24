@@ -24,7 +24,7 @@ include('/tmp/wmi-logins.php');
 if (count($argv) <= 1) { exit; };
 
 // debug mode
-$dbug = true;
+$dbug = false;
 
 // arguments
 $host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
