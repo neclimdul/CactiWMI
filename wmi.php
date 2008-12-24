@@ -18,7 +18,7 @@
 */
 
 // include the logins file which contains the auth credentials
-include('/tmp/wmi-logins.php');
+include('wmi-logins.php');
 
 // exit if no variables given
 if (count($argv) <= 1) { exit; };

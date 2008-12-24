@@ -467,7 +467,7 @@
 	<hash_03001696ce480132142045ceadcd5158773ce8>
 		<name>WMI - NTDS (LDAP)</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q /path/to/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
 		<fields>
 			<hash_0700161f2f4286bdd2a78bafa2589585d83d0d>
 				<name>Hostname</name>
