@@ -74,7 +74,7 @@ for($i=2;$i<count($wmiout);$i++) { // dynamically output the key:value pairs to 
 	$j=0;
 	foreach($data as $item) {
 		if ( count($wmiout) > 3 ) { $inc = $i-2; }; // if there are multiple rows returned add an incremental number to the returned keyname
-		$output = $output.$names[$j++].$inc.':'.str_replace(':','',$item).$sep;
+		$output = $output.$names[$j++].$inc.':'.str_replace(array(':',' '),array('','_'),$item).$sep;
 	};
 };
 
