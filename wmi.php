@@ -24,7 +24,7 @@ include('wmi-logins.php');
 if (count($argv) <= 1) { exit; };
 
 // debug mode
-$dbug = false;
+$dbug = 0;
 
 // arguments
 $host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
@@ -40,6 +40,7 @@ if (count($argv) > 5) { // if the number of arguments isnt above 5 then don't bo
 	$condition_val = escapeshellarg($argv[6]);
 } else {
 	$condition_key = null;
+	$condition_val = null;
 };
 
 // globals
@@ -47,6 +48,7 @@ $wmiexe = '/usr/local/bin/wmic'; // executable for the wmic command
 $output = null; // by default the output is null
 $inc = null;
 $sep = " ";
+$log_location = '/tmp/'; // location for the log files ensure trailing slash
 
 $wmiquery = 'SELECT '.$columns.' FROM '.$wmiclass; // basic query built
 if ($condition_key != null) {
@@ -56,12 +58,19 @@ $wmiquery = '"'.$wmiquery.'"'; // encapsulate the query in " "
 
 $wmiexec = $wmiexe.' -U '.$user.'%'.$pass.' //'.$host.' '.$wmiquery; // setup the query to be run
 
-if ($dbug == true) {
-echo "\n\n".$wmiexec."\n\n"; // debug :)
-$sep = "\n";
+exec($wmiexec,$wmiout); // execute the query
+
+if ($dbug == 1) {
+	echo "\n\n".$wmiexec."\n\n"; // debug :)
+	$sep = "\n";
+};
+if ($dbug == 2) {
+	$dbug_log = $log_location.'dbug_'.$host.'.log';
+	$fp = fopen($dbug_log,'a+');
+	$dbug_time = date('l jS \of F Y h:i:s A');
+	fwrite($fp,"Time: $dbug_time\nWMI Class: $wmiclass\nCredential: $credential\nColumns: $columns\nCondition Key: $condition_key\nCondition Val: $condition_val\nQuery: $wmiquery\nOutput:\n".$wmiout[0]."\n".$wmiout[1]."\n");
 };
 
-exec($wmiexec,$wmiout); // execute the query
 
 if(strstr($wmiout[0],'ERROR') != false) { exit; };
 
@@ -71,6 +80,9 @@ $names = explode('|',$wmiout[1]); // build the names list to dymanically output 
 
 for($i=2;$i<count($wmiout);$i++) { // dynamically output the key:value pairs to suit cacti
 	$data = explode('|',$wmiout[$i]);
+	if ($dbug == 2) {
+		fwrite($fp,$wmiout[$i]."\n");
+	};
 	$j=0;
 	foreach($data as $item) {
 		if ( count($wmiout) > 3 ) { $inc = $i-2; }; // if there are multiple rows returned add an incremental number to the returned keyname
@@ -78,6 +90,11 @@ for($i=2;$i<count($wmiout);$i++) { // dynamically output the key:value pairs to 
 	};
 };
 
+};
+
+if ($dbug == 2) {
+	fwrite($fp,"\nExact Output: $output\n\n\n");
+	fclose($fp);
 };
 
 echo $output;
