@@ -93,7 +93,7 @@ for($i=2;$i<count($wmiout);$i++) { // dynamically output the key:value pairs to 
 };
 
 if ($dbug == 2) {
-	fwrite($fp,"\nExact Output: $output\n\n\n");
+	fwrite($fp,"Exact Output: $output\n\n\n");
 	fclose($fp);
 };
 
