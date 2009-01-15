@@ -17,14 +17,26 @@
  +-------------------------------------------------------------------------+
 */
 
+// configuration
+$wmiexe = '/usr/local/bin/wmic'; // executable for the wmic command
+$output = null; // by default the output is null
+$inc = null;
+$sep = " ";
+$log_location = '/tmp/'; // location for the log files ensure trailing slash
+$dbug = 0; // debug level 0,1 or 2
+$logins_file = 'wmi-logins.php';
+
+
+
+
+
+
+
 // include the logins file which contains the auth credentials
-include('wmi-logins.php');
+include($logins_file);
 
 // exit if no variables given
 if (count($argv) <= 1) { exit; };
-
-// debug mode
-$dbug = 0;
 
 // arguments
 $host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
@@ -43,13 +55,6 @@ if (count($argv) > 5) { // if the number of arguments isnt above 5 then don't bo
 	$condition_val = null;
 };
 
-// globals
-$wmiexe = '/usr/local/bin/wmic'; // executable for the wmic command
-$output = null; // by default the output is null
-$inc = null;
-$sep = " ";
-$log_location = '/tmp/'; // location for the log files ensure trailing slash
-
 $wmiquery = 'SELECT '.$columns.' FROM '.$wmiclass; // basic query built
 if ($condition_key != null) {
         $wmiquery = $wmiquery.' WHERE '.$condition_key.'='.$condition_val; // if the query has a filter argument add it in
@@ -60,15 +65,15 @@ $wmiexec = $wmiexe.' -U '.$user.'%'.$pass.' //'.$host.' '.$wmiquery; // setup th
 
 exec($wmiexec,$wmiout); // execute the query
 
-if ($dbug == 1) {
-	echo "\n\n".$wmiexec."\n\n"; // debug :)
+if ($dbug == 1) { // basic debug, show output in easy to read format and display the exact execution command
+	echo "\n\n".$wmiexec."\n\n";
 	$sep = "\n";
 };
-if ($dbug == 2) {
+if ($dbug == 0) { // advanced debug, logs everything to file for full debug
 	$dbug_log = $log_location.'dbug_'.$host.'.log';
 	$fp = fopen($dbug_log,'a+');
 	$dbug_time = date('l jS \of F Y h:i:s A');
-	fwrite($fp,"Time: $dbug_time\nWMI Class: $wmiclass\nCredential: $credential\nColumns: $columns\nCondition Key: $condition_key\nCondition Val: $condition_val\nQuery: $wmiquery\nOutput:\n".$wmiout[0]."\n".$wmiout[1]."\n");
+	fwrite($fp,"Time: $dbug_time\nWMI Class: $wmiclass\nCredential: $credential\nColumns: $columns\nCondition Key: $condition_key\nCondition Val: $condition_val\nQuery: $wmiquery\nExec: $wmiexec\nOutput:\n".$wmiout[0]."\n".$wmiout[1]."\n");
 };
 
 
@@ -93,10 +98,9 @@ for($i=2;$i<count($wmiout);$i++) { // dynamically output the key:value pairs to 
 };
 
 if ($dbug == 2) {
-	fwrite($fp,"Exact Output: $output\n\n\n");
+	fwrite($fp,"Output to Cacti: $output\n\n\n");
 	fclose($fp);
 };
 
 echo $output;
-
 ?>
