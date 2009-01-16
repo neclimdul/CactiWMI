@@ -19,9 +19,6 @@
 
 // configuration
 $wmiexe = '/usr/local/bin/wmic'; // executable for the wmic command
-$output = null; // by default the output is null
-$inc = null;
-$sep = " ";
 $log_location = '/tmp/'; // location for the log files ensure trailing slash
 $dbug = 0; // debug level 0,1 or 2
 $logins_file = 'wmi-logins.php';
@@ -31,6 +28,16 @@ $logins_file = 'wmi-logins.php';
 
 
 
+
+
+
+
+
+
+// globals
+$output = null; // by default the output is null
+$inc = null; // by default needs to be null
+$sep = " "; // character to use between results
 
 // include the logins file which contains the auth credentials
 include($logins_file);
