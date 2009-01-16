@@ -69,7 +69,7 @@ if ($dbug == 1) { // basic debug, show output in easy to read format and display
 	echo "\n\n".$wmiexec."\n\n";
 	$sep = "\n";
 };
-if ($dbug == 0) { // advanced debug, logs everything to file for full debug
+if ($dbug == 2) { // advanced debug, logs everything to file for full debug
 	$dbug_log = $log_location.'dbug_'.$host.'.log';
 	$fp = fopen($dbug_log,'a+');
 	$dbug_time = date('l jS \of F Y h:i:s A');
