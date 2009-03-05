@@ -44,7 +44,7 @@
 				<task_item_id>hash_0800165e73c4b246a41ee4bd0a9b9070af3cec</task_item_id>
 				<color_id>FF0000</color_id>
 				<alpha>FF</alpha>
-				<graph_type_id>4</graph_type_id>
+				<graph_type_id>7</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
@@ -96,7 +96,7 @@
 				<task_item_id>hash_080016e464fb68a44b08a0f2461f45a8a2b7bd</task_item_id>
 				<color_id>FFC73B</color_id>
 				<alpha>FF</alpha>
-				<graph_type_id>4</graph_type_id>
+				<graph_type_id>7</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
@@ -148,9 +148,9 @@
 				<task_item_id>hash_08001675fa3789202ae4c2b4b295457d61ea42</task_item_id>
 				<color_id>000000</color_id>
 				<alpha>FF</alpha>
-				<graph_type_id>4</graph_type_id>
+				<graph_type_id>7</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
-				<cdef_id>0</cdef_id>
+				<cdef_id>hash_0500163d352eed9fa8f7b2791205b3273708c7</cdef_id>
 				<value></value>
 				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<text_format>Closed Connections:</text_format>
@@ -252,7 +252,7 @@
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>100000000000</rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>2</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
@@ -266,7 +266,7 @@
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>100000000000</rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>2</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
@@ -280,7 +280,7 @@
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>100000000000</rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>2</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
@@ -294,7 +294,7 @@
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>100000000000</rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>2</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
@@ -308,7 +308,7 @@
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>100000000000</rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>2</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
@@ -322,7 +322,7 @@
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>100000000000</rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>2</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
@@ -336,7 +336,7 @@
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>100000000000</rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>2</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
@@ -396,7 +396,7 @@
 			</item_003>
 			<item_004>
 				<data_input_field_id>hash_070016aecdf0f4f1d3531b8b48dd521d6a7592</data_input_field_id>
-				<t_value></t_value>
+				<t_value>on</t_value>
 				<value>credential</value>
 			</item_004>
 			<item_005>
@@ -409,7 +409,7 @@
 	<hash_03001696ce480132142045ceadcd5158773ce8>
 		<name>WMI - NTDS (LDAP)</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>dential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
 		<fields>
 			<hash_0700161f2f4286bdd2a78bafa2589585d83d0d>
 				<name>Hostname</name>
@@ -589,6 +589,26 @@
 		<timespan>33053184</timespan>
 		<cf_items>1|2|3|4</cf_items>
 	</hash_150016e36f3adb9f152adfa5dc50fd2b23337e>
+	<hash_0500163d352eed9fa8f7b2791205b3273708c7>
+		<name>Make Stack Negative</name>
+		<items>
+			<hash_140016c888c9fe6b62c26c4bfe23e18991731d>
+				<sequence>1</sequence>
+				<type>4</type>
+				<value>CURRENT_DATA_SOURCE</value>
+			</hash_140016c888c9fe6b62c26c4bfe23e18991731d>
+			<hash_1400164355c197998c7f8b285be7821ddc6da4>
+				<sequence>2</sequence>
+				<type>6</type>
+				<value>-1</value>
+			</hash_1400164355c197998c7f8b285be7821ddc6da4>
+			<hash_1400161e1d0b29a94e08b648c8f053715442a0>
+				<sequence>3</sequence>
+				<type>2</type>
+				<value>3</value>
+			</hash_1400161e1d0b29a94e08b648c8f053715442a0>
+		</items>
+	</hash_0500163d352eed9fa8f7b2791205b3273708c7>
 	<hash_060016e9c43831e54eca8069317a2ce8c6f751>
 		<name>Normal</name>
 		<gprint_text>%8.2lf %s</gprint_text>

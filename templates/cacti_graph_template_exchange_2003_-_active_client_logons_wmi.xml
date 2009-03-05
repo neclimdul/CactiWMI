@@ -1,6 +1,6 @@
 <cacti>	
 	<hash_00001649c6e92d7ba12d63d35c7073a54260dd>
-		<name>Exchange - Active Client Logons (WMI)</name>
+		<name>Exchange 2003 - Active Client Logons (WMI)</name>
 		<graph>
 			<t_title></t_title>
 			<title>|host_description| - Active Client Logons</title>

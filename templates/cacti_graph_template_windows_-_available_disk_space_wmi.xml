@@ -37,7 +37,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>bytes</vertical_label>
+			<vertical_label>Bytes</vertical_label>
 		</graph>
 		<items>
 			<hash_1000160775007c62c9082f842219ae3c943372>
@@ -259,22 +259,22 @@
 			<item_000>
 				<data_input_field_id>hash_07001667bebdee9438ff2600ef6d932c3b33a7</data_input_field_id>
 				<t_value>on</t_value>
-				<value>C</value>
+				<value>C\:</value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016e15af3898d9d838224805ea2c1ab0bcf</data_input_field_id>
-				<t_value></t_value>
-				<value>Size,FreeSpace</value>
-			</item_001>
-			<item_002>
 				<data_input_field_id>hash_07001618b62904c72fc326156674f785d52bd4</data_input_field_id>
 				<t_value></t_value>
 				<value>DeviceID</value>
-			</item_002>
-			<item_003>
+			</item_001>
+			<item_002>
 				<data_input_field_id>hash_0700160d3e41afe0d93bf190dc2c448d98b65e</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_LogicalDisk</value>
+			</item_002>
+			<item_003>
+				<data_input_field_id>hash_070016e15af3898d9d838224805ea2c1ab0bcf</data_input_field_id>
+				<t_value></t_value>
+				<value>Size,FreeSpace</value>
 			</item_003>
 			<item_004>
 				<data_input_field_id>hash_07001601cfe7ccd3cf870f5563cce2a48bfd14</data_input_field_id>
@@ -291,7 +291,7 @@
 	<hash_030016d29ab2a8fb3b5f87ac6eaf48237c1ba9>
 		<name>WMI - Disk Space</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>dential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
 		<fields>
 			<hash_070016bb39d74949dd0103ca26ddb329441abb>
 				<name>Credential</name>

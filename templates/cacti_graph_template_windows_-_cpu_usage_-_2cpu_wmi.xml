@@ -2,7 +2,7 @@
 	<hash_000016575ea5d0c836d7182fbbbe4f0f5ef0b9>
 		<name>Windows - CPU Usage - 2CPU (WMI)</name>
 		<graph>
-			<t_title></t_title>
+			<t_title>on</t_title>
 			<title>|host_description| - CPU Usage</title>
 			<t_image_format_id></t_image_format_id>
 			<image_format_id>1</image_format_id>
@@ -95,7 +95,7 @@
 			<hash_1000168cf45a25a909d7fe610621261a192444>
 				<task_item_id>hash_080016e293178673dcbd58faedf015178c9ddc</task_item_id>
 				<color_id>000000</color_id>
-				<alpha>7F</alpha>
+				<alpha>FF</alpha>
 				<graph_type_id>4</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
 				<cdef_id>0</cdef_id>
@@ -147,7 +147,7 @@
 			<hash_1000167b9b3c6d5a9ba648488883bf227d3823>
 				<task_item_id>hash_080016f27c79ef89dc77bc4c7e9e87724d475d</task_item_id>
 				<color_id>0000FF</color_id>
-				<alpha>7F</alpha>
+				<alpha>FF</alpha>
 				<graph_type_id>4</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
 				<cdef_id>0</cdef_id>
@@ -298,7 +298,7 @@
 			</item_003>
 			<item_004>
 				<data_input_field_id>hash_0700160fddd7ff79235ec39dfdb4d66ea0430d</data_input_field_id>
-				<t_value></t_value>
+				<t_value>on</t_value>
 				<value>credential</value>
 			</item_004>
 			<item_005>
@@ -311,7 +311,7 @@
 	<hash_0300163d128cf12cc89988589168791ad0564e>
 		<name>WMI - CPU Usage - 2CPU</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>dential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
 		<fields>
 			<hash_0700167297b4af38e4ad7d40b539f7d862710f>
 				<name>Hostname</name>

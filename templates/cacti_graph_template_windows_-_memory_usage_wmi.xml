@@ -307,34 +307,34 @@
 		</items>
 		<data>
 			<item_000>
+				<data_input_field_id>hash_0700166d5138e8d624d973c908886d768308e2</data_input_field_id>
+				<t_value>on</t_value>
+				<value>credential</value>
+			</item_000>
+			<item_001>
 				<data_input_field_id>hash_070016912640bfaf20cd79b7d86be114904672</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_ComputerSystem</value>
-			</item_000>
-			<item_001>
-				<data_input_field_id>hash_0700166d5138e8d624d973c908886d768308e2</data_input_field_id>
-				<t_value></t_value>
-				<value>credential</value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_07001602ff3ac6e3a948d4f7878ad7ca027354</data_input_field_id>
+				<data_input_field_id>hash_0700163c4aad16cd812d5b88383e5113df1189</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_002>
 			<item_003>
-				<data_input_field_id>hash_0700163c4aad16cd812d5b88383e5113df1189</data_input_field_id>
+				<data_input_field_id>hash_070016af8378ecdf2c434774829a80f6a7f028</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_003>
 			<item_004>
-				<data_input_field_id>hash_070016af8378ecdf2c434774829a80f6a7f028</data_input_field_id>
-				<t_value></t_value>
-				<value></value>
-			</item_004>
-			<item_005>
 				<data_input_field_id>hash_0700161ff8cff16e7e1b7e72ac3d1c60f5d747</data_input_field_id>
 				<t_value></t_value>
 				<value>TotalPhysicalMemory</value>
+			</item_004>
+			<item_005>
+				<data_input_field_id>hash_07001602ff3ac6e3a948d4f7878ad7ca027354</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
 			</item_005>
 		</data>
 	</hash_01001667be89d44186690dcf1feed4a4c6979e>
@@ -418,7 +418,7 @@
 			</item_003>
 			<item_004>
 				<data_input_field_id>hash_070016c7307bb5965ad096f7e39e8f0a81ea41</data_input_field_id>
-				<t_value></t_value>
+				<t_value>on</t_value>
 				<value>credential</value>
 			</item_004>
 			<item_005>
@@ -431,7 +431,7 @@
 	<hash_03001675367dc93528e2790761aa1fab14c9dc>
 		<name>WMI - Total Physical Memory</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>dential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
 		<fields>
 			<hash_0700161ff8cff16e7e1b7e72ac3d1c60f5d747>
 				<name>Columns</name>
@@ -510,7 +510,7 @@
 	<hash_0300165171887d9fbbc2b4682749b2dbbe5f19>
 		<name>WMI - Memory</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>dential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
 		<fields>
 			<hash_070016cf6c316a70f21facf333ae0056bb8e37>
 				<name>Hostname</name>
