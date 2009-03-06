@@ -1,20 +1,14 @@
 #!/usr/bin/php -q
 <?php
-
 /*
- +-------------------------------------------------------------------------+
- | Copyright (C) 2008-2009 Ross Fawcett                                    |
- |                                                                         |
- | This program is free software; you can redistribute it and/or           |
- | modify it under the terms of the GNU General Public License             |
- | as published by the Free Software Foundation; either version 3          |
- | of the License, or (at your option) any later version.                  |
- |                                                                         |
- | This program is distributed in the hope that it will be useful,         |
- | but WITHOUT ANY WARRANTY; without even the implied warranty of          |
- | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the           |
- | GNU General Public License for more details.                            |
- +-------------------------------------------------------------------------+
+This file is the main application which interfaces the wmic binary with the
+input and output from Cacti. The idea of this is to move the configuration
+into Cacti rather than creating a new script for each item that you wish to
+monitor via WMI.
+
+There should be no reason to edit this file unless you know what you are
+doing as changes here could potentially affect all your graphs if something
+breaks.
 */
 
 // globals

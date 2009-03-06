@@ -1,22 +1,5 @@
 <?php
 /*
- +-------------------------------------------------------------------------+
- | Copyright (C) 2008-2009 Ross Fawcett                                    |
- |                                                                         |
- | This program is free software; you can redistribute it and/or           |
- | modify it under the terms of the GNU General Public License             |
- | as published by the Free Software Foundation; either version 3          |
- | of the License, or (at your option) any later version.                  |
- |                                                                         |
- | This program is distributed in the hope that it will be useful,         |
- | but WITHOUT ANY WARRANTY; without even the implied warranty of          |
- | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the           |
- | GNU General Public License for more details.                            |
- +-------------------------------------------------------------------------+
-*/
-
-
-/*
 This file defines the login/password pairs and the reference used by wmi.php
 to access them. This is done to prevent the credentials being logged in the
 Cacti log files and allow some separation.
@@ -34,10 +17,7 @@ host and use the reference named 'credential' again by default. To change this
 you need only update the data template.
 */
 
-
 $logins = array();
 $logins['credential'] = array('Domain/Username','Password');
 $logins['reference'] = array('Domain/Username','Password');
-
-
 ?>
