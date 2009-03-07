@@ -485,7 +485,7 @@
 	<hash_030016e9b6a0e2660716a4b91f9806a10761d5>
 		<name>WMI - Exchange 2003 - Store Performance</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>dential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
 		<fields>
 			<hash_070016f96e1a38f5523f898caea193f1d75d9e>
 				<name>Hostname</name>

@@ -323,7 +323,7 @@
 	<hash_0300163320e4b2c36246b59c4ba80ec8943e85>
 		<name>WMI - Process Stats</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>dential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
 		<fields>
 			<hash_070016cdc22a38e98c77c9f321ac04b955001f>
 				<name>Hostname</name>

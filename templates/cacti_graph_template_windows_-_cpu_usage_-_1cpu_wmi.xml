@@ -188,14 +188,14 @@
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700161a0c6802caf441dc024b77ea36d14de7</data_input_field_id>
 			</hash_080016963a17af1d1bcf8d71ab6529bfb1d7e1>
-			<hash_080016f5ce0ce557b83686b2f8d9314486f96b>
+			<hash_080016b2188eb6b7388c56660bd50a1775265f>
 				<data_source_name>Total</data_source_name>
 				<rrd_minimum>0</rrd_minimum>
 				<rrd_maximum>100</rrd_maximum>
 				<data_source_type_id>1</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<data_input_field_id>hash_0700161f00c99fe3ccf16f6ff23549a05082ec</data_input_field_id>
-			</hash_080016f5ce0ce557b83686b2f8d9314486f96b>
+			</hash_080016b2188eb6b7388c56660bd50a1775265f>
 		</items>
 		<data>
 			<item_000>
@@ -233,7 +233,7 @@
 	<hash_030016cb46b0e6cb54eb81d1427362892f3427>
 		<name>WMI - CPU Usage - 1CPU</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>dential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
 		<fields>
 			<hash_0700162bb6d582c577676c8366f9d50aea0fcf>
 				<name>Hostname</name>

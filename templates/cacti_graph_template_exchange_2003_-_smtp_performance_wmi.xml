@@ -472,7 +472,7 @@
 	<hash_0300160c1ed2c8c18b69b74a49668959017a33>
 		<name>WMI - Exchange 2003 - SMTP Performance</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>dential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
 		<fields>
 			<hash_0700164b7f9ea3817c6b94725a484ba5e829c9>
 				<name>Hostname</name>

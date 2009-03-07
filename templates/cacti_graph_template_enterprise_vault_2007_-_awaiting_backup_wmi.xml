@@ -191,7 +191,7 @@
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>100000</rrd_maximum>
+				<rrd_maximum>5000000</rrd_maximum>
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
@@ -202,9 +202,9 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_07001659a6557deb1acc538c53d58ab7c74249</data_input_field_id>
-				<t_value>on</t_value>
-				<value>_Total</value>
+				<data_input_field_id>hash_070016e69e48f6052c8d212295657ef1502af5</data_input_field_id>
+				<t_value></t_value>
+				<value>WatchfileTableSize,VaultStoreDBLogSize,VaultStoreDBLogPercentUsed,VaultStoreDBLogBackup,VaultStoreDBBackup</value>
 			</item_000>
 			<item_001>
 				<data_input_field_id>hash_07001652157d2b5e6fda130c6ab2dcc8916621</data_input_field_id>
@@ -212,9 +212,9 @@
 				<value>Name</value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_070016e69e48f6052c8d212295657ef1502af5</data_input_field_id>
-				<t_value></t_value>
-				<value>WatchfileTableSize,VaultStoreDBLogSize,VaultStoreDBLogPercentUsed,VaultStoreDBLogBackup,VaultStoreDBBackup</value>
+				<data_input_field_id>hash_07001659a6557deb1acc538c53d58ab7c74249</data_input_field_id>
+				<t_value>on</t_value>
+				<value>_Total</value>
 			</item_002>
 			<item_003>
 				<data_input_field_id>hash_0700167fb2b49709604a728c77683094b6d284</data_input_field_id>
@@ -236,7 +236,7 @@
 	<hash_0300167f039f1916d823381b0b5e1c274b7e38>
 		<name>WMI - Enterprise Vault 2007 - Store Stats</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>dential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
 		<fields>
 			<hash_0700160f704157a27f02361b293cb2d12fa12c>
 				<name>Hostname</name>
