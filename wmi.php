@@ -21,7 +21,7 @@ $dbug_levels = array(0,1,2); // valid debug levels
 include('wmi-config.php');
 
 // include the logins file which contains the auth credentials
-include('wmi-logins.php');
+//include('wmi-logins.php'); <- No need for this when using --authentication-file
 
 // check for debug environment variable
 $env_wmi = (int) getenv('wmi_debug');
@@ -39,9 +39,6 @@ $credential = $argv[2]; // credential from wmi-logins to use for the query
 $wmiclass = $argv[3]; // what wmic class to query in form Win32_ClassName
 $columns = $argv[4]; // what columns to retrieve
 
-$user = escapeshellarg($logins[$credential][0]); // escape the username
-$pass = escapeshellarg($logins[$credential][1]); // escape the password <- very important with highly secure passwords
-
 if (count($argv) > 5) { // if the number of arguments isnt above 5 then don't bother with the where = etc
 	$condition_key = $argv[5];
 	$condition_val = escapeshellarg($argv[6]);
@@ -56,7 +53,7 @@ if ($condition_key != null) {
 };
 $wmiquery = '"'.$wmiquery.'"'; // encapsulate the query in " "
 
-$wmiexec = $wmiexe.' -U '.$user.'%'.$pass.' //'.$host.' '.$wmiquery; // setup the query to be run
+$wmiexec = $wmiexe.' --authentication-file='.$credential.' //'.$host.' '.$wmiquery; // setup the query to be run
 
 exec($wmiexec,$wmiout); // execute the query
 
