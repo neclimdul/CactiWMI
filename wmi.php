@@ -20,9 +20,6 @@ $dbug_levels = array(0,1,2); // valid debug levels
 // include the user configuration
 include('wmi-config.php');
 
-// include the logins file which contains the auth credentials
-//include('wmi-logins.php'); <- No need for this when using --authentication-file
-
 // check for debug environment variable
 $env_wmi = (int) getenv('wmi_debug');
 
