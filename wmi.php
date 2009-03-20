@@ -16,7 +16,7 @@ $output = null; // by default the output is null
 $inc = null; // by default needs to be null
 $sep = " "; // character to use between results
 $dbug_levels = array(0,1,2); // valid debug levels
-$version = '0.6-SVN';
+$version = '0.6-SVN'; // version
 
 // include the user configuration
 include('wmi-config.php');
@@ -47,7 +47,7 @@ if (count($args) > 0) {
 		$namespace = escapeshellarg('root\CIMV2');
 	};
 
-	if (isset($args['k'])) { // check to see if a filter is being used
+	if (isset($args['k'])&& $args['k'] != 'none') { // check to see if a filter is being used, also check to see if it is "none" as required to work around cacti...
 		$condition_key = $args['k']; // the condition key we are filtering on
 		$condition_val = escapeshellarg($args['v']); // and therfore the value which we assume is passed
 	};
