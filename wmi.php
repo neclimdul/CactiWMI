@@ -52,10 +52,15 @@ $wmiquery = '"'.$wmiquery.'"'; // encapsulate the query in " "
 
 $wmiexec = $wmiexe.' --authentication-file='.$credential.' //'.$host.' '.$wmiquery; // setup the query to be run
 
-exec($wmiexec,$wmiout); // execute the query
+exec($wmiexec,$wmiout,$execstatus); // execute the query and store output in $wmiout and return code in $execstatus
+
+if ($execstatus != 0) {
+	$dbug = 1;
+	echo "\n\nReturn code non-zero, debug mode enabled!\n\n";
+};
 
 if ($dbug == 1) { // basic debug, show output in easy to read format and display the exact execution command
-	echo "\n\n".$wmiexec."\n\n";
+	echo "\n\n".$wmiexec."\nExec Status: ".$execstatus."\n\n";
 	$sep = "\n";
 };
 if ($dbug == 2) { // advanced debug, logs everything to file for full debug
