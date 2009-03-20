@@ -16,6 +16,7 @@ $output = null; // by default the output is null
 $inc = null; // by default needs to be null
 $sep = " "; // character to use between results
 $dbug_levels = array(0,1,2); // valid debug levels
+$version = '0.6-SVN';
 
 // include the user configuration
 include('wmi-config.php');
@@ -27,30 +28,41 @@ if ( in_array($env_wmi,$dbug_levels) ) {
 	        $dbug = $env_wmi;
 };
 
-// exit if no variables given
-if (count($argv) <= 1) { exit; };
+// grab arguments
+$args = getopt("h:u:w:c:k:v:n:");
 
-// arguments
-$host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
-$credential = $argv[2]; // credential from wmi-logins to use for the query
-$wmiclass = $argv[3]; // what wmic class to query in form Win32_ClassName
-$columns = $argv[4]; // what columns to retrieve
+if (count($args) > 0) {
+	$host = $args['h']; // hostname in form xxx.xxx.xxx.xxx
+	$credential = $args['u']; // credential from wmi-logins to use for the query
+	$wmiclass = $args['w']; // what wmic class to query in form Win32_ClassName
+	if (isset($args['c'])) {
+		$columns = $args['c']; // what columns to retrieve
+	} else {
+		$columns = '*';
+	};
+	
+	if (isset($args['n'])) { // test to check if namespace was passed
+		$namespace = escapeshellarg($args['n']);
+	} else { // if no namespace set default. the wmi client can do this but cuts down further tests to include it now
+		$namespace = escapeshellarg('root\CIMV2');
+	};
 
-if (count($argv) > 5) { // if the number of arguments isnt above 5 then don't bother with the where = etc
-	$condition_key = $argv[5];
-	$condition_val = escapeshellarg($argv[6]);
+	if (isset($args['k'])) { // check to see if a filter is being used
+		$condition_key = $args['k']; // the condition key we are filtering on
+		$condition_val = escapeshellarg($args['v']); // and therfore the value which we assume is passed
+	};
 } else {
-	$condition_key = null;
-	$condition_val = null;
+	echo "ERROR NO INPUT ARGUMENTS\n";
+	exit;
 };
 
 $wmiquery = 'SELECT '.$columns.' FROM '.$wmiclass; // basic query built
-if ($condition_key != null) {
+if (isset($condition_key)) {
         $wmiquery = $wmiquery.' WHERE '.$condition_key.'='.$condition_val; // if the query has a filter argument add it in
 };
 $wmiquery = '"'.$wmiquery.'"'; // encapsulate the query in " "
 
-$wmiexec = $wmiexe.' --authentication-file='.$credential.' //'.$host.' '.$wmiquery; // setup the query to be run
+$wmiexec = $wmiexe.' --namespace='.$namespace.' --authentication-file='.$credential.' //'.$host.' '.$wmiquery; // setup the query to be run
 
 exec($wmiexec,$wmiout,$execstatus); // execute the query and store output in $wmiout and return code in $execstatus
 
