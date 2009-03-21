@@ -11,15 +11,17 @@ doing as changes here could potentially affect all your graphs if something
 breaks.
 */
 
+// general configuration
+$wmiexe = 'wmic'; // executable for the wmic command
+$log_location = '/tmp/'; // location for the log files ensure trailing slash
+$dbug = 0; // debug level 0,1 or 2
+
 // globals
 $output = null; // by default the output is null
 $inc = null; // by default needs to be null
 $sep = " "; // character to use between results
 $dbug_levels = array(0,1,2); // valid debug levels
 $version = '0.6-SVN'; // version
-
-// include the user configuration
-include('wmi-config.php');
 
 // check for debug environment variable
 $env_wmi = (int) getenv('wmi_debug');
