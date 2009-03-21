@@ -54,7 +54,7 @@ if (count($args) > 0) { // test to see if using new style arguments and if so de
 	     "\n",
 	     "Usage:\n",
 		 "       -h <hostname>         Hostname of the server to query.\n",
-		 "       -u <credential path>  Path to the credential file.\n",
+		 "       -u <credential path>  Path to the credential file. See format below.\n",
 		 "       -n <namespace>        What namespace to use. (optional, defaults to root\CIMV2)\n",
 		 "       -w <wmi class>        WMI Class to be used.\n",
 		 "       -c <columns>          What columns to select. (optional, defaults to *)\n",
@@ -63,7 +63,14 @@ if (count($args) > 0) { // test to see if using new style arguments and if so de
 		 "\n",
 		 "                             All special characters and spaces must be escaped or enclosed in single quotes!\n",
 		 "\n",
-	     "Example: wmi.php -h 10.0.0.1 -u /etc/wmi.pw -w Win32_ComputerSystem -c PrimaryOwnerName,NumberOfProcessors -n 'root\CIMV2' \n";
+	     "Example: wmi.php -h 10.0.0.1 -u /etc/wmi.pw -w Win32_ComputerSystem -c PrimaryOwnerName,NumberOfProcessors -n 'root\CIMV2' \n",
+		 "\n",
+		 "Password file format: Plain text file with the following 3 lines replaced with your details.\n",
+		 "\n",
+		 "                      username=<your username>\n",
+		 "                      password=<your password>\n",
+		 "                      domain=<your domain> (can be WORKGROUP if not using a domain)\n",
+		 "\n";
 	exit;
 } elseif (count($args) == 0 && count($argv) > 1) { // if using old style arguments, process them accordingly
 	$host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
