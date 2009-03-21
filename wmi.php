@@ -26,7 +26,7 @@ $version = '0.6-SVN'; // version
 // grab arguments
 $args = getopt("h:u:w:c:k:v:n:d:");
 
-if (count($args) > 0) {
+if (count($args) > 0) { // test to see if using new style arguments and if so default to use them
 	$host = $args['h']; // hostname in form xxx.xxx.xxx.xxx
 	$credential = $args['u']; // credential from wmi-logins to use for the query
 	$wmiclass = $args['w']; // what wmic class to query in form Win32_ClassName
@@ -49,7 +49,7 @@ if (count($args) > 0) {
 		$condition_key = $args['k']; // the condition key we are filtering on
 		$condition_val = escapeshellarg($args['v']); // and therfore the value which we assume is passed
 	};
-} elseif (count($args) == 0 && count($argv) == 1) {
+} elseif (count($args) == 0 && count($argv) == 1) { // display help if old style arguments are not present and no new style arguments passed
 	echo "wmi.php version $version\n",
 	     "\n",
 	     "Usage:\n",
@@ -65,13 +65,13 @@ if (count($args) > 0) {
 		 "\n",
 	     "Example: wmi.php -h 10.0.0.1 -u /etc/wmi.pw -w Win32_ComputerSystem -c PrimaryOwnerName,NumberOfProcessors -n 'root\CIMV2' \n";
 	exit;
-} elseif (count($args) == 0 && count($argv) > 1) {
+} elseif (count($args) == 0 && count($argv) > 1) { // if using old style arguments, process them accordingly
 	$host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
 	$credential = $argv[2]; // credential from wmi-logins to use for the query
 	$wmiclass = $argv[3]; // what wmic class to query in form Win32_ClassName
 	$columns = $argv[4]; // what columns to retrieve
 	$namespace = escapeshellarg('root\CIMV2');
-	if (count($argv) > 5) { // if the number of arguments isnt above 5 then don't bother with the where = etc
+	if (isset($argv[5])) { // if the number of arguments isnt above 5 then don't bother with the where = etc
 		$condition_key = $argv[5];
 		$condition_val = escapeshellarg($argv[6]);
 	};
