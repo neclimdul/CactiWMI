@@ -22,6 +22,7 @@ $inc = null; // by default needs to be null
 $sep = " "; // character to use between results
 $dbug_levels = array(0,1,2); // valid debug levels
 $version = '0.6-SVN'; // version
+$namespace = escapeshellarg('root\CIMV2'); // default namespace
 
 // grab arguments
 $args = getopt("h:u:w:c:k:v:n:d:");
@@ -41,8 +42,6 @@ if (count($args) > 0) { // test to see if using new style arguments and if so de
 	
 	if (isset($args['n'])) { // test to check if namespace was passed
 		$namespace = escapeshellarg($args['n']);
-	} else { // if no namespace set default. the wmi client can do this but cuts down further tests to include it now
-		$namespace = escapeshellarg('root\CIMV2');
 	};
 
 	if (isset($args['k'])&& $args['k'] != 'none') { // check to see if a filter is being used, also check to see if it is "none" as required to work around cacti...
@@ -77,7 +76,6 @@ if (count($args) > 0) { // test to see if using new style arguments and if so de
 	$credential = $argv[2]; // credential from wmi-logins to use for the query
 	$wmiclass = $argv[3]; // what wmic class to query in form Win32_ClassName
 	$columns = $argv[4]; // what columns to retrieve
-	$namespace = escapeshellarg('root\CIMV2');
 	if (isset($argv[5])) { // if the number of arguments isnt above 5 then don't bother with the where = etc
 		$condition_key = $argv[5];
 		$condition_val = escapeshellarg($argv[6]);
@@ -136,7 +134,7 @@ if ($dbug == 2) {
 	fclose($fp);
 };
 
-$output = substr($output,0,-1);
+$output = substr($output,0,-1); // strip of the trailing space just in case cacti doesn't like it
 
 echo $output;
 ?>
