@@ -30,7 +30,7 @@ if (count($args) > 0) {
 	$host = $args['h']; // hostname in form xxx.xxx.xxx.xxx
 	$credential = $args['u']; // credential from wmi-logins to use for the query
 	$wmiclass = $args['w']; // what wmic class to query in form Win32_ClassName
-	if (in_array($args['d'],$dbug_levels)) {
+	if (in_array($args['d'],$dbug_levels)) { // enables debug mode when the argument is passed (and is valid)
 		$dbug = $args['d'];
 	};
 	if (isset($args['c'])) {
@@ -49,7 +49,7 @@ if (count($args) > 0) {
 		$condition_key = $args['k']; // the condition key we are filtering on
 		$condition_val = escapeshellarg($args['v']); // and therfore the value which we assume is passed
 	};
-} else {
+} elseif (count($args) == 0 && count($argv) == 1) {
 	echo "wmi.php version $version\n",
 	     "\n",
 	     "Usage:\n",
@@ -65,6 +65,16 @@ if (count($args) > 0) {
 		 "\n",
 	     "Example: wmi.php -h 10.0.0.1 -u /etc/wmi.pw -w Win32_ComputerSystem -c PrimaryOwnerName,NumberOfProcessors -n 'root\CIMV2' \n";
 	exit;
+} elseif (count($args) == 0 && count($argv) > 1) {
+	$host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
+	$credential = $argv[2]; // credential from wmi-logins to use for the query
+	$wmiclass = $argv[3]; // what wmic class to query in form Win32_ClassName
+	$columns = $argv[4]; // what columns to retrieve
+	$namespace = escapeshellarg('root\CIMV2');
+	if (count($argv) > 5) { // if the number of arguments isnt above 5 then don't bother with the where = etc
+		$condition_key = $argv[5];
+		$condition_val = escapeshellarg($argv[6]);
+	};
 };
 
 $wmiquery = 'SELECT '.$columns.' FROM '.$wmiclass; // basic query built
@@ -118,6 +128,8 @@ if ($dbug == 2) {
 	fwrite($fp,"Output to Cacti: $output\n\n\n");
 	fclose($fp);
 };
+
+$output = substr($output,0,-1);
 
 echo $output;
 ?>
