@@ -54,7 +54,20 @@ if (count($args) > 0) {
 		$condition_val = escapeshellarg($args['v']); // and therfore the value which we assume is passed
 	};
 } else {
-	echo "ERROR NO INPUT ARGUMENTS\n";
+	echo "wmi.php version $version\n",
+	     "\n",
+	     "Usage:\n",
+		 "       -h <hostname>         Hostname of the server to query.\n",
+		 "       -u <credential path>  Path to the credential file.\n",
+		 "       -n <namespace>        What namespace to use. (optional, defaults to root\CIMV2)\n",
+		 "       -w <wmi class>        WMI Class to be used.\n",
+		 "       -c <columns>          What columns to select. (optional, defaults to *)\n",
+		 "       -k <filter key>       What key to filter on. (optional, default is no filter)\n",
+		 "       -v <filter value>     What value for the key. (required, only when using filter key)\n",
+		 "\n",
+		 "                             All special characters and spaces must be escaped or enclosed in single quotes!\n",
+		 "\n",
+	     "Example: wmi.php -h 10.0.0.1 -u /etc/wmi.pw -w Win32_ComputerSystem -c PrimaryOwnerName,NumberOfProcessors -n 'root\CIMV2' \n";
 	exit;
 };
 
