@@ -12,8 +12,8 @@ breaks.
 */
 
 // general configuration
-$wmiexe = '/tmp/wmic'; // executable for the wmic command
-$log_location = '/home/claymen/logs/'; // location for the log files ensure trailing slash
+$wmiexe = '/usr/local/bin/wmic'; // executable for the wmic command
+$log_location = '/var/log/cacti/wmi/'; // location for the log files ensure trailing slash
 $dbug = 0; // debug level 0,1 or 2
 
 // globals
@@ -23,6 +23,7 @@ $sep = " "; // character to use between results
 $dbug_levels = array(0,1,2); // valid debug levels
 $version = '0.6-SVN'; // version
 $namespace = escapeshellarg('root\CIMV2'); // default namespace
+$columns = '*'; // default to select all columns
 
 // grab arguments
 $args = getopt("h:u:w:c:k:v:n:d:");
@@ -38,8 +39,6 @@ if (count($args) > 0) { // test to see if using new style arguments and if so de
 	};
 	if (isset($args['c'])) {
 		$columns = $args['c']; // what columns to retrieve
-	} else {
-		$columns = '*';
 	};
 	
 	if (isset($args['n'])) { // test to check if namespace was passed
