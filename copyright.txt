@@ -14,4 +14,4 @@ You should have received a copy of the GNU General Public
 License with this program as the file license.txt; if not,
 please see http://www.gnu.org/licenses/gpl-3.0.html
 
-- Ross Fawcett
+- Ross Fawcett (claymen@parkingdenied.com
