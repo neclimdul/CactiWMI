@@ -12,7 +12,7 @@ breaks.
 */
 
 // general configuration
-$wmiexe = '/home/claymen/bin/wmic'; // executable for the wmic command
+$wmiexe = '/tmp/wmic'; // executable for the wmic command
 $log_location = '/home/claymen/logs/'; // location for the log files ensure trailing slash
 $dbug = 0; // debug level 0,1 or 2
 
@@ -31,8 +31,10 @@ if (count($args) > 0) { // test to see if using new style arguments and if so de
 	$host = $args['h']; // hostname in form xxx.xxx.xxx.xxx
 	$credential = $args['u']; // credential from wmi-logins to use for the query
 	$wmiclass = $args['w']; // what wmic class to query in form Win32_ClassName
-	if (in_array($args['d'],$dbug_levels)) { // enables debug mode when the argument is passed (and is valid)
-		$dbug = $args['d'];
+	if (isset($args['d'])) {
+		if (in_array($args['d'],$dbug_levels)) { // enables debug mode when the argument is passed (and is valid)
+			$dbug = $args['d'];
+		};
 	};
 	if (isset($args['c'])) {
 		$columns = $args['c']; // what columns to retrieve
