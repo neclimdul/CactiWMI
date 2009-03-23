@@ -6,9 +6,9 @@ input and output from Cacti. The idea of this is to move the configuration
 into Cacti rather than creating a new script for each item that you wish to
 monitor via WMI.
 
-There should be no reason to edit this file unless you know what you are
-doing as changes here could potentially affect all your graphs if something
-breaks.
+The only configurable options are listed under general configuration and are
+the debug level, log location and wmic location. Other than that all other
+configuration is done via the templates.
 */
 
 // general configuration
