@@ -37,15 +37,15 @@ if (count($args) > 0) { // test to see if using new style arguments and if so de
 			$dbug = $args['d'];
 		};
 	};
-	if (isset($args['c'])) {
+	if (isset($args['c']) && $args['c'] != '') {
 		$columns = $args['c']; // what columns to retrieve
 	};
 	
-	if (isset($args['n'])) { // test to check if namespace was passed
+	if (isset($args['n']) && $args['n'] != '') { // test to check if namespace was passed
 		$namespace = escapeshellarg($args['n']);
 	};
 
-	if (isset($args['k'])&& $args['k'] != 'none') { // check to see if a filter is being used, also check to see if it is "none" as required to work around cacti...
+	if (isset($args['k'])&& $args['k'] != '') { // check to see if a filter is being used, also check to see if it is "none" as required to work around cacti...
 		$condition_key = $args['k']; // the condition key we are filtering on
 		$condition_val = escapeshellarg($args['v']); // and therfore the value which we assume is passed
 	};
