@@ -24,7 +24,7 @@ $dbug_levels = array(0,1,2); // valid debug levels
 $version = '0.6-SVN'; // version
 $namespace = escapeshellarg('root\CIMV2'); // default namespace
 $columns = '*'; // default to select all columns
-$action = 'values';
+$action = '';
 
 // grab arguments
 $args = getopt("h:u:w:c:k:v:n:d:a:");
