@@ -28,7 +28,10 @@ $columns = '*'; // default to select all columns
 // grab arguments
 $args = getopt("h:u:w:c:k:v:n:d:");
 
-if (count($args) > 0) { // test to see if using new style arguments and if so default to use them
+$opt_count = count($args); // count number of options, saves having to recount later
+$arg_count = count($argv); // count number of arguments, again saving recounts further on
+
+if ($opt_count > 0) { // test to see if using new style arguments and if so default to use them
 	$host = $args['h']; // hostname in form xxx.xxx.xxx.xxx
 	$credential = $args['u']; // credential from wmi-logins to use for the query
 	$wmiclass = $args['w']; // what wmic class to query in form Win32_ClassName
@@ -49,7 +52,7 @@ if (count($args) > 0) { // test to see if using new style arguments and if so de
 		$condition_key = $args['k']; // the condition key we are filtering on
 		$condition_val = str_replace('\\','',escapeshellarg($args['v'])); // the value we are filtering with, and also strip out any slashes (backwards compatibility)
 	};
-} elseif (count($args) == 0 && count($argv) == 1) { // display help if old style arguments are not present and no new style arguments passed
+} elseif ($opt_count == 0 && $arg_count == 1) { // display help if old style arguments are not present and no new style arguments passed
 	echo "wmi.php version $version\n",
 	     "\n",
 	     "Usage:\n",
@@ -73,7 +76,7 @@ if (count($args) > 0) { // test to see if using new style arguments and if so de
 		 "                      domain=<your domain> (can be WORKGROUP if not using a domain)\n",
 		 "\n";
 	exit;
-} elseif (count($args) == 0 && count($argv) > 1) { // if using old style arguments, process them accordingly
+} elseif ($opt_count == 0 && $arg_count > 1) { // if using old style arguments, process them accordingly
 	$host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
 	$credential = $argv[2]; // credential from wmi-logins to use for the query
 	$wmiclass = $argv[3]; // what wmic class to query in form Win32_ClassName
@@ -109,9 +112,6 @@ if ($dbug == 2) { // advanced debug, logs everything to file for full debug
 	$dbug_time = date('l jS \of F Y h:i:s A');
 	fwrite($fp,"Time: $dbug_time\nWMI Class: $wmiclass\nCredential: $credential\nColumns: $columns\nCondition Key: $condition_key\nCondition Val: $condition_val\nQuery: $wmiquery\nExec: $wmiexec\nOutput:\n".$wmiout[0]."\n".$wmiout[1]."\n");
 };
-
-
-if(strstr($wmiout[0],'ERROR') != false) { exit; };
 
 if (count($wmiout) > 0) {
 
