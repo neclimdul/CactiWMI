@@ -47,7 +47,7 @@ if (count($args) > 0) { // test to see if using new style arguments and if so de
 
 	if (isset($args['k'])&& $args['k'] != '') { // check to see if a filter is being used, also check to see if it is "none" as required to work around cacti...
 		$condition_key = $args['k']; // the condition key we are filtering on
-		$condition_val = escapeshellarg($args['v']); // and therfore the value which we assume is passed
+		$condition_val = str_replace('\\','',escapeshellarg($args['v'])); // the value we are filtering with, and also strip out any slashes (backwards compatibility)
 	};
 } elseif (count($args) == 0 && count($argv) == 1) { // display help if old style arguments are not present and no new style arguments passed
 	echo "wmi.php version $version\n",
