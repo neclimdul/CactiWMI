@@ -1,5 +1,5 @@
 Cacti WMI interface script for Linux.
-Ross Fawcett (claymen@parkingdenied.com), 2008-2009
+Ross Fawcett (claymen@parkingdenied.com), 2008-2009.
 
 ABOUT
 
@@ -33,3 +33,10 @@ http://forums.cacti.net/viewtopic.php?p=159410
 
 Subversion repository
 http://svn.parkingdenied.com/CactiWMI
+
+CREDITS
+
+This project was inspired by the code and ideas that James Dastrup implemented
+in his Zenoss wmi_stats.pl script. Without this I would not have have written
+my original implementation based on the same idea which then evolved into the
+script you have today. Many thanks James.
