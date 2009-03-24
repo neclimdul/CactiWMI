@@ -12,7 +12,7 @@ configuration is done via the templates.
 */
 
 // general configuration
-$wmiexe = '/usr/local/bin/wmic'; // executable for the wmic command
+$wmiexe = '/home/claymen/bin/wmic'; // executable for the wmic command
 $log_location = '/var/log/cacti/wmi/'; // location for the log files ensure trailing slash
 $dbug = 0; // debug level 0,1 or 2
 
@@ -24,9 +24,10 @@ $dbug_levels = array(0,1,2); // valid debug levels
 $version = '0.6-SVN'; // version
 $namespace = escapeshellarg('root\CIMV2'); // default namespace
 $columns = '*'; // default to select all columns
+$action = 'values';
 
 // grab arguments
-$args = getopt("h:u:w:c:k:v:n:d:");
+$args = getopt("h:u:w:c:k:v:n:d:a:");
 
 $opt_count = count($args); // count number of options, saves having to recount later
 $arg_count = count($argv); // count number of arguments, again saving recounts further on
@@ -48,6 +49,10 @@ if ($opt_count > 0) { // test to see if using new style arguments and if so defa
 		$namespace = escapeshellarg($args['n']);
 	};
 
+	if (isset($args['a']) && $args['a'] != '') { // action?
+		$action = $args['a'];
+	};
+
 	if (isset($args['k'])&& $args['k'] != '') { // check to see if a filter is being used, also check to see if it is "none" as required to work around cacti...
 		$condition_key = $args['k']; // the condition key we are filtering on
 		$condition_val = str_replace('\\','',escapeshellarg($args['v'])); // the value we are filtering with, and also strip out any slashes (backwards compatibility)
@@ -64,6 +69,7 @@ if ($opt_count > 0) { // test to see if using new style arguments and if so defa
 		 "       -k <filter key>       What key to filter on. (optional, default is no filter)\n",
 		 "       -v <filter value>     What value for the key. (required, only when using filter key)\n",
 		 "       -d <debug level>      Debug level. (optional, default is none, levels are 1 & 2)\n",
+		 "       -a <action>           What to do return counts or return values (optional, default is to return values)\n",
 		 "\n",
 		 "                             All special characters and spaces must be escaped or enclosed in single quotes!\n",
 		 "\n",
@@ -113,6 +119,9 @@ if ($dbug == 2) { // advanced debug, logs everything to file for full debug
 	fwrite($fp,"Time: $dbug_time\nWMI Class: $wmiclass\nCredential: $credential\nColumns: $columns\nCondition Key: $condition_key\nCondition Val: $condition_val\nQuery: $wmiquery\nExec: $wmiexec\nOutput:\n".$wmiout[0]."\n".$wmiout[1]."\n");
 };
 
+if ($action == 'count') {
+	$output = "Count:".(count($wmiout)-2)." ";
+} else {
 if (count($wmiout) > 0) {
 
 $names = explode('|',$wmiout[1]); // build the names list to dymanically output it
@@ -127,6 +136,8 @@ for($i=2;$i<count($wmiout);$i++) { // dynamically output the key:value pairs to 
 		if ( count($wmiout) > 3 ) { $inc = $i-2; }; // if there are multiple rows returned add an incremental number to the returned keyname
 		$output = $output.$names[$j++].$inc.':'.str_replace(array(':',' '),array('','_'),$item).$sep;
 	};
+};
+
 };
 
 };
