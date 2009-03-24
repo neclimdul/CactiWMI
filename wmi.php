@@ -60,6 +60,7 @@ if (count($args) > 0) { // test to see if using new style arguments and if so de
 		 "       -c <columns>          What columns to select. (optional, defaults to *)\n",
 		 "       -k <filter key>       What key to filter on. (optional, default is no filter)\n",
 		 "       -v <filter value>     What value for the key. (required, only when using filter key)\n",
+		 "       -d <debug level>      Debug level. (optional, default is none, levels are 1 & 2)\n",
 		 "\n",
 		 "                             All special characters and spaces must be escaped or enclosed in single quotes!\n",
 		 "\n",
