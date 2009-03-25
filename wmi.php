@@ -113,18 +113,20 @@ if ($dbug == 2) { // advanced debug, logs everything to file for full debug
 	fwrite($fp,"Time: $dbug_time\nWMI Class: $wmiclass\nCredential: $credential\nColumns: $columns\nCondition Key: $condition_key\nCondition Val: $condition_val\nQuery: $wmiquery\nExec: $wmiexec\nOutput:\n".$wmiout[0]."\n".$wmiout[1]."\n");
 };
 
-if (count($wmiout) > 0) {
+$wmi_count = count($wmiout);
+
+if ($wmi_count > 0) {
 
 $names = explode('|',$wmiout[1]); // build the names list to dymanically output it
 
-for($i=2;$i<count($wmiout);$i++) { // dynamically output the key:value pairs to suit cacti
+for($i=2;$i<$wmi_count;$i++) { // dynamically output the key:value pairs to suit cacti
 	$data = explode('|',$wmiout[$i]);
 	if ($dbug == 2) {
 		fwrite($fp,$wmiout[$i]."\n");
 	};
 	$j=0;
 	foreach($data as $item) {
-		if ( count($wmiout) > 3 ) { $inc = $i-2; }; // if there are multiple rows returned add an incremental number to the returned keyname
+		if ( $wmi_count > 3 ) { $inc = $i-2; }; // if there are multiple rows returned add an incremental number to the returned keyname
 		$output = $output.$names[$j++].$inc.':'.str_replace(array(':',' '),array('','_'),$item).$sep;
 	};
 };
