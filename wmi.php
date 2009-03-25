@@ -113,7 +113,7 @@ if ($dbug == 2) { // advanced debug, logs everything to file for full debug
 	fwrite($fp,"Time: $dbug_time\nWMI Class: $wmiclass\nCredential: $credential\nColumns: $columns\nCondition Key: $condition_key\nCondition Val: $condition_val\nQuery: $wmiquery\nExec: $wmiexec\nOutput:\n".$wmiout[0]."\n".$wmiout[1]."\n");
 };
 
-$wmi_count = count($wmiout);
+$wmi_count = count($wmiout); // count the number of lines returned from wmic, saves recouting later
 
 if ($wmi_count > 0) {
 
