@@ -21,7 +21,36 @@ Rempte RPC firewall access (And you of course need your firewall to allow RPC)
 
 INSTALLATION
 
-To be written.
+1. Copy wmi.php to your Cacti scripts directory.
+2. Create /etc/cacti and /var/log/cacti/wmi.
+3. Set owner to cacti and chmod 600/700 to the directories specified above.
+4. Configure wmi.php and set the path to your wmic binary.
+5. Create your password file in /etc/cacti as per the format below.
+6. Import the templates into Cacti.
+
+QUICK INSTALLATION
+
+Run this.
+cp wmi.php /var/www/cacti/scripts
+mkdir -p /etc/cacti
+mkdir -p /var/log/cacti/wmi
+chown cacti:cacti /etc/cacti -R
+chown cacti:cacti /var/log/cacti/wmi -R
+chmod 700 /etc/cacti -R
+chmod 700 /var/log/cacti/wmi -R
+
+Then import the templates into Cacti and create your auth file.
+
+
+AUTH FILE FORMAT
+
+The auth file contains the username and password of the service account you are using
+to run the WMI queries. Simply create the file as per the format below and set the
+permissions on it so that no one else but the cacti user can read it.
+
+username=<your username>
+password=<your password>
+domain=<your domain>
 
 FURTHER INFORMATION
 
