@@ -37,11 +37,11 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>processes</vertical_label>
+			<vertical_label>Processes</vertical_label>
 		</graph>
 		<items>
 			<hash_1000161c2951a82c70bb84c96283d56d0df88f>
-				<task_item_id>hash_080016389ce0b0193dc5d913aa0924f2140495</task_item_id>
+				<task_item_id>hash_0800165ed70f022b9cc03896f62ebc9cf3cf5d</task_item_id>
 				<color_id>F51D30</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>7</graph_type_id>
@@ -54,7 +54,7 @@
 				<sequence>1</sequence>
 			</hash_1000161c2951a82c70bb84c96283d56d0df88f>
 			<hash_100016e6a40e2855b82d9694d6c67e54c381f4>
-				<task_item_id>hash_080016e7fa5e22320a3d3107f84e4f24f56ea0</task_item_id>
+				<task_item_id>hash_0800165ed70f022b9cc03896f62ebc9cf3cf5d</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
@@ -67,7 +67,7 @@
 				<sequence>2</sequence>
 			</hash_100016e6a40e2855b82d9694d6c67e54c381f4>
 			<hash_100016283aa559e62fc1cda7decdc21435d11d>
-				<task_item_id>hash_080016d6386146ed2630d4fb3d64c8a55865d2</task_item_id>
+				<task_item_id>hash_0800165ed70f022b9cc03896f62ebc9cf3cf5d</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
@@ -80,7 +80,7 @@
 				<sequence>3</sequence>
 			</hash_100016283aa559e62fc1cda7decdc21435d11d>
 			<hash_1000163832c552a53f0e2bdaf35c1690bc2cd8>
-				<task_item_id>hash_08001692361de8bffdf5ef0f1efc8c67d25c2b</task_item_id>
+				<task_item_id>hash_0800165ed70f022b9cc03896f62ebc9cf3cf5d</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
@@ -94,14 +94,278 @@
 			</hash_1000163832c552a53f0e2bdaf35c1690bc2cd8>
 		</items>
 		<inputs>
-			<hash_09001635c2be19d811e6c6335cc8969a82eb6c>
+			<hash_09001664bbda92421a3873f02e3848c3ed0a3f>
 				<name>Data Source [Processes]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_0000161c2951a82c70bb84c96283d56d0df88f|hash_000016e6a40e2855b82d9694d6c67e54c381f4|hash_000016283aa559e62fc1cda7decdc21435d11d|hash_0000163832c552a53f0e2bdaf35c1690bc2cd8</items>
-			</hash_09001635c2be19d811e6c6335cc8969a82eb6c>
+				<items>hash_0000161c2951a82c70bb84c96283d56d0df88f|hash_000016e6a40e2855b82d9694d6c67e54c381f4|hash_000016283aa559e62fc1cda7decdc21435d11d|hash_0000163832c552a53f0e2bdaf35c1690bc2cd8|hash_000016bbac0a1dd4197c9a5a86705261b74e7d|hash_000016145707eb1221452f5d1eca53da9643d0|hash_00001662012fa6139c9feee3171e6b635b6228|hash_000016c1028dbd84e741079f9f6787ab5e8c99</items>
+			</hash_09001664bbda92421a3873f02e3848c3ed0a3f>
 		</inputs>
 	</hash_000016994f536752a622e87f120981d1f7b1eb>
+	<hash_01001659f6c6f4567266b0dd52053385a0ed28>
+		<name>Windows - System Stats (WMI)</name>
+		<ds>
+			<t_name></t_name>
+			<name>|host_description| - Windows - System Stats</name>
+			<data_source_path>&lt;path_rra&gt;/wa_-_carnifex_systemuptime_20015.rrd</data_source_path>
+			<data_input_id>hash_030016312ecc48716953d1b288a8d0d2b1fead</data_input_id>
+			<t_rra_id></t_rra_id>
+			<t_rrd_step></t_rrd_step>
+			<rrd_step>300</rrd_step>
+			<t_active></t_active>
+			<active>on</active>
+			<rra_items>hash_150016c21df5178e5c955013591239eb0afd46|hash_1500160d9c0af8b8acdc7807943937b3208e29|hash_1500166fc2d038fb42950138b0ce3e9874cc60|hash_150016e36f3adb9f152adfa5dc50fd2b23337e</rra_items>
+		</ds>
+		<items>
+			<hash_0800165ed70f022b9cc03896f62ebc9cf3cf5d>
+				<data_source_name>Processes</data_source_name>
+				<rrd_minimum>0</rrd_minimum>
+				<rrd_maximum>1000000</rrd_maximum>
+				<data_source_type_id>1</data_source_type_id>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<data_input_field_id>hash_070016bbcb8c59a72177250d4afa27bfaccc3f</data_input_field_id>
+			</hash_0800165ed70f022b9cc03896f62ebc9cf3cf5d>
+			<hash_080016e659408e94973f458232d42c088a6670>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>ContextSwitches</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016d3036784c0ad362572dbad19610111e1</data_input_field_id>
+			</hash_080016e659408e94973f458232d42c088a6670>
+			<hash_0800164b3cb56151bb7672c21a26cc18482d63>
+				<data_source_name>SystemUpTime</data_source_name>
+				<rrd_minimum>0</rrd_minimum>
+				<rrd_maximum>1000000000000</rrd_maximum>
+				<data_source_type_id>2</data_source_type_id>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<data_input_field_id>hash_0700165317aff2fc9022904c58b89d6d0cccc2</data_input_field_id>
+			</hash_0800164b3cb56151bb7672c21a26cc18482d63>
+			<hash_080016bfe88c2b90c2e834d86a49c30c08b9a1>
+				<data_source_name>SystemCalls</data_source_name>
+				<rrd_minimum>0</rrd_minimum>
+				<rrd_maximum>500000</rrd_maximum>
+				<data_source_type_id>2</data_source_type_id>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<data_input_field_id>hash_07001608c4f46dd1b6960441628aab5ff8d13a</data_input_field_id>
+			</hash_080016bfe88c2b90c2e834d86a49c30c08b9a1>
+			<hash_080016ee217842e851162ea1feb37a8dd24b59>
+				<data_source_name>ProcessorQueue</data_source_name>
+				<rrd_minimum>0</rrd_minimum>
+				<rrd_maximum>1000000</rrd_maximum>
+				<data_source_type_id>1</data_source_type_id>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<data_input_field_id>hash_0700162a5d3c8b9c0a0cd7e02fd32ef844fbc2</data_input_field_id>
+			</hash_080016ee217842e851162ea1feb37a8dd24b59>
+			<hash_080016b5781113ed976aa012a5a8b22d8515db>
+				<data_source_name>Threads</data_source_name>
+				<rrd_minimum>0</rrd_minimum>
+				<rrd_maximum>1000000</rrd_maximum>
+				<data_source_type_id>1</data_source_type_id>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<data_input_field_id>hash_070016fad70c2a1abedf683cec214c6cda57a4</data_input_field_id>
+			</hash_080016b5781113ed976aa012a5a8b22d8515db>
+		</items>
+		<data>
+			<item_000>
+				<data_input_field_id>hash_070016f85b4895b09ed314e8f6c0f27adc472c</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700165018c55e5bc49ef677eaad9579490987</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_001>
+			<item_002>
+				<data_input_field_id>hash_070016a132bb52be1ba14b56dce9dae0be787a</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
+				<data_input_field_id>hash_070016361d6349a9431e762b593e1e65487d7d</data_input_field_id>
+				<t_value></t_value>
+				<value>Win32_PerfRawData_PerfOS_System</value>
+			</item_003>
+			<item_004>
+				<data_input_field_id>hash_070016a233559706fb1f8b9ebac03cf0bb2b3e</data_input_field_id>
+				<t_value></t_value>
+				<value>Threads,SystemUpTime,SystemCallsPersec,ProcessorQueueLength,Processes,ContextSwitchesPersec</value>
+			</item_004>
+			<item_005>
+				<data_input_field_id>hash_070016588fddd7809a58482c95857be7084e07</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_005>
+			<item_006>
+				<data_input_field_id>hash_07001676060bedd29c1865fbb379cf8bdf63ff</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_006>
+		</data>
+	</hash_01001659f6c6f4567266b0dd52053385a0ed28>
+	<hash_030016312ecc48716953d1b288a8d0d2b1fead>
+		<name>WMI - System Stats</name>
+		<type_id>1</type_id>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
+		<fields>
+			<hash_07001676060bedd29c1865fbb379cf8bdf63ff>
+				<name>Hostname</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code>hostname</type_code>
+				<input_output>in</input_output>
+				<data_name>host</data_name>
+			</hash_07001676060bedd29c1865fbb379cf8bdf63ff>
+			<hash_070016588fddd7809a58482c95857be7084e07>
+				<name>Credential</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>credential</data_name>
+			</hash_070016588fddd7809a58482c95857be7084e07>
+			<hash_070016361d6349a9431e762b593e1e65487d7d>
+				<name>Class</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>class</data_name>
+			</hash_070016361d6349a9431e762b593e1e65487d7d>
+			<hash_070016a233559706fb1f8b9ebac03cf0bb2b3e>
+				<name>Columns</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>columns</data_name>
+			</hash_070016a233559706fb1f8b9ebac03cf0bb2b3e>
+			<hash_070016a132bb52be1ba14b56dce9dae0be787a>
+				<name>Filter</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>filter</data_name>
+			</hash_070016a132bb52be1ba14b56dce9dae0be787a>
+			<hash_0700165018c55e5bc49ef677eaad9579490987>
+				<name>Filter Value</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>filterval</data_name>
+			</hash_0700165018c55e5bc49ef677eaad9579490987>
+			<hash_070016d3036784c0ad362572dbad19610111e1>
+				<name>ContextSwitchesPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>ContextSwitchesPersec</data_name>
+			</hash_070016d3036784c0ad362572dbad19610111e1>
+			<hash_070016bbcb8c59a72177250d4afa27bfaccc3f>
+				<name>Processes</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>Processes</data_name>
+			</hash_070016bbcb8c59a72177250d4afa27bfaccc3f>
+			<hash_0700162a5d3c8b9c0a0cd7e02fd32ef844fbc2>
+				<name>ProcessorQueueLength</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>ProcessorQueueLength</data_name>
+			</hash_0700162a5d3c8b9c0a0cd7e02fd32ef844fbc2>
+			<hash_07001608c4f46dd1b6960441628aab5ff8d13a>
+				<name>SystemCallsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>SystemCallsPersec</data_name>
+			</hash_07001608c4f46dd1b6960441628aab5ff8d13a>
+			<hash_0700165317aff2fc9022904c58b89d6d0cccc2>
+				<name>SystemUpTime</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>SystemUpTime</data_name>
+			</hash_0700165317aff2fc9022904c58b89d6d0cccc2>
+			<hash_070016fad70c2a1abedf683cec214c6cda57a4>
+				<name>Threads</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>Threads</data_name>
+			</hash_070016fad70c2a1abedf683cec214c6cda57a4>
+			<hash_070016f85b4895b09ed314e8f6c0f27adc472c>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016f85b4895b09ed314e8f6c0f27adc472c>
+		</fields>
+	</hash_030016312ecc48716953d1b288a8d0d2b1fead>
+	<hash_150016c21df5178e5c955013591239eb0afd46>
+		<name>Daily (5 Minute Average)</name>
+		<x_files_factor>0.5</x_files_factor>
+		<steps>1</steps>
+		<rows>600</rows>
+		<timespan>86400</timespan>
+		<cf_items>1|2|3|4</cf_items>
+	</hash_150016c21df5178e5c955013591239eb0afd46>
+	<hash_1500160d9c0af8b8acdc7807943937b3208e29>
+		<name>Weekly (30 Minute Average)</name>
+		<x_files_factor>0.5</x_files_factor>
+		<steps>6</steps>
+		<rows>700</rows>
+		<timespan>604800</timespan>
+		<cf_items>1|2|3|4</cf_items>
+	</hash_1500160d9c0af8b8acdc7807943937b3208e29>
+	<hash_1500166fc2d038fb42950138b0ce3e9874cc60>
+		<name>Monthly (2 Hour Average)</name>
+		<x_files_factor>0.5</x_files_factor>
+		<steps>24</steps>
+		<rows>775</rows>
+		<timespan>2678400</timespan>
+		<cf_items>1|2|3|4</cf_items>
+	</hash_1500166fc2d038fb42950138b0ce3e9874cc60>
+	<hash_150016e36f3adb9f152adfa5dc50fd2b23337e>
+		<name>Yearly (1 Day Average)</name>
+		<x_files_factor>0.5</x_files_factor>
+		<steps>288</steps>
+		<rows>797</rows>
+		<timespan>33053184</timespan>
+		<cf_items>1|2|3|4</cf_items>
+	</hash_150016e36f3adb9f152adfa5dc50fd2b23337e>
 	<hash_060016e9c43831e54eca8069317a2ce8c6f751>
 		<name>Normal</name>
 		<gprint_text>%8.2lf %s</gprint_text>

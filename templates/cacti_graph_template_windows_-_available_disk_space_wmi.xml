@@ -259,7 +259,7 @@
 			<item_000>
 				<data_input_field_id>hash_07001667bebdee9438ff2600ef6d932c3b33a7</data_input_field_id>
 				<t_value>on</t_value>
-				<value>C\:</value>
+				<value>C:</value>
 			</item_000>
 			<item_001>
 				<data_input_field_id>hash_07001618b62904c72fc326156674f785d52bd4</data_input_field_id>
@@ -284,14 +284,19 @@
 			<item_005>
 				<data_input_field_id>hash_070016bb39d74949dd0103ca26ddb329441abb</data_input_field_id>
 				<t_value>on</t_value>
-				<value>credential</value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_005>
+			<item_006>
+				<data_input_field_id>hash_07001609edac81752a30fe82d6f9970513a9a5</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_006>
 		</data>
 	</hash_010016e723fa73a4731ecccbd718474511d976>
 	<hash_030016d29ab2a8fb3b5f87ac6eaf48237c1ba9>
 		<name>WMI - Disk Space</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016bb39d74949dd0103ca26ddb329441abb>
 				<name>Credential</name>
@@ -374,6 +379,15 @@
 				<input_output>out</input_output>
 				<data_name>DeviceID</data_name>
 			</hash_070016120f643ff1deb623edf8c7c86caac5d8>
+			<hash_07001609edac81752a30fe82d6f9970513a9a5>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_07001609edac81752a30fe82d6f9970513a9a5>
 		</fields>
 	</hash_030016d29ab2a8fb3b5f87ac6eaf48237c1ba9>
 	<hash_150016c21df5178e5c955013591239eb0afd46>

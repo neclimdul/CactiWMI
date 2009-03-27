@@ -357,41 +357,46 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700162ab2eca358ab4f71bd72e04ee675361e</data_input_field_id>
+				<data_input_field_id>hash_07001679bb2302a899b042076e946b4f5d586b</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_07001624d2efb09feb0549c9de318ad16c0857</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
+				<data_input_field_id>hash_0700162ab2eca358ab4f71bd72e04ee675361e</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_070016a5f30772bd169fc497469a8459526a95</data_input_field_id>
-				<t_value></t_value>
-				<value>Win32_PerfRawData_PerfDisk_LogicalDisk</value>
-			</item_002>
-			<item_003>
 				<data_input_field_id>hash_070016b88d35cc234fb897a56e3435e3f3aa0a</data_input_field_id>
 				<t_value></t_value>
 				<value>DiskWritesPersec,DiskWriteBytesPersec,DiskReadsPersec,DiskReadBytesPersec,CurrentDiskQueueLength</value>
+			</item_002>
+			<item_003>
+				<data_input_field_id>hash_070016a5f30772bd169fc497469a8459526a95</data_input_field_id>
+				<t_value></t_value>
+				<value>Win32_PerfRawData_PerfDisk_LogicalDisk</value>
 			</item_003>
 			<item_004>
-				<data_input_field_id>hash_0700169681bc838d244bf844a4e699ca5cd18e</data_input_field_id>
+				<data_input_field_id>hash_07001624d2efb09feb0549c9de318ad16c0857</data_input_field_id>
 				<t_value>on</t_value>
-				<value>C\:</value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_0700169681bc838d244bf844a4e699ca5cd18e</data_input_field_id>
+				<t_value>on</t_value>
+				<value>C:</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016d9297c9f76e3bc742472b9c373b1db29</data_input_field_id>
 				<t_value></t_value>
 				<value>Name</value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_0100169b48afbc91b040884ba3dfd679fb7466>
 	<hash_0300160a878557571442da8050931896047b4f>
 		<name>WMI - Disk I/O</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700164e3635d624718e92d96aa6f28b35ece2>
 				<name>Name</name>
@@ -501,6 +506,15 @@
 				<input_output>out</input_output>
 				<data_name>DiskWriteBytesPersec</data_name>
 			</hash_070016076e9345f24acb43f67528fb30e4c88b>
+			<hash_07001679bb2302a899b042076e946b4f5d586b>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_07001679bb2302a899b042076e946b4f5d586b>
 		</fields>
 	</hash_0300160a878557571442da8050931896047b4f>
 	<hash_150016c21df5178e5c955013591239eb0afd46>

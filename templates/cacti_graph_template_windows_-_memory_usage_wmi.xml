@@ -37,7 +37,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>bytes</vertical_label>
+			<vertical_label>Bytes</vertical_label>
 		</graph>
 		<items>
 			<hash_10001644efec60bf45ed010134f4b9a27487c3>
@@ -309,33 +309,38 @@
 			<item_000>
 				<data_input_field_id>hash_0700166d5138e8d624d973c908886d768308e2</data_input_field_id>
 				<t_value>on</t_value>
-				<value>credential</value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016912640bfaf20cd79b7d86be114904672</data_input_field_id>
+				<data_input_field_id>hash_070016d4a8e0ef6ebe0e787cb80539665a09ae</data_input_field_id>
 				<t_value></t_value>
-				<value>Win32_ComputerSystem</value>
+				<value></value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_0700163c4aad16cd812d5b88383e5113df1189</data_input_field_id>
+				<data_input_field_id>hash_07001602ff3ac6e3a948d4f7878ad7ca027354</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_002>
 			<item_003>
-				<data_input_field_id>hash_070016af8378ecdf2c434774829a80f6a7f028</data_input_field_id>
+				<data_input_field_id>hash_0700163c4aad16cd812d5b88383e5113df1189</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_003>
 			<item_004>
-				<data_input_field_id>hash_0700161ff8cff16e7e1b7e72ac3d1c60f5d747</data_input_field_id>
+				<data_input_field_id>hash_070016912640bfaf20cd79b7d86be114904672</data_input_field_id>
 				<t_value></t_value>
-				<value>TotalPhysicalMemory</value>
+				<value>Win32_ComputerSystem</value>
 			</item_004>
 			<item_005>
-				<data_input_field_id>hash_07001602ff3ac6e3a948d4f7878ad7ca027354</data_input_field_id>
+				<data_input_field_id>hash_070016af8378ecdf2c434774829a80f6a7f028</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_005>
+			<item_006>
+				<data_input_field_id>hash_0700161ff8cff16e7e1b7e72ac3d1c60f5d747</data_input_field_id>
+				<t_value></t_value>
+				<value>TotalPhysicalMemory</value>
+			</item_006>
 		</data>
 	</hash_01001667be89d44186690dcf1feed4a4c6979e>
 	<hash_010016100ad6b7ee5d63fd6ebd580abd533e8d>
@@ -397,41 +402,46 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700169ba9c28d977b35906aed83a010a55e82</data_input_field_id>
+				<data_input_field_id>hash_070016b0b6d72ab9da2118efeae9b4e5cc1820</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_07001691b1e37b7cbd27c97e5923ddd6a275fa</data_input_field_id>
+				<data_input_field_id>hash_0700169ba9c28d977b35906aed83a010a55e82</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_07001691b1e37b7cbd27c97e5923ddd6a275fa</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_0700168f8e0aab294e01484da27240058a3490</data_input_field_id>
 				<t_value></t_value>
 				<value>CommittedBytes,AvailableBytes,CommitLimit</value>
-			</item_002>
-			<item_003>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_070016640c7ddd9320b1851e2f14c1eb77f9cb</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfRawData_PerfOS_Memory</value>
-			</item_003>
-			<item_004>
-				<data_input_field_id>hash_070016c7307bb5965ad096f7e39e8f0a81ea41</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_070016c7307bb5965ad096f7e39e8f0a81ea41</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016cf6c316a70f21facf333ae0056bb8e37</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_010016100ad6b7ee5d63fd6ebd580abd533e8d>
 	<hash_03001675367dc93528e2790761aa1fab14c9dc>
 		<name>WMI - Total Physical Memory</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700161ff8cff16e7e1b7e72ac3d1c60f5d747>
 				<name>Columns</name>
@@ -505,12 +515,21 @@
 				<input_output>in</input_output>
 				<data_name>host</data_name>
 			</hash_07001602ff3ac6e3a948d4f7878ad7ca027354>
+			<hash_070016d4a8e0ef6ebe0e787cb80539665a09ae>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016d4a8e0ef6ebe0e787cb80539665a09ae>
 		</fields>
 	</hash_03001675367dc93528e2790761aa1fab14c9dc>
 	<hash_0300165171887d9fbbc2b4682749b2dbbe5f19>
 		<name>WMI - Memory</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016cf6c316a70f21facf333ae0056bb8e37>
 				<name>Hostname</name>
@@ -593,6 +612,15 @@
 				<input_output>out</input_output>
 				<data_name>CommittedBytes</data_name>
 			</hash_07001646d9514960b15b73ad066579e4bf99ca>
+			<hash_070016b0b6d72ab9da2118efeae9b4e5cc1820>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016b0b6d72ab9da2118efeae9b4e5cc1820>
 		</fields>
 	</hash_0300165171887d9fbbc2b4682749b2dbbe5f19>
 	<hash_150016c21df5178e5c955013591239eb0afd46>

@@ -37,7 +37,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>Messages / Sec</vertical_label>
+			<vertical_label>Messages Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_1000165e59277e1503ffbff90650f28c927031>
@@ -438,9 +438,9 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016e5b8318caf124001605b72469170f2aa</data_input_field_id>
-				<t_value>on</t_value>
-				<value>_Total</value>
+				<data_input_field_id>hash_070016a0b43d09c395b42e87839943aff2ced3</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
 			</item_000>
 			<item_001>
 				<data_input_field_id>hash_070016e868d2c0df2bdeec56038cfdfd9b678a</data_input_field_id>
@@ -448,31 +448,36 @@
 				<value>Name</value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_070016e5b8318caf124001605b72469170f2aa</data_input_field_id>
+				<t_value>on</t_value>
+				<value>_Total</value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_070016e11ba78487c01d6dc74bc36f0f96aae3</data_input_field_id>
 				<t_value></t_value>
 				<value>MessagesReceivedPersec,MessagesSentPersec,MessagesDeliveredPersec,DNSQueriesPersec,LocalQueueLength,LocalRetryQueueLength,RemoteQueueLength,RemoteRetryQueueLength</value>
-			</item_002>
-			<item_003>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_07001680cf3cdc6171a59e5fdfcb7ac2e75fc8</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfRawData_SMTPSVC_SMTPServer</value>
-			</item_003>
-			<item_004>
-				<data_input_field_id>hash_070016594d99c5b5b736174279a2266d36e510</data_input_field_id>
-				<t_value></t_value>
-				<value>credential</value>
 			</item_004>
 			<item_005>
 				<data_input_field_id>hash_0700164b7f9ea3817c6b94725a484ba5e829c9</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_005>
+			<item_006>
+				<data_input_field_id>hash_070016594d99c5b5b736174279a2266d36e510</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_006>
 		</data>
 	</hash_010016aafb1bb75f2004a563ca000c6f50f5ff>
 	<hash_0300160c1ed2c8c18b69b74a49668959017a33>
 		<name>WMI - Exchange 2003 - SMTP Performance</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700164b7f9ea3817c6b94725a484ba5e829c9>
 				<name>Hostname</name>
@@ -609,6 +614,15 @@
 				<input_output>out</input_output>
 				<data_name>Name</data_name>
 			</hash_0700162ac0f525603898adbc3184c25a9cef3f>
+			<hash_070016a0b43d09c395b42e87839943aff2ced3>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016a0b43d09c395b42e87839943aff2ced3>
 		</fields>
 	</hash_0300160c1ed2c8c18b69b74a49668959017a33>
 	<hash_150016c21df5178e5c955013591239eb0afd46>

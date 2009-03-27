@@ -37,7 +37,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>percent</vertical_label>
+			<vertical_label>Percent</vertical_label>
 		</graph>
 		<items>
 			<hash_10001641629242d29071a3c2609255fbfc5f37>
@@ -421,41 +421,46 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016181e8c9c0ccdaf4f277b896b68aaa00d</data_input_field_id>
+				<data_input_field_id>hash_0700162120c8715dcc01592be77e195ec6faa0</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_07001660702d0be3f31332f619fa56baf78ca1</data_input_field_id>
+				<data_input_field_id>hash_070016181e8c9c0ccdaf4f277b896b68aaa00d</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_07001660702d0be3f31332f619fa56baf78ca1</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_0700164018c59816e41b352e2ae263a548bd38</data_input_field_id>
 				<t_value></t_value>
 				<value>PercentProcessorTime</value>
-			</item_002>
-			<item_003>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_070016697c97bf61b48a96aedb5459aa2f2131</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfFormattedData_PerfOS_Processor</value>
-			</item_003>
-			<item_004>
+			</item_004>
+			<item_005>
 				<data_input_field_id>hash_070016c936749a3edb7c27550423eb02969d68</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_004>
-			<item_005>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_0700162a741cf1d5e40e02506357d9cf239e69</data_input_field_id>
 				<t_value>on</t_value>
-				<value>credential</value>
-			</item_005>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_006>
 		</data>
 	</hash_01001619ee5eafaf6b17ca11e0ad7ed0c34237>
 	<hash_030016dbb68f654f0241074997934ad343a500>
 		<name>WMI - CPU Usage - 4CPU</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700162a741cf1d5e40e02506357d9cf239e69>
 				<name>Credential</name>
@@ -601,6 +606,15 @@
 				<input_output>out</input_output>
 				<data_name>PercentProcessorTime4</data_name>
 			</hash_070016c67cc3a691ba6a2fa6f97492cb6c17bb>
+			<hash_0700162120c8715dcc01592be77e195ec6faa0>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_0700162120c8715dcc01592be77e195ec6faa0>
 		</fields>
 	</hash_030016dbb68f654f0241074997934ad343a500>
 	<hash_150016c21df5178e5c955013591239eb0afd46>

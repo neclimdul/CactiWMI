@@ -37,7 +37,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>operations per/sec</vertical_label>
+			<vertical_label>Operations Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_1000169ce7e7fec8532d14d3483867e87836c4>
@@ -253,7 +253,7 @@
 	<hash_010016d7b8f700925fd7740ccdbc1b97a43677>
 		<name>SQL - Transactions (WMI)</name>
 		<ds>
-			<t_name>on</t_name>
+			<t_name></t_name>
 			<name>|host_description| - SQL - Transactions</name>
 			<data_input_id>hash_03001605a203d8464bcdf10b892a5e1d0883c4</data_input_id>
 			<t_rra_id></t_rra_id>
@@ -281,41 +281,46 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700165a120c3218d60479ee092005e2e6b034</data_input_field_id>
+				<data_input_field_id>hash_0700161943abb6a2bf141f20e605dbc1ccbfe4</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016e22549051b379383112286b72101bd41</data_input_field_id>
+				<data_input_field_id>hash_0700165a120c3218d60479ee092005e2e6b034</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_070016e22549051b379383112286b72101bd41</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_0700162d8a136edc11759602ee92fdb9c41f4e</data_input_field_id>
 				<t_value></t_value>
 				<value>Transactions</value>
-			</item_002>
-			<item_003>
-				<data_input_field_id>hash_070016c52ab880553062b3bdf3ff98b8ac0001</data_input_field_id>
-				<t_value></t_value>
-				<value>Win32_PerfRawData_MSSQLSERVER_SQLServerTransactions</value>
 			</item_003>
 			<item_004>
 				<data_input_field_id>hash_0700161b8ac267fdf06beb3086eb1aaef48130</data_input_field_id>
 				<t_value>on</t_value>
-				<value>credential</value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_070016c52ab880553062b3bdf3ff98b8ac0001</data_input_field_id>
+				<t_value></t_value>
+				<value>Win32_PerfRawData_MSSQLSERVER_SQLServerTransactions</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016733acc470935645cbd7b2a2363c057da</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_010016d7b8f700925fd7740ccdbc1b97a43677>
 	<hash_010016bb1a6228a2474574217ea6b1bed7aeb9>
 		<name>SQL - Statistics (WMI)</name>
 		<ds>
-			<t_name>on</t_name>
+			<t_name></t_name>
 			<name>|host_description| - SQL - Statistics</name>
 			<data_input_id>hash_03001632c173c206a87f7ef0694812bb745010</data_input_id>
 			<t_rra_id></t_rra_id>
@@ -343,19 +348,19 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700165ef4b27e361cd604bba880beddc1b914</data_input_field_id>
+				<data_input_field_id>hash_0700161f4dabea61196a805d1524a377894325</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016548328b06e9222b26a83d2f974ae405c</data_input_field_id>
+				<data_input_field_id>hash_0700165ef4b27e361cd604bba880beddc1b914</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_07001676e73713ec5bd534e1d1795680a4bcc3</data_input_field_id>
+				<data_input_field_id>hash_070016548328b06e9222b26a83d2f974ae405c</data_input_field_id>
 				<t_value></t_value>
-				<value>BatchRequestsPersec</value>
+				<value></value>
 			</item_002>
 			<item_003>
 				<data_input_field_id>hash_070016eef480fe8e5b35916b5819b08def7459</data_input_field_id>
@@ -365,13 +370,18 @@
 			<item_004>
 				<data_input_field_id>hash_07001620eb758a12e5260e320a465aa31e350e</data_input_field_id>
 				<t_value>on</t_value>
-				<value>credential</value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_07001676e73713ec5bd534e1d1795680a4bcc3</data_input_field_id>
+				<t_value></t_value>
+				<value>BatchRequestsPersec</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016e69fe8a3ce804b781db33757d084e2c4</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_010016bb1a6228a2474574217ea6b1bed7aeb9>
 	<hash_010016ca93699890eded68f0ce7caef2ade9a9>
@@ -394,7 +404,7 @@
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>10000</rrd_maximum>
+				<rrd_maximum>100000000</rrd_maximum>
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
@@ -408,7 +418,7 @@
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>10000</rrd_maximum>
+				<rrd_maximum>100000000</rrd_maximum>
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
@@ -419,41 +429,46 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016bae07e1bba8c44fc7d677302d6113d1d</data_input_field_id>
+				<data_input_field_id>hash_07001647974617368eb41e5a6e5d0bf3d57a17</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016307bc0d2a8629ea213d7dd4aebe61a50</data_input_field_id>
+				<data_input_field_id>hash_070016bae07e1bba8c44fc7d677302d6113d1d</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_070016307bc0d2a8629ea213d7dd4aebe61a50</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_0700164a0da5d0067ac4a6f7363cae24bd4745</data_input_field_id>
 				<t_value></t_value>
 				<value>Buffercachehitratio,Buffercachehitratio_Base</value>
-			</item_002>
-			<item_003>
-				<data_input_field_id>hash_070016b54681afa7ed5b514c6d868990ddca24</data_input_field_id>
-				<t_value></t_value>
-				<value>Win32_PerfRawData_MSSQLSERVER_SQLServerBufferManager</value>
 			</item_003>
 			<item_004>
 				<data_input_field_id>hash_070016b943e3804f3c783388515bdc0babbfa5</data_input_field_id>
 				<t_value>on</t_value>
-				<value>credential</value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_070016b54681afa7ed5b514c6d868990ddca24</data_input_field_id>
+				<t_value></t_value>
+				<value>Win32_PerfRawData_MSSQLSERVER_SQLServerBufferManager</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016dd6fb328b93fe8725498b5e5d8fc1118</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_010016ca93699890eded68f0ce7caef2ade9a9>
 	<hash_03001605a203d8464bcdf10b892a5e1d0883c4>
 		<name>WMI - SQL - Transactions</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016733acc470935645cbd7b2a2363c057da>
 				<name>Hostname</name>
@@ -518,12 +533,21 @@
 				<input_output>out</input_output>
 				<data_name>Transactions</data_name>
 			</hash_07001658b921857a580555df5d9912f825e50d>
+			<hash_0700161943abb6a2bf141f20e605dbc1ccbfe4>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_0700161943abb6a2bf141f20e605dbc1ccbfe4>
 		</fields>
 	</hash_03001605a203d8464bcdf10b892a5e1d0883c4>
 	<hash_03001632c173c206a87f7ef0694812bb745010>
 		<name>WMI - SQL - Statistics</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016e69fe8a3ce804b781db33757d084e2c4>
 				<name>Hostname</name>
@@ -588,12 +612,21 @@
 				<input_output>out</input_output>
 				<data_name>BatchRequestsPersec</data_name>
 			</hash_070016cc25153dece97955bda449aef6f0b7b0>
+			<hash_0700161f4dabea61196a805d1524a377894325>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_0700161f4dabea61196a805d1524a377894325>
 		</fields>
 	</hash_03001632c173c206a87f7ef0694812bb745010>
 	<hash_0300168479b6c6f5e5babce7179623898b4403>
 		<name>WMI - SQL - Buffer Manager</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016dd6fb328b93fe8725498b5e5d8fc1118>
 				<name>Hostname</name>
@@ -667,6 +700,15 @@
 				<input_output>out</input_output>
 				<data_name>Buffercachehitratio_Base</data_name>
 			</hash_070016efb014ab72680f7a9120aa8659420389>
+			<hash_07001647974617368eb41e5a6e5d0bf3d57a17>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_07001647974617368eb41e5a6e5d0bf3d57a17>
 		</fields>
 	</hash_0300168479b6c6f5e5babce7179623898b4403>
 	<hash_150016c21df5178e5c955013591239eb0afd46>

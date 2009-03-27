@@ -37,7 +37,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>Sessions / Sec</vertical_label>
+			<vertical_label>Sessions Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_100016ab4ecb6a61f329d774b137a35c9d36a5>
@@ -233,41 +233,46 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700166a0d07858dd0b6f2515478c7827596dd</data_input_field_id>
+				<data_input_field_id>hash_0700161a840a9b1d532d87a76cca899aa52858</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016f2b238b884fcfbe49316dab184b47638</data_input_field_id>
+				<data_input_field_id>hash_0700166a0d07858dd0b6f2515478c7827596dd</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_070016f2b238b884fcfbe49316dab184b47638</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_070016b1df2471d7d4c5c5ab5644991763c837</data_input_field_id>
 				<t_value></t_value>
 				<value>OpenedSessions,ClosedSessions,TimedoutSessions,OpenSessions</value>
-			</item_002>
-			<item_003>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_07001624ee835590dc575792288463b5531e9f</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfRawData_SurfControlScoutService_SurfControlWebFilter</value>
-			</item_003>
-			<item_004>
-				<data_input_field_id>hash_070016dddd44518d982d52ccf9355fce3393f8</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_070016dddd44518d982d52ccf9355fce3393f8</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016719947e4ffab4160baedb28bab91db94</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_010016a119f9f2e75414889d6f0836461f77c7>
 	<hash_030016e7ed175d7aa16286560ac8cf7e398018>
 		<name>WMI - Surf Control 5.5 - Web Filter</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016719947e4ffab4160baedb28bab91db94>
 				<name>Hostname</name>
@@ -359,6 +364,15 @@
 				<input_output>out</input_output>
 				<data_name>TimedoutSessions</data_name>
 			</hash_07001628d0fb4b9737d652b974a28dba9c7709>
+			<hash_0700161a840a9b1d532d87a76cca899aa52858>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_0700161a840a9b1d532d87a76cca899aa52858>
 		</fields>
 	</hash_030016e7ed175d7aa16286560ac8cf7e398018>
 	<hash_150016c21df5178e5c955013591239eb0afd46>

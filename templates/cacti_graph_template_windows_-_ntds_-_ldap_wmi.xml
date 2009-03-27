@@ -37,7 +37,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>operations per/sec</vertical_label>
+			<vertical_label>Operations Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_100016a5d228f51ace680df281888681651262>
@@ -433,41 +433,46 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016a6438e576e0bc4d818f7aafb2be225e2</data_input_field_id>
+				<data_input_field_id>hash_070016b86a57b7fd75cb0c718e85d1b8c10715</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_07001627983feea5375d14fad7cc6d070bb64b</data_input_field_id>
+				<data_input_field_id>hash_070016a6438e576e0bc4d818f7aafb2be225e2</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_070016aecdf0f4f1d3531b8b48dd521d6a7592</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_002>
+			<item_003>
+				<data_input_field_id>hash_07001627983feea5375d14fad7cc6d070bb64b</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_07001677d1347b7b59870bf78e422c337e7199</data_input_field_id>
 				<t_value></t_value>
 				<value>LDAPActiveThreads,LDAPClientSessions,LDAPClosedConnectionsPersec,LDAPNewConnectionsPersec,LDAPNewSSLConnectionsPersec,LDAPSearchesPersec,LDAPSuccessfulBindsPersec,LDAPUDPoperationsPersec,LDAPWritesPersec,LDAPBindTime</value>
-			</item_002>
-			<item_003>
+			</item_004>
+			<item_005>
 				<data_input_field_id>hash_070016fbd6d938f5c4b44dd59c91a650dffc9c</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfRawData_NTDS_NTDS</value>
-			</item_003>
-			<item_004>
-				<data_input_field_id>hash_070016aecdf0f4f1d3531b8b48dd521d6a7592</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
-			</item_004>
-			<item_005>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_0700161f2f4286bdd2a78bafa2589585d83d0d</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_0100160a16402e251789adc0d5ac8b00b2a785>
 	<hash_03001696ce480132142045ceadcd5158773ce8>
 		<name>WMI - NTDS (LDAP)</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700161f2f4286bdd2a78bafa2589585d83d0d>
 				<name>Hostname</name>
@@ -613,6 +618,15 @@
 				<input_output>out</input_output>
 				<data_name>LDAPWritesPersec</data_name>
 			</hash_0700167059c13c0e029b958e5fca1c2ee30008>
+			<hash_070016b86a57b7fd75cb0c718e85d1b8c10715>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016b86a57b7fd75cb0c718e85d1b8c10715>
 		</fields>
 	</hash_03001696ce480132142045ceadcd5158773ce8>
 	<hash_150016c21df5178e5c955013591239eb0afd46>

@@ -1,7 +1,7 @@
 <cacti>	
 	<hash_020016fdb5ac078664b5e492c2fbb827d6326a>
 		<name>WMI - All</name>
-		<graph_templates>hash_000016cfb49e53c652c11e5b4ff2e84d9e95cb|hash_0000164dd4df49927c46eed670968f508317ed|hash_00001651b6beed8ae668fa1797e874fefeca56|hash_000016a1f18315e6eb7e6fa4b52fc5d7224526|hash_0000163d2bf6950ffb0b4f060ee14a6af0afd7|hash_000016736d9596c253d8119bef75163316fe14|hash_000016575ea5d0c836d7182fbbbe4f0f5ef0b9|hash_0000167ffab5a75822c2324643f3d239108dfb|hash_000016d3670268b69b6337a677a5681d51426f|hash_000016b11c06f9bdf710f9ce9a0a7a99d7e1d5|hash_000016b1cf9f52f9f543ea8b03985c252b5b41|hash_00001636864ec90388a89b0f243d35b618b62d|hash_00001649c6e92d7ba12d63d35c7073a54260dd|hash_000016307cbb389003ca76f5dcbcc4a83902a6|hash_0000163fba888182903681f42077c1dc72a9dc|hash_00001607b48b2da535d9f172f1ad3401c78c16|hash_000016d3a0094448ccb1476ee77a81bf2e11e6|hash_000016832bfca261131c8e4c99ced93b7aa60c|hash_000016994f536752a622e87f120981d1f7b1eb|hash_00001613fa10764d993bbeef31adb2ed786ae1|hash_00001696c568b466a047d6050b7c7404de4f89|hash_000016fe3f5fdf3c5f493da9fe5d5ce28cfe10|hash_00001665954e6e24518a2cf07c2a16e52afebd|hash_0000162e928c10b30fd864a9831dd6245130ec|hash_0000169f09559a9cd3c9e7be5f7d40ead24977|hash_0000161346e4d7f18e0fe1e940a87e89c42009</graph_templates>
+		<graph_templates>hash_000016cfb49e53c652c11e5b4ff2e84d9e95cb|hash_0000164dd4df49927c46eed670968f508317ed|hash_00001651b6beed8ae668fa1797e874fefeca56|hash_000016a1f18315e6eb7e6fa4b52fc5d7224526|hash_0000163d2bf6950ffb0b4f060ee14a6af0afd7|hash_000016736d9596c253d8119bef75163316fe14|hash_000016575ea5d0c836d7182fbbbe4f0f5ef0b9|hash_0000167ffab5a75822c2324643f3d239108dfb|hash_000016d3670268b69b6337a677a5681d51426f|hash_000016b11c06f9bdf710f9ce9a0a7a99d7e1d5|hash_000016b1cf9f52f9f543ea8b03985c252b5b41|hash_00001636864ec90388a89b0f243d35b618b62d|hash_00001649c6e92d7ba12d63d35c7073a54260dd|hash_000016307cbb389003ca76f5dcbcc4a83902a6|hash_0000163fba888182903681f42077c1dc72a9dc|hash_00001607b48b2da535d9f172f1ad3401c78c16|hash_000016d3a0094448ccb1476ee77a81bf2e11e6|hash_000016832bfca261131c8e4c99ced93b7aa60c|hash_000016994f536752a622e87f120981d1f7b1eb|hash_00001613fa10764d993bbeef31adb2ed786ae1|hash_00001696c568b466a047d6050b7c7404de4f89|hash_000016fe3f5fdf3c5f493da9fe5d5ce28cfe10|hash_00001665954e6e24518a2cf07c2a16e52afebd|hash_0000162e928c10b30fd864a9831dd6245130ec|hash_0000169f09559a9cd3c9e7be5f7d40ead24977|hash_0000161346e4d7f18e0fe1e940a87e89c42009|hash_000016b6158673d323bbec38d3df9482f2040b|hash_000016edcf90f694489e69da1bed76e634d5de|hash_000016835834e174257f14a2e12425e63a1819|hash_00001640905e7e440d1155c3b8e6865d72332d</graph_templates>
 		<data_queries></data_queries>
 	</hash_020016fdb5ac078664b5e492c2fbb827d6326a>
 	<hash_000016cfb49e53c652c11e5b4ff2e84d9e95cb>
@@ -526,7 +526,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>operations per/sec</vertical_label>
+			<vertical_label>Operations Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_1000169ce7e7fec8532d14d3483867e87836c4>
@@ -777,7 +777,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>bytes</vertical_label>
+			<vertical_label>Bytes</vertical_label>
 		</graph>
 		<items>
 			<hash_10001644efec60bf45ed010134f4b9a27487c3>
@@ -1054,7 +1054,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>percent</vertical_label>
+			<vertical_label>Percent</vertical_label>
 		</graph>
 		<items>
 			<hash_10001641629242d29071a3c2609255fbfc5f37>
@@ -1389,7 +1389,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>percent</vertical_label>
+			<vertical_label>Percent</vertical_label>
 		</graph>
 		<items>
 			<hash_100016d5a256acb8bed79ce7426e2b11654746>
@@ -1550,7 +1550,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>percent</vertical_label>
+			<vertical_label>Percent</vertical_label>
 		</graph>
 		<items>
 			<hash_100016772c262a511bd1bb7ebb37c5ff78837c>
@@ -1769,7 +1769,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>operations per/sec</vertical_label>
+			<vertical_label>Operations Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_100016e74ecdca6d7a080072842c292ebf6165>
@@ -1988,7 +1988,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>auths per/sec</vertical_label>
+			<vertical_label>Auths Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_10001691e69fe0470bd740707d6600ab6c3397>
@@ -2149,7 +2149,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>operations per/sec</vertical_label>
+			<vertical_label>Operations Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_100016a5d228f51ace680df281888681651262>
@@ -2426,7 +2426,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>connections / sec</vertical_label>
+			<vertical_label>Connections Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_10001640942fc2277f709950e2e330317a8f8c>
@@ -2645,7 +2645,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>Messages / Sec</vertical_label>
+			<vertical_label>Messages Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_10001680cce24049d9d2f759db8f34fb33e0c0>
@@ -2968,7 +2968,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label></vertical_label>
+			<vertical_label>Logons</vertical_label>
 		</graph>
 		<items>
 			<hash_10001651795d9d6acbc1d763acedfc6c23e618>
@@ -3490,7 +3490,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label></vertical_label>
+			<vertical_label>Count</vertical_label>
 		</graph>
 		<items>
 			<hash_100016089f6d2ee257baf436b92558c980843f>
@@ -3651,7 +3651,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label></vertical_label>
+			<vertical_label>Bytes</vertical_label>
 		</graph>
 		<items>
 			<hash_100016021cda29a62d6028f29e9b88eb6dba95>
@@ -3812,7 +3812,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>Context Switches per Sec</vertical_label>
+			<vertical_label>Context Switches Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_100016e54c32edd033e50bb8ed8de37258269a>
@@ -3873,7 +3873,7 @@
 				<name>Data Source [ContextSwitches]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_00001619f90468832f451f637a4796e27a92a9|hash_0000162ef6746b468e0f5872a906ba863d26a2|hash_000016b5e3e5c12622659d5b9320274ea9e949|hash_000016e54c32edd033e50bb8ed8de37258269a|hash_0000166cc47372ecb741603e8227dc8026cad3|hash_00001669d6ea5026ac5176e5b225947a58563f|hash_00001698970f5b8b5e10cf9dda81c5a8ea54de|hash_00001661b59f47080a5d1487f0add8d82984b9</items>
+				<items>hash_00001619f90468832f451f637a4796e27a92a9|hash_0000162ef6746b468e0f5872a906ba863d26a2|hash_000016b5e3e5c12622659d5b9320274ea9e949|hash_000016e54c32edd033e50bb8ed8de37258269a|hash_000016904c7a8b6da2a622ef6cd42b0c6a449a|hash_00001605ac0006f24965c3f892688ef3bf0aa5|hash_000016ccb41941fdcf60046fa4ab5ae9cb9145|hash_000016cedfdf8858d68c9d7dc6c3620635986a</items>
 			</hash_09001618a7136997b72a57cea541d04ea6b4f2>
 		</inputs>
 	</hash_000016d3a0094448ccb1476ee77a81bf2e11e6>
@@ -3976,7 +3976,7 @@
 				<name>Data Source [ProcessorQueue]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_000016eb714a76f8b84e826d860dcaa504a927|hash_000016eeae3d7e481be6fcb0964f0147e3df7b|hash_000016a29622bfc3ff109be6df956d822f6fcc|hash_000016dd18e078b88be293ce4fc8db70edbdd4|hash_000016933717c68f3f07b9f901788a226d44fd|hash_00001683c15d27d00d3cc88d778e01c8331354|hash_000016b906077ba1e9023be03001bc396a5658|hash_0000166a20412f16cf297b5a3a77860ad1fd81</items>
+				<items>hash_000016eb714a76f8b84e826d860dcaa504a927|hash_000016eeae3d7e481be6fcb0964f0147e3df7b|hash_000016a29622bfc3ff109be6df956d822f6fcc|hash_000016dd18e078b88be293ce4fc8db70edbdd4|hash_000016aab7483997a8c0fc1053a782184e3c5d|hash_000016c0284aff9c3b5b0f77c8f86de11741c6|hash_000016fbadabd391148057bb0cf907addeb3f3|hash_0000164acbe936aa78cfa7ba13d49ee9dfa2f2</items>
 			</hash_0900163ff0b74c38ac35617e9831a4e337c040>
 		</inputs>
 	</hash_000016832bfca261131c8e4c99ced93b7aa60c>
@@ -4018,7 +4018,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>processes</vertical_label>
+			<vertical_label>Processes</vertical_label>
 		</graph>
 		<items>
 			<hash_1000161c2951a82c70bb84c96283d56d0df88f>
@@ -4079,7 +4079,7 @@
 				<name>Data Source [Processes]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_0000161c2951a82c70bb84c96283d56d0df88f|hash_000016e6a40e2855b82d9694d6c67e54c381f4|hash_000016283aa559e62fc1cda7decdc21435d11d|hash_0000163832c552a53f0e2bdaf35c1690bc2cd8|hash_000016042ed2d5ebcb318fc461bf73deb53ac5|hash_00001681b8582ea967db1ff68779d36f920ff1|hash_0000160bcac71b96ad60d129060e7609a5c58b|hash_00001656cb7827d28886cfe59cfb678dc5abb7</items>
+				<items>hash_0000161c2951a82c70bb84c96283d56d0df88f|hash_000016e6a40e2855b82d9694d6c67e54c381f4|hash_000016283aa559e62fc1cda7decdc21435d11d|hash_0000163832c552a53f0e2bdaf35c1690bc2cd8|hash_00001600da2287ccf81b515d03f489083e4b44|hash_000016d0f2c7cecca6ca465843e218f68b5d8e|hash_000016b0a033794265c8aa2657126f83a2d81b|hash_0000169bd9d1e47b0579ba437e0f923a495f5f</items>
 			</hash_09001664bbda92421a3873f02e3848c3ed0a3f>
 		</inputs>
 	</hash_000016994f536752a622e87f120981d1f7b1eb>
@@ -4121,7 +4121,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>System Calls per Sec</vertical_label>
+			<vertical_label>System Calls Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_10001630e2067e31c186382a77defd44650b1c>
@@ -4182,7 +4182,7 @@
 				<name>Data Source [SystemCalls]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_000016e383b6ea2ce122b0b863a508146fe92c|hash_00001672c25ffd9797ac5877615dfdc4b72a14|hash_000016a0d7206779bc375c0caf271eac772f25|hash_00001630e2067e31c186382a77defd44650b1c|hash_000016f1f5f66a386b8aaa32bbce91fedbfce1|hash_0000162d87d34a3afeabf6bfea51bf4930c775|hash_0000167f6c0fc320286ecdffb1d333bcec6166|hash_000016e1bb7d90b73c7f8e38ff2a85244b18d5</items>
+				<items>hash_000016e383b6ea2ce122b0b863a508146fe92c|hash_00001672c25ffd9797ac5877615dfdc4b72a14|hash_000016a0d7206779bc375c0caf271eac772f25|hash_00001630e2067e31c186382a77defd44650b1c|hash_000016f572d11e5c079a1eb18f369610dbfbe6|hash_000016ecd81f64b7e5e7807c98b0c9a6b5e481|hash_000016c8e571c8eb5b4f326288ed2a4bddf210|hash_000016eefa12080a53414f9dbc660d1c51557b</items>
 			</hash_090016518b4e7d8df1c8dc50e648e1142ed85a>
 		</inputs>
 	</hash_00001613fa10764d993bbeef31adb2ed786ae1>
@@ -4224,7 +4224,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>Messages / Sec</vertical_label>
+			<vertical_label>Messages Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_1000165e59277e1503ffbff90650f28c927031>
@@ -4721,7 +4721,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>percent</vertical_label>
+			<vertical_label>Percent</vertical_label>
 		</graph>
 		<items>
 			<hash_10001616be5661d87edf659a0590e8ada19026>
@@ -5404,7 +5404,7 @@
 			<t_unit_exponent_value></t_unit_exponent_value>
 			<unit_exponent_value></unit_exponent_value>
 			<t_vertical_label></t_vertical_label>
-			<vertical_label>Sessions / Sec</vertical_label>
+			<vertical_label>Sessions Per Sec</vertical_label>
 		</graph>
 		<items>
 			<hash_100016ab4ecb6a61f329d774b137a35c9d36a5>
@@ -5643,6 +5643,1353 @@
 			</hash_09001663b370dedd033ba4e54a525190a1b79b>
 		</inputs>
 	</hash_0000161346e4d7f18e0fe1e940a87e89c42009>
+	<hash_000016b6158673d323bbec38d3df9482f2040b>
+		<name>IIS - Request Statistics (WMI)</name>
+		<graph>
+			<t_title></t_title>
+			<title>|host_description| - IIS - Request Statistics</title>
+			<t_image_format_id></t_image_format_id>
+			<image_format_id>1</image_format_id>
+			<t_height></t_height>
+			<height>120</height>
+			<t_width></t_width>
+			<width>500</width>
+			<t_slope_mode></t_slope_mode>
+			<slope_mode>on</slope_mode>
+			<t_auto_scale></t_auto_scale>
+			<auto_scale>on</auto_scale>
+			<t_auto_scale_opts></t_auto_scale_opts>
+			<auto_scale_opts>2</auto_scale_opts>
+			<t_auto_scale_log></t_auto_scale_log>
+			<auto_scale_log></auto_scale_log>
+			<t_scale_log_units></t_scale_log_units>
+			<scale_log_units></scale_log_units>
+			<t_auto_scale_rigid></t_auto_scale_rigid>
+			<auto_scale_rigid></auto_scale_rigid>
+			<t_auto_padding></t_auto_padding>
+			<auto_padding>on</auto_padding>
+			<t_export></t_export>
+			<export>on</export>
+			<t_upper_limit></t_upper_limit>
+			<upper_limit>100</upper_limit>
+			<t_lower_limit></t_lower_limit>
+			<lower_limit>0</lower_limit>
+			<t_base_value></t_base_value>
+			<base_value>1000</base_value>
+			<t_unit_value></t_unit_value>
+			<unit_value></unit_value>
+			<t_unit_exponent_value></t_unit_exponent_value>
+			<unit_exponent_value></unit_exponent_value>
+			<t_vertical_label></t_vertical_label>
+			<vertical_label>Requests Per Sec</vertical_label>
+		</graph>
+		<items>
+			<hash_10001665b2c89861a5d0de9a2e48e97a365834>
+				<task_item_id>hash_08001684316de97bc8ad6dc886d906c7c40b1d</task_item_id>
+				<color_id>C4FD3D</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>7</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Copy</text_format>
+				<hard_return></hard_return>
+				<sequence>1</sequence>
+			</hash_10001665b2c89861a5d0de9a2e48e97a365834>
+			<hash_100016cca4e499593630cf5423e6a8ab8ed95b>
+				<task_item_id>hash_08001684316de97bc8ad6dc886d906c7c40b1d</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>2</sequence>
+			</hash_100016cca4e499593630cf5423e6a8ab8ed95b>
+			<hash_1000168103d6fa738bfe9436955d904f71438f>
+				<task_item_id>hash_08001684316de97bc8ad6dc886d906c7c40b1d</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>3</sequence>
+			</hash_1000168103d6fa738bfe9436955d904f71438f>
+			<hash_10001654d9c3c691a6f3c01e0f5ab44927e989>
+				<task_item_id>hash_08001684316de97bc8ad6dc886d906c7c40b1d</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>4</sequence>
+			</hash_10001654d9c3c691a6f3c01e0f5ab44927e989>
+			<hash_10001634cb4a18f3d8fff100492c163467741f>
+				<task_item_id>hash_080016f3c4de14c2e6651a92793c6d6f6271a4</task_item_id>
+				<color_id>6DC8FE</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Delete</text_format>
+				<hard_return></hard_return>
+				<sequence>5</sequence>
+			</hash_10001634cb4a18f3d8fff100492c163467741f>
+			<hash_100016ee09c54a28d5f9837b0d881760594219>
+				<task_item_id>hash_080016f3c4de14c2e6651a92793c6d6f6271a4</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>6</sequence>
+			</hash_100016ee09c54a28d5f9837b0d881760594219>
+			<hash_10001697f4256c298fb8f076011ad2440b2ff8>
+				<task_item_id>hash_080016f3c4de14c2e6651a92793c6d6f6271a4</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>7</sequence>
+			</hash_10001697f4256c298fb8f076011ad2440b2ff8>
+			<hash_100016883b80897b4859b0591946bdfba83383>
+				<task_item_id>hash_080016f3c4de14c2e6651a92793c6d6f6271a4</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>8</sequence>
+			</hash_100016883b80897b4859b0591946bdfba83383>
+			<hash_100016d839e9d2f13bf88246ed3d722d52daa4>
+				<task_item_id>hash_0800169699fd3436a3f1e7e8cace8bdb8e7c2c</task_item_id>
+				<color_id>FF0000</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Get</text_format>
+				<hard_return></hard_return>
+				<sequence>9</sequence>
+			</hash_100016d839e9d2f13bf88246ed3d722d52daa4>
+			<hash_10001624879cd2de246c98a3d450363c993e5b>
+				<task_item_id>hash_0800169699fd3436a3f1e7e8cace8bdb8e7c2c</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>10</sequence>
+			</hash_10001624879cd2de246c98a3d450363c993e5b>
+			<hash_1000160e5bc94b85dfd5ff57317636a2914143>
+				<task_item_id>hash_0800169699fd3436a3f1e7e8cace8bdb8e7c2c</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>11</sequence>
+			</hash_1000160e5bc94b85dfd5ff57317636a2914143>
+			<hash_100016ecdd1e044c279d0c1d35da1fc3b8cdb1>
+				<task_item_id>hash_0800169699fd3436a3f1e7e8cace8bdb8e7c2c</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>12</sequence>
+			</hash_100016ecdd1e044c279d0c1d35da1fc3b8cdb1>
+			<hash_100016080e8b5dec1411615a74ee4209cd982a>
+				<task_item_id>hash_08001671febb4cc871d4f9505e469238157f1d</task_item_id>
+				<color_id>005D57</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Head</text_format>
+				<hard_return></hard_return>
+				<sequence>13</sequence>
+			</hash_100016080e8b5dec1411615a74ee4209cd982a>
+			<hash_100016b4b2b629b34a8f99ffe8327a1ef1ea44>
+				<task_item_id>hash_08001671febb4cc871d4f9505e469238157f1d</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>14</sequence>
+			</hash_100016b4b2b629b34a8f99ffe8327a1ef1ea44>
+			<hash_100016fbc1542ce0499cacde4766ea2c977db5>
+				<task_item_id>hash_08001671febb4cc871d4f9505e469238157f1d</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>15</sequence>
+			</hash_100016fbc1542ce0499cacde4766ea2c977db5>
+			<hash_100016706482732728484e344e9875fd1db99a>
+				<task_item_id>hash_08001671febb4cc871d4f9505e469238157f1d</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>16</sequence>
+			</hash_100016706482732728484e344e9875fd1db99a>
+			<hash_100016ab3a3b5de129ae0113f65fa8da1b8ba0>
+				<task_item_id>hash_080016653c8efebe3adc0145ce9dc6be260406</task_item_id>
+				<color_id>562B29</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Lock</text_format>
+				<hard_return></hard_return>
+				<sequence>17</sequence>
+			</hash_100016ab3a3b5de129ae0113f65fa8da1b8ba0>
+			<hash_100016b8073a8e890db378cb979f380d734bd3>
+				<task_item_id>hash_080016653c8efebe3adc0145ce9dc6be260406</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>18</sequence>
+			</hash_100016b8073a8e890db378cb979f380d734bd3>
+			<hash_1000165ff8532ae77c0568f0b3e3ad397f7702>
+				<task_item_id>hash_080016653c8efebe3adc0145ce9dc6be260406</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>19</sequence>
+			</hash_1000165ff8532ae77c0568f0b3e3ad397f7702>
+			<hash_10001679bbf09dfb9aea4083fcc5b7332b90a6>
+				<task_item_id>hash_080016653c8efebe3adc0145ce9dc6be260406</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>20</sequence>
+			</hash_10001679bbf09dfb9aea4083fcc5b7332b90a6>
+			<hash_1000163b39002df2b4a0f66d2503ff7f2477e7>
+				<task_item_id>hash_080016ac96c8352ece9ff19da1dbfc65da4048</task_item_id>
+				<color_id>EAAF00</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Mkcol</text_format>
+				<hard_return></hard_return>
+				<sequence>21</sequence>
+			</hash_1000163b39002df2b4a0f66d2503ff7f2477e7>
+			<hash_100016ed46629a9930d6a6e5cf22513e278948>
+				<task_item_id>hash_080016ac96c8352ece9ff19da1dbfc65da4048</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>22</sequence>
+			</hash_100016ed46629a9930d6a6e5cf22513e278948>
+			<hash_100016567265532f760b2f46e95b6f2e45b575>
+				<task_item_id>hash_080016ac96c8352ece9ff19da1dbfc65da4048</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>23</sequence>
+			</hash_100016567265532f760b2f46e95b6f2e45b575>
+			<hash_100016454de3b01fcba9afce3cd50428fb3a25>
+				<task_item_id>hash_080016ac96c8352ece9ff19da1dbfc65da4048</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>24</sequence>
+			</hash_100016454de3b01fcba9afce3cd50428fb3a25>
+			<hash_1000163ea8d0339a59ba4ac050f95647b361a6>
+				<task_item_id>hash_0800162c9824ee14e46ab928f94ff7ddf84eb0</task_item_id>
+				<color_id>4123A1</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Move</text_format>
+				<hard_return></hard_return>
+				<sequence>25</sequence>
+			</hash_1000163ea8d0339a59ba4ac050f95647b361a6>
+			<hash_1000169d890cbdb85d683ecc45854abae929af>
+				<task_item_id>hash_0800162c9824ee14e46ab928f94ff7ddf84eb0</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>26</sequence>
+			</hash_1000169d890cbdb85d683ecc45854abae929af>
+			<hash_100016eab218b1c2c765b382daf26fb9d5c711>
+				<task_item_id>hash_0800162c9824ee14e46ab928f94ff7ddf84eb0</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>27</sequence>
+			</hash_100016eab218b1c2c765b382daf26fb9d5c711>
+			<hash_100016d9c37a2511b5b332db55c35ca011ad6a>
+				<task_item_id>hash_0800162c9824ee14e46ab928f94ff7ddf84eb0</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>28</sequence>
+			</hash_100016d9c37a2511b5b332db55c35ca011ad6a>
+			<hash_1000167b1d793c365d720dae1a48010669928e>
+				<task_item_id>hash_080016cdcde868974fe42b535be51f1c1b6f1c</task_item_id>
+				<color_id>007283</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Option</text_format>
+				<hard_return></hard_return>
+				<sequence>29</sequence>
+			</hash_1000167b1d793c365d720dae1a48010669928e>
+			<hash_1000168f96763f66b2d8d942d0bd034cc467d5>
+				<task_item_id>hash_080016cdcde868974fe42b535be51f1c1b6f1c</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>30</sequence>
+			</hash_1000168f96763f66b2d8d942d0bd034cc467d5>
+			<hash_1000161f4b8ec1d0967d2fd9bec098394d9471>
+				<task_item_id>hash_080016cdcde868974fe42b535be51f1c1b6f1c</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>31</sequence>
+			</hash_1000161f4b8ec1d0967d2fd9bec098394d9471>
+			<hash_100016d01a1cf296ccdb69262c83b30d7bfb52>
+				<task_item_id>hash_080016cdcde868974fe42b535be51f1c1b6f1c</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>32</sequence>
+			</hash_100016d01a1cf296ccdb69262c83b30d7bfb52>
+			<hash_1000164000a9131bae29be30a80b89145db3c7>
+				<task_item_id>hash_080016cdcde868974fe42b535be51f1c1b6f1c</task_item_id>
+				<color_id>005199</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Other</text_format>
+				<hard_return></hard_return>
+				<sequence>33</sequence>
+			</hash_1000164000a9131bae29be30a80b89145db3c7>
+			<hash_100016dfcaf9c40080e58cb1c864dfdd1089c4>
+				<task_item_id>hash_080016e08b644837ffdd54a9a9f3655cc4a913</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>34</sequence>
+			</hash_100016dfcaf9c40080e58cb1c864dfdd1089c4>
+			<hash_100016ed4dd34db96e8aa244fb19ee1c11806c>
+				<task_item_id>hash_080016e08b644837ffdd54a9a9f3655cc4a913</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>35</sequence>
+			</hash_100016ed4dd34db96e8aa244fb19ee1c11806c>
+			<hash_10001606484dcf8ca641310ffea58ffd6894a2>
+				<task_item_id>hash_080016e08b644837ffdd54a9a9f3655cc4a913</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>36</sequence>
+			</hash_10001606484dcf8ca641310ffea58ffd6894a2>
+			<hash_100016b366848f76de72aa19a15986b26cd4f0>
+				<task_item_id>hash_08001619c53ab738016c53657c56d8536f6531</task_item_id>
+				<color_id>00FF00</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Post</text_format>
+				<hard_return></hard_return>
+				<sequence>37</sequence>
+			</hash_100016b366848f76de72aa19a15986b26cd4f0>
+			<hash_100016ccee6201ee57e3b290fb26b7d6230398>
+				<task_item_id>hash_08001619c53ab738016c53657c56d8536f6531</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>38</sequence>
+			</hash_100016ccee6201ee57e3b290fb26b7d6230398>
+			<hash_1000161935fe8464d469234fd11a51e2d2b158>
+				<task_item_id>hash_08001619c53ab738016c53657c56d8536f6531</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>39</sequence>
+			</hash_1000161935fe8464d469234fd11a51e2d2b158>
+			<hash_100016ed84832fb89db5b8e3fbb6aa2f5b4073>
+				<task_item_id>hash_08001619c53ab738016c53657c56d8536f6531</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>40</sequence>
+			</hash_100016ed84832fb89db5b8e3fbb6aa2f5b4073>
+			<hash_10001648c18f17bbd05e3b24cf4a8909d01ef5>
+				<task_item_id>hash_080016a2028fc4d180271272bfecd5af57fda7</task_item_id>
+				<color_id>35962B</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>PropFind</text_format>
+				<hard_return></hard_return>
+				<sequence>41</sequence>
+			</hash_10001648c18f17bbd05e3b24cf4a8909d01ef5>
+			<hash_100016767555cbfc77863030962768c02e61c7>
+				<task_item_id>hash_080016a2028fc4d180271272bfecd5af57fda7</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>42</sequence>
+			</hash_100016767555cbfc77863030962768c02e61c7>
+			<hash_100016b8dc04afb4af1f04da9d0162a96a506e>
+				<task_item_id>hash_080016a2028fc4d180271272bfecd5af57fda7</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>43</sequence>
+			</hash_100016b8dc04afb4af1f04da9d0162a96a506e>
+			<hash_1000168efb07de4e71c78daf327b30f11adc8e>
+				<task_item_id>hash_080016a2028fc4d180271272bfecd5af57fda7</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>44</sequence>
+			</hash_1000168efb07de4e71c78daf327b30f11adc8e>
+			<hash_10001614b11bc2a7294554c9fa23ad87c1f9a5>
+				<task_item_id>hash_0800163dcab62d19bb8d8b64860f88e5f8a4a4</task_item_id>
+				<color_id>3D168B</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>PropPatch</text_format>
+				<hard_return></hard_return>
+				<sequence>45</sequence>
+			</hash_10001614b11bc2a7294554c9fa23ad87c1f9a5>
+			<hash_100016fd7f01f365fe8c052064af1443f37229>
+				<task_item_id>hash_0800163dcab62d19bb8d8b64860f88e5f8a4a4</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>46</sequence>
+			</hash_100016fd7f01f365fe8c052064af1443f37229>
+			<hash_100016f2353ad5e6df0aecb687d7a545560a36>
+				<task_item_id>hash_0800163dcab62d19bb8d8b64860f88e5f8a4a4</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>47</sequence>
+			</hash_100016f2353ad5e6df0aecb687d7a545560a36>
+			<hash_100016d0162136e4ad45a71ede47dc532450b0>
+				<task_item_id>hash_0800163dcab62d19bb8d8b64860f88e5f8a4a4</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>48</sequence>
+			</hash_100016d0162136e4ad45a71ede47dc532450b0>
+			<hash_1000160441a4caf684e61d91ed44909ac99385>
+				<task_item_id>hash_080016101c874a56c098e3f4b7b1ef019e5fb7</task_item_id>
+				<color_id>00BD27</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Put</text_format>
+				<hard_return></hard_return>
+				<sequence>49</sequence>
+			</hash_1000160441a4caf684e61d91ed44909ac99385>
+			<hash_1000169cf63ed8ce6ea61292beb11affad0233>
+				<task_item_id>hash_080016101c874a56c098e3f4b7b1ef019e5fb7</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>50</sequence>
+			</hash_1000169cf63ed8ce6ea61292beb11affad0233>
+			<hash_1000160d99bb47a5bea9190f24c30d39ab59fd>
+				<task_item_id>hash_080016101c874a56c098e3f4b7b1ef019e5fb7</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>51</sequence>
+			</hash_1000160d99bb47a5bea9190f24c30d39ab59fd>
+			<hash_1000162bf6ddd01ee85c28606502c59027c794>
+				<task_item_id>hash_080016101c874a56c098e3f4b7b1ef019e5fb7</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>52</sequence>
+			</hash_1000162bf6ddd01ee85c28606502c59027c794>
+			<hash_10001610875f09b6dea0fabfb39864235972a2>
+				<task_item_id>hash_08001630c18f4657f85c5b9cca2af2da2c9a9b</task_item_id>
+				<color_id>00BBB4</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Search</text_format>
+				<hard_return></hard_return>
+				<sequence>53</sequence>
+			</hash_10001610875f09b6dea0fabfb39864235972a2>
+			<hash_100016b514b3e6ee9ed7a844b216d22bb5f621>
+				<task_item_id>hash_08001630c18f4657f85c5b9cca2af2da2c9a9b</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>54</sequence>
+			</hash_100016b514b3e6ee9ed7a844b216d22bb5f621>
+			<hash_100016d683101ae7f0a9bd4717dfa0b0c34af2>
+				<task_item_id>hash_08001630c18f4657f85c5b9cca2af2da2c9a9b</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>55</sequence>
+			</hash_100016d683101ae7f0a9bd4717dfa0b0c34af2>
+			<hash_10001613dabacea68244b380a842da83048c75>
+				<task_item_id>hash_08001630c18f4657f85c5b9cca2af2da2c9a9b</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>56</sequence>
+			</hash_10001613dabacea68244b380a842da83048c75>
+			<hash_100016e261ad1ebaa6c0d43d7a606ec5e90c51>
+				<task_item_id>hash_08001633d2898aad9fd6c309fb8a5771b17fc8</task_item_id>
+				<color_id>AD3B6E</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Trace</text_format>
+				<hard_return></hard_return>
+				<sequence>57</sequence>
+			</hash_100016e261ad1ebaa6c0d43d7a606ec5e90c51>
+			<hash_1000163fab19f244ca04ea1913c41c35531b7a>
+				<task_item_id>hash_08001633d2898aad9fd6c309fb8a5771b17fc8</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>58</sequence>
+			</hash_1000163fab19f244ca04ea1913c41c35531b7a>
+			<hash_1000164d6a28a7fde832bd0d16fa71b620c7c1>
+				<task_item_id>hash_08001633d2898aad9fd6c309fb8a5771b17fc8</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>59</sequence>
+			</hash_1000164d6a28a7fde832bd0d16fa71b620c7c1>
+			<hash_1000162f8825dcf8d7134498d9afe1748f2a4e>
+				<task_item_id>hash_08001633d2898aad9fd6c309fb8a5771b17fc8</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>60</sequence>
+			</hash_1000162f8825dcf8d7134498d9afe1748f2a4e>
+			<hash_100016a221bf2449f8c453e5388b5ff0eb2e0b>
+				<task_item_id>hash_0800162cbfda65186615dd97d1bf891cd1429e</task_item_id>
+				<color_id>8D85F3</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>8</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Unlock</text_format>
+				<hard_return></hard_return>
+				<sequence>61</sequence>
+			</hash_100016a221bf2449f8c453e5388b5ff0eb2e0b>
+			<hash_100016e0ce67d94ab9f1f489d13a0789cd1a20>
+				<task_item_id>hash_0800162cbfda65186615dd97d1bf891cd1429e</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>62</sequence>
+			</hash_100016e0ce67d94ab9f1f489d13a0789cd1a20>
+			<hash_100016d1bd37d9358bc71a743777c9854c8efe>
+				<task_item_id>hash_0800162cbfda65186615dd97d1bf891cd1429e</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>63</sequence>
+			</hash_100016d1bd37d9358bc71a743777c9854c8efe>
+			<hash_100016308a02d6617d6467f6cfd10ccda7ff26>
+				<task_item_id>hash_0800162cbfda65186615dd97d1bf891cd1429e</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>64</sequence>
+			</hash_100016308a02d6617d6467f6cfd10ccda7ff26>
+			<hash_100016138db0cb2c4a352c5234beb73783b710>
+				<task_item_id>0</task_item_id>
+				<color_id>000000</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>4</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>hash_050016f1ac79f05f255c02f914c920f1038c54</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Total </text_format>
+				<hard_return></hard_return>
+				<sequence>65</sequence>
+			</hash_100016138db0cb2c4a352c5234beb73783b710>
+			<hash_1000160bf10de7743eb4c904f7782c72b4874d>
+				<task_item_id>0</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>hash_050016f1ac79f05f255c02f914c920f1038c54</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>66</sequence>
+			</hash_1000160bf10de7743eb4c904f7782c72b4874d>
+			<hash_100016ba2f46865dcadb6995c8013592a722a2>
+				<task_item_id>0</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>hash_050016f1ac79f05f255c02f914c920f1038c54</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>67</sequence>
+			</hash_100016ba2f46865dcadb6995c8013592a722a2>
+			<hash_10001661b8fd0df5ad690b0597670476c27b44>
+				<task_item_id>0</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>hash_050016f1ac79f05f255c02f914c920f1038c54</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>68</sequence>
+			</hash_10001661b8fd0df5ad690b0597670476c27b44>
+		</items>
+		<inputs>
+			<hash_090016b56801327ee1b4ca149c9a3c2a518c09>
+				<name>Data Source [MkcolRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_000016454de3b01fcba9afce3cd50428fb3a25|hash_000016567265532f760b2f46e95b6f2e45b575|hash_000016ed46629a9930d6a6e5cf22513e278948|hash_0000163b39002df2b4a0f66d2503ff7f2477e7</items>
+			</hash_090016b56801327ee1b4ca149c9a3c2a518c09>
+			<hash_0900168bbe3349ff531b2854578a8b6e8cb82f>
+				<name>Data Source [GetRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_000016ecdd1e044c279d0c1d35da1fc3b8cdb1|hash_00001624879cd2de246c98a3d450363c993e5b|hash_0000160e5bc94b85dfd5ff57317636a2914143|hash_000016d839e9d2f13bf88246ed3d722d52daa4</items>
+			</hash_0900168bbe3349ff531b2854578a8b6e8cb82f>
+			<hash_09001693d2ff6bc86e31274a02ff50c32abb64>
+				<name>Data Source [HeadRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_000016706482732728484e344e9875fd1db99a|hash_000016b4b2b629b34a8f99ffe8327a1ef1ea44|hash_000016fbc1542ce0499cacde4766ea2c977db5|hash_000016080e8b5dec1411615a74ee4209cd982a</items>
+			</hash_09001693d2ff6bc86e31274a02ff50c32abb64>
+			<hash_090016959b34a58907b96219896dafadf6856a>
+				<name>Data Source [LockRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_000016ab3a3b5de129ae0113f65fa8da1b8ba0|hash_0000165ff8532ae77c0568f0b3e3ad397f7702|hash_00001679bbf09dfb9aea4083fcc5b7332b90a6|hash_000016b8073a8e890db378cb979f380d734bd3</items>
+			</hash_090016959b34a58907b96219896dafadf6856a>
+			<hash_0900165543974f12acb673983481ea8d475992>
+				<name>Data Source [DeleteRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_000016ee09c54a28d5f9837b0d881760594219|hash_00001634cb4a18f3d8fff100492c163467741f|hash_000016883b80897b4859b0591946bdfba83383|hash_00001697f4256c298fb8f076011ad2440b2ff8</items>
+			</hash_0900165543974f12acb673983481ea8d475992>
+			<hash_090016b75b7295e1c810a20d58ffa65b62f9bf>
+				<name>Data Source [CopyRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_0000168103d6fa738bfe9436955d904f71438f|hash_000016cca4e499593630cf5423e6a8ab8ed95b|hash_00001654d9c3c691a6f3c01e0f5ab44927e989|hash_00001665b2c89861a5d0de9a2e48e97a365834</items>
+			</hash_090016b75b7295e1c810a20d58ffa65b62f9bf>
+			<hash_090016a516870e79fb468323a2bd48c3de7ee6>
+				<name>Data Source [MoveRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_000016d9c37a2511b5b332db55c35ca011ad6a|hash_000016eab218b1c2c765b382daf26fb9d5c711|hash_0000169d890cbdb85d683ecc45854abae929af|hash_0000163ea8d0339a59ba4ac050f95647b361a6</items>
+			</hash_090016a516870e79fb468323a2bd48c3de7ee6>
+			<hash_0900161949547c80da9588fe08b9f8ca0dead6>
+				<name>Data Source [OptionsRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_0000164000a9131bae29be30a80b89145db3c7|hash_000016d01a1cf296ccdb69262c83b30d7bfb52|hash_0000161f4b8ec1d0967d2fd9bec098394d9471|hash_0000168f96763f66b2d8d942d0bd034cc467d5|hash_0000167b1d793c365d720dae1a48010669928e</items>
+			</hash_0900161949547c80da9588fe08b9f8ca0dead6>
+			<hash_090016ff4f1c828aa81837bdbcd896a4f12ddc>
+				<name>Data Source [OtherRequestMethods]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_00001606484dcf8ca641310ffea58ffd6894a2|hash_000016ed4dd34db96e8aa244fb19ee1c11806c|hash_000016dfcaf9c40080e58cb1c864dfdd1089c4</items>
+			</hash_090016ff4f1c828aa81837bdbcd896a4f12ddc>
+			<hash_09001603516a07c4a8bfb4a7ea8fc6cd38d28d>
+				<name>Data Source [PostRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_000016ed84832fb89db5b8e3fbb6aa2f5b4073|hash_0000161935fe8464d469234fd11a51e2d2b158|hash_000016ccee6201ee57e3b290fb26b7d6230398|hash_000016b366848f76de72aa19a15986b26cd4f0</items>
+			</hash_09001603516a07c4a8bfb4a7ea8fc6cd38d28d>
+			<hash_0900161fff255e55f87f6b87f042fa1e17bef0>
+				<name>Data Source [PropfindRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_0000168efb07de4e71c78daf327b30f11adc8e|hash_000016b8dc04afb4af1f04da9d0162a96a506e|hash_00001648c18f17bbd05e3b24cf4a8909d01ef5|hash_000016767555cbfc77863030962768c02e61c7</items>
+			</hash_0900161fff255e55f87f6b87f042fa1e17bef0>
+			<hash_090016f9da5477254a588a998cfe8f7242db0f>
+				<name>Data Source [ProppatchRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_000016f2353ad5e6df0aecb687d7a545560a36|hash_000016fd7f01f365fe8c052064af1443f37229|hash_00001614b11bc2a7294554c9fa23ad87c1f9a5|hash_000016d0162136e4ad45a71ede47dc532450b0</items>
+			</hash_090016f9da5477254a588a998cfe8f7242db0f>
+			<hash_090016b99865f9e9ee5daf35588211d1980738>
+				<name>Data Source [PutRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_0000162bf6ddd01ee85c28606502c59027c794|hash_0000160d99bb47a5bea9190f24c30d39ab59fd|hash_0000169cf63ed8ce6ea61292beb11affad0233|hash_0000160441a4caf684e61d91ed44909ac99385</items>
+			</hash_090016b99865f9e9ee5daf35588211d1980738>
+			<hash_0900166c42a311ee16ea07eb1b1bdc50c5850f>
+				<name>Data Source [SearchRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_00001613dabacea68244b380a842da83048c75|hash_000016d683101ae7f0a9bd4717dfa0b0c34af2|hash_000016b514b3e6ee9ed7a844b216d22bb5f621|hash_00001610875f09b6dea0fabfb39864235972a2</items>
+			</hash_0900166c42a311ee16ea07eb1b1bdc50c5850f>
+			<hash_0900166bedd2b85a75abfd03b9dd5042a0122a>
+				<name>Data Source [TraceRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_000016e261ad1ebaa6c0d43d7a606ec5e90c51|hash_0000164d6a28a7fde832bd0d16fa71b620c7c1|hash_0000162f8825dcf8d7134498d9afe1748f2a4e|hash_0000163fab19f244ca04ea1913c41c35531b7a</items>
+			</hash_0900166bedd2b85a75abfd03b9dd5042a0122a>
+			<hash_0900165ad43f1d964084245a132eae4ba60fe9>
+				<name>Data Source [UnlockRequests]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_000016308a02d6617d6467f6cfd10ccda7ff26|hash_000016d1bd37d9358bc71a743777c9854c8efe|hash_000016e0ce67d94ab9f1f489d13a0789cd1a20|hash_000016a221bf2449f8c453e5388b5ff0eb2e0b</items>
+			</hash_0900165ad43f1d964084245a132eae4ba60fe9>
+		</inputs>
+	</hash_000016b6158673d323bbec38d3df9482f2040b>
+	<hash_000016edcf90f694489e69da1bed76e634d5de>
+		<name>Windows - Redirector Commands (WMI)</name>
+		<graph>
+			<t_title>on</t_title>
+			<title>|host_description| - Redirector Commands</title>
+			<t_image_format_id></t_image_format_id>
+			<image_format_id>1</image_format_id>
+			<t_height></t_height>
+			<height>120</height>
+			<t_width></t_width>
+			<width>500</width>
+			<t_slope_mode></t_slope_mode>
+			<slope_mode>on</slope_mode>
+			<t_auto_scale></t_auto_scale>
+			<auto_scale>on</auto_scale>
+			<t_auto_scale_opts></t_auto_scale_opts>
+			<auto_scale_opts>2</auto_scale_opts>
+			<t_auto_scale_log></t_auto_scale_log>
+			<auto_scale_log></auto_scale_log>
+			<t_scale_log_units></t_scale_log_units>
+			<scale_log_units></scale_log_units>
+			<t_auto_scale_rigid></t_auto_scale_rigid>
+			<auto_scale_rigid></auto_scale_rigid>
+			<t_auto_padding></t_auto_padding>
+			<auto_padding>on</auto_padding>
+			<t_export></t_export>
+			<export>on</export>
+			<t_upper_limit></t_upper_limit>
+			<upper_limit>100</upper_limit>
+			<t_lower_limit></t_lower_limit>
+			<lower_limit>0</lower_limit>
+			<t_base_value></t_base_value>
+			<base_value>1000</base_value>
+			<t_unit_value></t_unit_value>
+			<unit_value></unit_value>
+			<t_unit_exponent_value></t_unit_exponent_value>
+			<unit_exponent_value></unit_exponent_value>
+			<t_vertical_label></t_vertical_label>
+			<vertical_label>Queue Size</vertical_label>
+		</graph>
+		<items>
+			<hash_100016a4463e74b38740f9f39dce0fdf3ee621>
+				<task_item_id>hash_08001687340bc14bed88babd246813c94b3d1b</task_item_id>
+				<color_id>00CF00</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>7</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current Commands:</text_format>
+				<hard_return></hard_return>
+				<sequence>1</sequence>
+			</hash_100016a4463e74b38740f9f39dce0fdf3ee621>
+			<hash_1000161f4c52ea2ffa306e058a19613e44b612>
+				<task_item_id>hash_08001687340bc14bed88babd246813c94b3d1b</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>2</sequence>
+			</hash_1000161f4c52ea2ffa306e058a19613e44b612>
+			<hash_1000164107fd5144bf880d5c67fa0c2e679a25>
+				<task_item_id>hash_08001687340bc14bed88babd246813c94b3d1b</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>3</sequence>
+			</hash_1000164107fd5144bf880d5c67fa0c2e679a25>
+			<hash_100016656eee0f570e5e2560a49c3b19936dc3>
+				<task_item_id>hash_08001687340bc14bed88babd246813c94b3d1b</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>4</sequence>
+			</hash_100016656eee0f570e5e2560a49c3b19936dc3>
+		</items>
+		<inputs>
+			<hash_0900162375caf852b940741aafa82775ca3d61>
+				<name>Data Source [CurrentCommands]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_000016a4463e74b38740f9f39dce0fdf3ee621|hash_0000161f4c52ea2ffa306e058a19613e44b612|hash_000016656eee0f570e5e2560a49c3b19936dc3|hash_0000164107fd5144bf880d5c67fa0c2e679a25</items>
+			</hash_0900162375caf852b940741aafa82775ca3d61>
+		</inputs>
+	</hash_000016edcf90f694489e69da1bed76e634d5de>
+	<hash_000016835834e174257f14a2e12425e63a1819>
+		<name>IIS - Connections (WMI)</name>
+		<graph>
+			<t_title></t_title>
+			<title>|host_description| - Connections</title>
+			<t_image_format_id></t_image_format_id>
+			<image_format_id>1</image_format_id>
+			<t_height></t_height>
+			<height>120</height>
+			<t_width></t_width>
+			<width>500</width>
+			<t_slope_mode></t_slope_mode>
+			<slope_mode>on</slope_mode>
+			<t_auto_scale></t_auto_scale>
+			<auto_scale>on</auto_scale>
+			<t_auto_scale_opts></t_auto_scale_opts>
+			<auto_scale_opts>2</auto_scale_opts>
+			<t_auto_scale_log></t_auto_scale_log>
+			<auto_scale_log></auto_scale_log>
+			<t_scale_log_units></t_scale_log_units>
+			<scale_log_units></scale_log_units>
+			<t_auto_scale_rigid></t_auto_scale_rigid>
+			<auto_scale_rigid></auto_scale_rigid>
+			<t_auto_padding></t_auto_padding>
+			<auto_padding>on</auto_padding>
+			<t_export></t_export>
+			<export>on</export>
+			<t_upper_limit></t_upper_limit>
+			<upper_limit>100</upper_limit>
+			<t_lower_limit></t_lower_limit>
+			<lower_limit>0</lower_limit>
+			<t_base_value></t_base_value>
+			<base_value>1000</base_value>
+			<t_unit_value></t_unit_value>
+			<unit_value></unit_value>
+			<t_unit_exponent_value></t_unit_exponent_value>
+			<unit_exponent_value></unit_exponent_value>
+			<t_vertical_label></t_vertical_label>
+			<vertical_label>Connections</vertical_label>
+		</graph>
+		<items>
+			<hash_100016509cf5c5d5f9a5e492200bb52dea3b17>
+				<task_item_id>hash_080016bf6e196c2519104c3a69c3f78c0f9716</task_item_id>
+				<color_id>00CF00</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>7</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Connections:</text_format>
+				<hard_return></hard_return>
+				<sequence>1</sequence>
+			</hash_100016509cf5c5d5f9a5e492200bb52dea3b17>
+			<hash_10001662b61dec34666349ced4bbd7a11fec46>
+				<task_item_id>hash_080016bf6e196c2519104c3a69c3f78c0f9716</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>4</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Current:</text_format>
+				<hard_return></hard_return>
+				<sequence>2</sequence>
+			</hash_10001662b61dec34666349ced4bbd7a11fec46>
+			<hash_100016ddffea149b6f6ab92f77ae57a5e2fe85>
+				<task_item_id>hash_080016bf6e196c2519104c3a69c3f78c0f9716</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>3</sequence>
+			</hash_100016ddffea149b6f6ab92f77ae57a5e2fe85>
+			<hash_1000162e60ce44f25dd6cc486674aabf18debd>
+				<task_item_id>hash_080016bf6e196c2519104c3a69c3f78c0f9716</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return>on</hard_return>
+				<sequence>4</sequence>
+			</hash_1000162e60ce44f25dd6cc486674aabf18debd>
+		</items>
+		<inputs>
+			<hash_0900164243eb35cec46a650b5d9bb3dada3b3b>
+				<name>Data Source [Connections]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_000016509cf5c5d5f9a5e492200bb52dea3b17|hash_00001662b61dec34666349ced4bbd7a11fec46|hash_000016ddffea149b6f6ab92f77ae57a5e2fe85|hash_0000162e60ce44f25dd6cc486674aabf18debd</items>
+			</hash_0900164243eb35cec46a650b5d9bb3dada3b3b>
+		</inputs>
+	</hash_000016835834e174257f14a2e12425e63a1819>
+	<hash_00001640905e7e440d1155c3b8e6865d72332d>
+		<name>Exchange 2003 - Total Mailbox Items (WMI)</name>
+		<graph>
+			<t_title>on</t_title>
+			<title>|host_description| - Total Mailbox Items</title>
+			<t_image_format_id></t_image_format_id>
+			<image_format_id>1</image_format_id>
+			<t_height></t_height>
+			<height>120</height>
+			<t_width></t_width>
+			<width>500</width>
+			<t_slope_mode></t_slope_mode>
+			<slope_mode>on</slope_mode>
+			<t_auto_scale></t_auto_scale>
+			<auto_scale>on</auto_scale>
+			<t_auto_scale_opts></t_auto_scale_opts>
+			<auto_scale_opts>1</auto_scale_opts>
+			<t_auto_scale_log></t_auto_scale_log>
+			<auto_scale_log></auto_scale_log>
+			<t_scale_log_units></t_scale_log_units>
+			<scale_log_units></scale_log_units>
+			<t_auto_scale_rigid></t_auto_scale_rigid>
+			<auto_scale_rigid></auto_scale_rigid>
+			<t_auto_padding></t_auto_padding>
+			<auto_padding>on</auto_padding>
+			<t_export></t_export>
+			<export>on</export>
+			<t_upper_limit></t_upper_limit>
+			<upper_limit>100</upper_limit>
+			<t_lower_limit></t_lower_limit>
+			<lower_limit>0</lower_limit>
+			<t_base_value></t_base_value>
+			<base_value>1000</base_value>
+			<t_unit_value></t_unit_value>
+			<unit_value></unit_value>
+			<t_unit_exponent_value></t_unit_exponent_value>
+			<unit_exponent_value>2</unit_exponent_value>
+			<t_vertical_label></t_vertical_label>
+			<vertical_label>Items</vertical_label>
+		</graph>
+		<items>
+			<hash_100016f8214d981f8608a85fd840f582d261c3>
+				<task_item_id>hash_08001666e02266722ccd8478a4577d764ccddf</task_item_id>
+				<color_id>FF0000</color_id>
+				<alpha>33</alpha>
+				<graph_type_id>7</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_06001619414480d6897c8731c7dc6c5310653e</gprint_id>
+				<text_format></text_format>
+				<hard_return></hard_return>
+				<sequence>1</sequence>
+			</hash_100016f8214d981f8608a85fd840f582d261c3>
+			<hash_10001650524e632ef7ae8dbb9d5e26163ee194>
+				<task_item_id>hash_08001666e02266722ccd8478a4577d764ccddf</task_item_id>
+				<color_id>FF0000</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>4</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_06001619414480d6897c8731c7dc6c5310653e</gprint_id>
+				<text_format>Items:</text_format>
+				<hard_return></hard_return>
+				<sequence>2</sequence>
+			</hash_10001650524e632ef7ae8dbb9d5e26163ee194>
+			<hash_100016215bb8ef8a117e9c6c5593d852449504>
+				<task_item_id>hash_08001666e02266722ccd8478a4577d764ccddf</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>2</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_06001619414480d6897c8731c7dc6c5310653e</gprint_id>
+				<text_format>Minimum:</text_format>
+				<hard_return></hard_return>
+				<sequence>3</sequence>
+			</hash_100016215bb8ef8a117e9c6c5593d852449504>
+			<hash_1000160879f968f597aebef8618d2c468dbe1c>
+				<task_item_id>hash_08001666e02266722ccd8478a4577d764ccddf</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>1</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_06001619414480d6897c8731c7dc6c5310653e</gprint_id>
+				<text_format>Average:</text_format>
+				<hard_return></hard_return>
+				<sequence>4</sequence>
+			</hash_1000160879f968f597aebef8618d2c468dbe1c>
+			<hash_100016fc950f712c0833a16dc4a6aade78855a>
+				<task_item_id>hash_08001666e02266722ccd8478a4577d764ccddf</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>3</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_06001619414480d6897c8731c7dc6c5310653e</gprint_id>
+				<text_format>Maximum:</text_format>
+				<hard_return></hard_return>
+				<sequence>5</sequence>
+			</hash_100016fc950f712c0833a16dc4a6aade78855a>
+		</items>
+		<inputs>
+			<hash_090016bb550a62f6aba575c1b40ba5bc35c48d>
+				<name>Data Source [TotalItems]</name>
+				<description></description>
+				<column_name>task_item_id</column_name>
+				<items>hash_00001650524e632ef7ae8dbb9d5e26163ee194|hash_000016f8214d981f8608a85fd840f582d261c3|hash_000016215bb8ef8a117e9c6c5593d852449504|hash_0000160879f968f597aebef8618d2c468dbe1c|hash_000016fc950f712c0833a16dc4a6aade78855a</items>
+			</hash_090016bb550a62f6aba575c1b40ba5bc35c48d>
+		</inputs>
+	</hash_00001640905e7e440d1155c3b8e6865d72332d>
 	<hash_0100169b48afbc91b040884ba3dfd679fb7466>
 		<name>Windows - Disk I/O (WMI)</name>
 		<ds>
@@ -5730,35 +7077,40 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700162ab2eca358ab4f71bd72e04ee675361e</data_input_field_id>
+				<data_input_field_id>hash_07001679bb2302a899b042076e946b4f5d586b</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_07001624d2efb09feb0549c9de318ad16c0857</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
+				<data_input_field_id>hash_0700162ab2eca358ab4f71bd72e04ee675361e</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_070016a5f30772bd169fc497469a8459526a95</data_input_field_id>
-				<t_value></t_value>
-				<value>Win32_PerfRawData_PerfDisk_LogicalDisk</value>
-			</item_002>
-			<item_003>
 				<data_input_field_id>hash_070016b88d35cc234fb897a56e3435e3f3aa0a</data_input_field_id>
 				<t_value></t_value>
 				<value>DiskWritesPersec,DiskWriteBytesPersec,DiskReadsPersec,DiskReadBytesPersec,CurrentDiskQueueLength</value>
+			</item_002>
+			<item_003>
+				<data_input_field_id>hash_070016a5f30772bd169fc497469a8459526a95</data_input_field_id>
+				<t_value></t_value>
+				<value>Win32_PerfRawData_PerfDisk_LogicalDisk</value>
 			</item_003>
 			<item_004>
-				<data_input_field_id>hash_0700169681bc838d244bf844a4e699ca5cd18e</data_input_field_id>
+				<data_input_field_id>hash_07001624d2efb09feb0549c9de318ad16c0857</data_input_field_id>
 				<t_value>on</t_value>
-				<value>C\:</value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_0700169681bc838d244bf844a4e699ca5cd18e</data_input_field_id>
+				<t_value>on</t_value>
+				<value>C:</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016d9297c9f76e3bc742472b9c373b1db29</data_input_field_id>
 				<t_value></t_value>
 				<value>Name</value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_0100169b48afbc91b040884ba3dfd679fb7466>
 	<hash_010016e723fa73a4731ecccbd718474511d976>
@@ -5808,7 +7160,7 @@
 			<item_000>
 				<data_input_field_id>hash_07001667bebdee9438ff2600ef6d932c3b33a7</data_input_field_id>
 				<t_value>on</t_value>
-				<value>C\:</value>
+				<value>C:</value>
 			</item_000>
 			<item_001>
 				<data_input_field_id>hash_07001618b62904c72fc326156674f785d52bd4</data_input_field_id>
@@ -5833,14 +7185,19 @@
 			<item_005>
 				<data_input_field_id>hash_070016bb39d74949dd0103ca26ddb329441abb</data_input_field_id>
 				<t_value>on</t_value>
-				<value>credential</value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_005>
+			<item_006>
+				<data_input_field_id>hash_07001609edac81752a30fe82d6f9970513a9a5</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_006>
 		</data>
 	</hash_010016e723fa73a4731ecccbd718474511d976>
 	<hash_010016d7b8f700925fd7740ccdbc1b97a43677>
 		<name>SQL - Transactions (WMI)</name>
 		<ds>
-			<t_name>on</t_name>
+			<t_name></t_name>
 			<name>|host_description| - SQL - Transactions</name>
 			<data_input_id>hash_03001605a203d8464bcdf10b892a5e1d0883c4</data_input_id>
 			<t_rra_id></t_rra_id>
@@ -5868,41 +7225,46 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700165a120c3218d60479ee092005e2e6b034</data_input_field_id>
+				<data_input_field_id>hash_0700161943abb6a2bf141f20e605dbc1ccbfe4</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016e22549051b379383112286b72101bd41</data_input_field_id>
+				<data_input_field_id>hash_0700165a120c3218d60479ee092005e2e6b034</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_070016e22549051b379383112286b72101bd41</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_0700162d8a136edc11759602ee92fdb9c41f4e</data_input_field_id>
 				<t_value></t_value>
 				<value>Transactions</value>
-			</item_002>
-			<item_003>
-				<data_input_field_id>hash_070016c52ab880553062b3bdf3ff98b8ac0001</data_input_field_id>
-				<t_value></t_value>
-				<value>Win32_PerfRawData_MSSQLSERVER_SQLServerTransactions</value>
 			</item_003>
 			<item_004>
 				<data_input_field_id>hash_0700161b8ac267fdf06beb3086eb1aaef48130</data_input_field_id>
 				<t_value>on</t_value>
-				<value>credential</value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_070016c52ab880553062b3bdf3ff98b8ac0001</data_input_field_id>
+				<t_value></t_value>
+				<value>Win32_PerfRawData_MSSQLSERVER_SQLServerTransactions</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016733acc470935645cbd7b2a2363c057da</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_010016d7b8f700925fd7740ccdbc1b97a43677>
 	<hash_010016bb1a6228a2474574217ea6b1bed7aeb9>
 		<name>SQL - Statistics (WMI)</name>
 		<ds>
-			<t_name>on</t_name>
+			<t_name></t_name>
 			<name>|host_description| - SQL - Statistics</name>
 			<data_input_id>hash_03001632c173c206a87f7ef0694812bb745010</data_input_id>
 			<t_rra_id></t_rra_id>
@@ -5930,19 +7292,19 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700165ef4b27e361cd604bba880beddc1b914</data_input_field_id>
+				<data_input_field_id>hash_0700161f4dabea61196a805d1524a377894325</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016548328b06e9222b26a83d2f974ae405c</data_input_field_id>
+				<data_input_field_id>hash_0700165ef4b27e361cd604bba880beddc1b914</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_07001676e73713ec5bd534e1d1795680a4bcc3</data_input_field_id>
+				<data_input_field_id>hash_070016548328b06e9222b26a83d2f974ae405c</data_input_field_id>
 				<t_value></t_value>
-				<value>BatchRequestsPersec</value>
+				<value></value>
 			</item_002>
 			<item_003>
 				<data_input_field_id>hash_070016eef480fe8e5b35916b5819b08def7459</data_input_field_id>
@@ -5952,13 +7314,18 @@
 			<item_004>
 				<data_input_field_id>hash_07001620eb758a12e5260e320a465aa31e350e</data_input_field_id>
 				<t_value>on</t_value>
-				<value>credential</value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_07001676e73713ec5bd534e1d1795680a4bcc3</data_input_field_id>
+				<t_value></t_value>
+				<value>BatchRequestsPersec</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016e69fe8a3ce804b781db33757d084e2c4</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_010016bb1a6228a2474574217ea6b1bed7aeb9>
 	<hash_010016ca93699890eded68f0ce7caef2ade9a9>
@@ -5981,7 +7348,7 @@
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>10000</rrd_maximum>
+				<rrd_maximum>100000000</rrd_maximum>
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
@@ -5995,7 +7362,7 @@
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>10000</rrd_maximum>
+				<rrd_maximum>100000000</rrd_maximum>
 				<t_data_source_type_id></t_data_source_type_id>
 				<data_source_type_id>1</data_source_type_id>
 				<t_rrd_heartbeat></t_rrd_heartbeat>
@@ -6006,35 +7373,40 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016bae07e1bba8c44fc7d677302d6113d1d</data_input_field_id>
+				<data_input_field_id>hash_07001647974617368eb41e5a6e5d0bf3d57a17</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016307bc0d2a8629ea213d7dd4aebe61a50</data_input_field_id>
+				<data_input_field_id>hash_070016bae07e1bba8c44fc7d677302d6113d1d</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_070016307bc0d2a8629ea213d7dd4aebe61a50</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_0700164a0da5d0067ac4a6f7363cae24bd4745</data_input_field_id>
 				<t_value></t_value>
 				<value>Buffercachehitratio,Buffercachehitratio_Base</value>
-			</item_002>
-			<item_003>
-				<data_input_field_id>hash_070016b54681afa7ed5b514c6d868990ddca24</data_input_field_id>
-				<t_value></t_value>
-				<value>Win32_PerfRawData_MSSQLSERVER_SQLServerBufferManager</value>
 			</item_003>
 			<item_004>
 				<data_input_field_id>hash_070016b943e3804f3c783388515bdc0babbfa5</data_input_field_id>
 				<t_value>on</t_value>
-				<value>credential</value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_070016b54681afa7ed5b514c6d868990ddca24</data_input_field_id>
+				<t_value></t_value>
+				<value>Win32_PerfRawData_MSSQLSERVER_SQLServerBufferManager</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016dd6fb328b93fe8725498b5e5d8fc1118</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_010016ca93699890eded68f0ce7caef2ade9a9>
 	<hash_01001667be89d44186690dcf1feed4a4c6979e>
@@ -6070,33 +7442,38 @@
 			<item_000>
 				<data_input_field_id>hash_0700166d5138e8d624d973c908886d768308e2</data_input_field_id>
 				<t_value>on</t_value>
-				<value>credential</value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016912640bfaf20cd79b7d86be114904672</data_input_field_id>
+				<data_input_field_id>hash_070016d4a8e0ef6ebe0e787cb80539665a09ae</data_input_field_id>
 				<t_value></t_value>
-				<value>Win32_ComputerSystem</value>
+				<value></value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_0700163c4aad16cd812d5b88383e5113df1189</data_input_field_id>
+				<data_input_field_id>hash_07001602ff3ac6e3a948d4f7878ad7ca027354</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_002>
 			<item_003>
-				<data_input_field_id>hash_070016af8378ecdf2c434774829a80f6a7f028</data_input_field_id>
+				<data_input_field_id>hash_0700163c4aad16cd812d5b88383e5113df1189</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_003>
 			<item_004>
-				<data_input_field_id>hash_0700161ff8cff16e7e1b7e72ac3d1c60f5d747</data_input_field_id>
+				<data_input_field_id>hash_070016912640bfaf20cd79b7d86be114904672</data_input_field_id>
 				<t_value></t_value>
-				<value>TotalPhysicalMemory</value>
+				<value>Win32_ComputerSystem</value>
 			</item_004>
 			<item_005>
-				<data_input_field_id>hash_07001602ff3ac6e3a948d4f7878ad7ca027354</data_input_field_id>
+				<data_input_field_id>hash_070016af8378ecdf2c434774829a80f6a7f028</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_005>
+			<item_006>
+				<data_input_field_id>hash_0700161ff8cff16e7e1b7e72ac3d1c60f5d747</data_input_field_id>
+				<t_value></t_value>
+				<value>TotalPhysicalMemory</value>
+			</item_006>
 		</data>
 	</hash_01001667be89d44186690dcf1feed4a4c6979e>
 	<hash_010016100ad6b7ee5d63fd6ebd580abd533e8d>
@@ -6158,35 +7535,40 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700169ba9c28d977b35906aed83a010a55e82</data_input_field_id>
+				<data_input_field_id>hash_070016b0b6d72ab9da2118efeae9b4e5cc1820</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_07001691b1e37b7cbd27c97e5923ddd6a275fa</data_input_field_id>
+				<data_input_field_id>hash_0700169ba9c28d977b35906aed83a010a55e82</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_07001691b1e37b7cbd27c97e5923ddd6a275fa</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_0700168f8e0aab294e01484da27240058a3490</data_input_field_id>
 				<t_value></t_value>
 				<value>CommittedBytes,AvailableBytes,CommitLimit</value>
-			</item_002>
-			<item_003>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_070016640c7ddd9320b1851e2f14c1eb77f9cb</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfRawData_PerfOS_Memory</value>
-			</item_003>
-			<item_004>
-				<data_input_field_id>hash_070016c7307bb5965ad096f7e39e8f0a81ea41</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_070016c7307bb5965ad096f7e39e8f0a81ea41</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016cf6c316a70f21facf333ae0056bb8e37</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_010016100ad6b7ee5d63fd6ebd580abd533e8d>
 	<hash_01001619ee5eafaf6b17ca11e0ad7ed0c34237>
@@ -6276,35 +7658,40 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016181e8c9c0ccdaf4f277b896b68aaa00d</data_input_field_id>
+				<data_input_field_id>hash_0700162120c8715dcc01592be77e195ec6faa0</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_07001660702d0be3f31332f619fa56baf78ca1</data_input_field_id>
+				<data_input_field_id>hash_070016181e8c9c0ccdaf4f277b896b68aaa00d</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_07001660702d0be3f31332f619fa56baf78ca1</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_0700164018c59816e41b352e2ae263a548bd38</data_input_field_id>
 				<t_value></t_value>
 				<value>PercentProcessorTime</value>
-			</item_002>
-			<item_003>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_070016697c97bf61b48a96aedb5459aa2f2131</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfFormattedData_PerfOS_Processor</value>
-			</item_003>
-			<item_004>
+			</item_004>
+			<item_005>
 				<data_input_field_id>hash_070016c936749a3edb7c27550423eb02969d68</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_004>
-			<item_005>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_0700162a741cf1d5e40e02506357d9cf239e69</data_input_field_id>
 				<t_value>on</t_value>
-				<value>credential</value>
-			</item_005>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_006>
 		</data>
 	</hash_01001619ee5eafaf6b17ca11e0ad7ed0c34237>
 	<hash_010016fd7815e7f0a53d83f0a50e3acaec6074>
@@ -6335,46 +7722,51 @@
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700161a0c6802caf441dc024b77ea36d14de7</data_input_field_id>
 			</hash_080016963a17af1d1bcf8d71ab6529bfb1d7e1>
-			<hash_080016b34b6458765084269bf17c0b8ec73407>
+			<hash_080016389ac27bafed3bdc7430274f3968250d>
 				<data_source_name>Total</data_source_name>
 				<rrd_minimum>0</rrd_minimum>
 				<rrd_maximum>100</rrd_maximum>
 				<data_source_type_id>1</data_source_type_id>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<data_input_field_id>hash_0700161f00c99fe3ccf16f6ff23549a05082ec</data_input_field_id>
-			</hash_080016b34b6458765084269bf17c0b8ec73407>
+			</hash_080016389ac27bafed3bdc7430274f3968250d>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016be8e3531b52ba000eea9b8084ed5c986</data_input_field_id>
+				<data_input_field_id>hash_07001621c39b4501d774592fcee4c3be898766</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_0700162711013387f6f94e37b0e2c460cc9348</data_input_field_id>
+				<data_input_field_id>hash_070016be8e3531b52ba000eea9b8084ed5c986</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_0700162711013387f6f94e37b0e2c460cc9348</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_070016e5879df8b8356f1e8ecace107c03c4e4</data_input_field_id>
 				<t_value></t_value>
 				<value>PercentProcessorTime</value>
-			</item_002>
-			<item_003>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_0700165b0f850eb93d5a51187bcd8761da6a86</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfFormattedData_PerfOS_Processor</value>
-			</item_003>
-			<item_004>
-				<data_input_field_id>hash_070016479a817885ebcad36806cabda0d9e711</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_070016479a817885ebcad36806cabda0d9e711</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_0700162bb6d582c577676c8366f9d50aea0fcf</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_010016fd7815e7f0a53d83f0a50e3acaec6074>
 	<hash_0100160d1ad124c1b59d4269e09453a7ee4e13>
@@ -6436,35 +7828,40 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_07001628151a8765fa406dc6bafe001ea2fc85</data_input_field_id>
+				<data_input_field_id>hash_0700162f447da177589f2fb6e4486296caff8f</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_0700164822627e85556af1a601563e83b51b92</data_input_field_id>
+				<data_input_field_id>hash_07001628151a8765fa406dc6bafe001ea2fc85</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_0700164822627e85556af1a601563e83b51b92</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_0700162e880f30ce0196d77715abac9b1ff8d6</data_input_field_id>
 				<t_value></t_value>
 				<value>PercentProcessorTime</value>
-			</item_002>
-			<item_003>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_070016d2355c3c3319351e0e4c90190d7b681b</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfFormattedData_PerfOS_Processor</value>
-			</item_003>
-			<item_004>
-				<data_input_field_id>hash_0700160fddd7ff79235ec39dfdb4d66ea0430d</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_0700160fddd7ff79235ec39dfdb4d66ea0430d</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_0700167297b4af38e4ad7d40b539f7d862710f</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_0100160d1ad124c1b59d4269e09453a7ee4e13>
 	<hash_01001675e80f3ac5c73487a665b8d5131f97e2>
@@ -6582,35 +7979,40 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016e1be275015382807006fcc5f0a334d0f</data_input_field_id>
+				<data_input_field_id>hash_070016549cd359e65c98a63b6ccc93d6777ac7</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_07001617604fa0bde1479a81d5e343a8365124</data_input_field_id>
+				<data_input_field_id>hash_070016e1be275015382807006fcc5f0a334d0f</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_07001617604fa0bde1479a81d5e343a8365124</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
+				<data_input_field_id>hash_07001635f8275412491d899fbb6694c2fe9fbe</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_070016ac03e736b666de5cc9f57be8cfc5f08c</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfRawData_NTDS_NTDS</value>
-			</item_002>
-			<item_003>
+			</item_004>
+			<item_005>
 				<data_input_field_id>hash_07001630bfcd5c65edaaeced18df3da45ed35f</data_input_field_id>
 				<t_value></t_value>
 				<value>DSClientBindsPersec,DSClientNameTranslationsPersec,DSDirectoryReadsPersec,DSDirectorySearchesPersec,DSDirectoryWritesPersec,KerberosAuthentications,NTLMAuthentications</value>
-			</item_003>
-			<item_004>
-				<data_input_field_id>hash_07001635f8275412491d899fbb6694c2fe9fbe</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
-			</item_004>
-			<item_005>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016c0fde84802c8917276c75f12dc0e775a</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_01001675e80f3ac5c73487a665b8d5131f97e2>
 	<hash_0100160a16402e251789adc0d5ac8b00b2a785>
@@ -6770,35 +8172,40 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016a6438e576e0bc4d818f7aafb2be225e2</data_input_field_id>
+				<data_input_field_id>hash_070016b86a57b7fd75cb0c718e85d1b8c10715</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_07001627983feea5375d14fad7cc6d070bb64b</data_input_field_id>
+				<data_input_field_id>hash_070016a6438e576e0bc4d818f7aafb2be225e2</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_070016aecdf0f4f1d3531b8b48dd521d6a7592</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_002>
+			<item_003>
+				<data_input_field_id>hash_07001627983feea5375d14fad7cc6d070bb64b</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_07001677d1347b7b59870bf78e422c337e7199</data_input_field_id>
 				<t_value></t_value>
 				<value>LDAPActiveThreads,LDAPClientSessions,LDAPClosedConnectionsPersec,LDAPNewConnectionsPersec,LDAPNewSSLConnectionsPersec,LDAPSearchesPersec,LDAPSuccessfulBindsPersec,LDAPUDPoperationsPersec,LDAPWritesPersec,LDAPBindTime</value>
-			</item_002>
-			<item_003>
+			</item_004>
+			<item_005>
 				<data_input_field_id>hash_070016fbd6d938f5c4b44dd59c91a650dffc9c</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfRawData_NTDS_NTDS</value>
-			</item_003>
-			<item_004>
-				<data_input_field_id>hash_070016aecdf0f4f1d3531b8b48dd521d6a7592</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
-			</item_004>
-			<item_005>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_0700161f2f4286bdd2a78bafa2589585d83d0d</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_0100160a16402e251789adc0d5ac8b00b2a785>
 	<hash_0100167dbfe2d89073fac3ada6b5edf0bef3e8>
@@ -6930,13 +8337,13 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016c305a014eeccb8dd123cf5bac7afc64d</data_input_field_id>
-				<t_value></t_value>
-				<value>Win32_PerfRawData_MSExchangeIS_MSExchangeISMailbox</value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_070016b0eb874fb5e8f1746aed5fb9fc74b6b1</data_input_field_id>
 				<t_value>on</t_value>
+				<value></value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_070016f338943d851f39efe7c5c36fe46a7ed0</data_input_field_id>
+				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
@@ -6945,20 +8352,25 @@
 				<value>Name</value>
 			</item_002>
 			<item_003>
+				<data_input_field_id>hash_0700160be40089689a30e7b21c7f5f71a82dc2</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_003>
+			<item_004>
+				<data_input_field_id>hash_070016c305a014eeccb8dd123cf5bac7afc64d</data_input_field_id>
+				<t_value></t_value>
+				<value>Win32_PerfRawData_MSExchangeIS_MSExchangeISMailbox</value>
+			</item_004>
+			<item_005>
 				<data_input_field_id>hash_0700166b8bb701c8c666887ff7c07439ab72e9</data_input_field_id>
 				<t_value></t_value>
 				<value>ActiveClientLogons,MessagesDelivered,MessagesSent,MessagesSubmitted,ReceiveQueueSize,SendQueueSize,TotalCountofRecoverableItems,TotalSizeofRecoverableItems</value>
-			</item_003>
-			<item_004>
-				<data_input_field_id>hash_0700160be40089689a30e7b21c7f5f71a82dc2</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
-			</item_004>
-			<item_005>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016f96e1a38f5523f898caea193f1d75d9e</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_0100167dbfe2d89073fac3ada6b5edf0bef3e8>
 	<hash_010016706c468e7dbb2b7e3bf39dde3983f1d2>
@@ -7048,35 +8460,40 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016021a556c8577b4dab9a2be37b9a8bf96</data_input_field_id>
+				<data_input_field_id>hash_0700162434673a677a0ef4726992372252b92d</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_0700168bd853000c2455c84c98fe8210268ba3</data_input_field_id>
+				<data_input_field_id>hash_070016021a556c8577b4dab9a2be37b9a8bf96</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_0700168bd853000c2455c84c98fe8210268ba3</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_070016efea13979f4f8d1736268927026dfa0f</data_input_field_id>
 				<t_value></t_value>
 				<value>RPCAveragedLatency,RPCClientsBytesRead,RPCClientsBytesWritten,RPCOperationsPersec,RPCPacketsPersec</value>
-			</item_002>
-			<item_003>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_070016ce168f39f850db09ecf200262277bab4</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfRawData_MSExchangeIS_MSExchangeIS</value>
-			</item_003>
-			<item_004>
-				<data_input_field_id>hash_0700167369a0e937a7e5df13c27eec76fb88b0</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_0700167369a0e937a7e5df13c27eec76fb88b0</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_0700165499c287b8339c20c7319f524ec0f811</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_010016706c468e7dbb2b7e3bf39dde3983f1d2>
 	<hash_01001637af65d1f2c9be32f088a81d82d674ab>
@@ -7208,19 +8625,19 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_07001697a8121adef0a8e54713d523c928e3ac</data_input_field_id>
-				<t_value>on</t_value>
+				<data_input_field_id>hash_070016efc29884d417c2fa7305f2dc46c21b01</data_input_field_id>
+				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016e1bb904952b2f83ea11b097e2cce858e</data_input_field_id>
-				<t_value></t_value>
-				<value>Name</value>
+				<data_input_field_id>hash_07001697a8121adef0a8e54713d523c928e3ac</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_07001634d9f65fc254c810f78b17cb801536d4</data_input_field_id>
-				<t_value></t_value>
-				<value>ThreadCount,HandleCount,PrivateBytes,VirtualBytes,PageFileBytes,PercentPrivilegedTime,PercentProcessorTime,PercentUserTime</value>
+				<data_input_field_id>hash_07001637feabd940153cccd89590fdf89fc305</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_002>
 			<item_003>
 				<data_input_field_id>hash_070016a7abc705b8a8b6ca24702a78ab1198d5</data_input_field_id>
@@ -7228,15 +8645,20 @@
 				<value>Win32_PerfRawData_PerfProc_Process</value>
 			</item_003>
 			<item_004>
-				<data_input_field_id>hash_07001637feabd940153cccd89590fdf89fc305</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
+				<data_input_field_id>hash_07001634d9f65fc254c810f78b17cb801536d4</data_input_field_id>
+				<t_value></t_value>
+				<value>ThreadCount,HandleCount,PrivateBytes,VirtualBytes,PageFileBytes,PercentPrivilegedTime,PercentProcessorTime,PercentUserTime</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_070016e1bb904952b2f83ea11b097e2cce858e</data_input_field_id>
+				<t_value></t_value>
+				<value>Name</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016cdc22a38e98c77c9f321ac04b955001f</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_01001637af65d1f2c9be32f088a81d82d674ab>
 	<hash_01001659f6c6f4567266b0dd52053385a0ed28>
@@ -7311,19 +8733,19 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700165018c55e5bc49ef677eaad9579490987</data_input_field_id>
+				<data_input_field_id>hash_070016f85b4895b09ed314e8f6c0f27adc472c</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016a132bb52be1ba14b56dce9dae0be787a</data_input_field_id>
+				<data_input_field_id>hash_0700165018c55e5bc49ef677eaad9579490987</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_070016a233559706fb1f8b9ebac03cf0bb2b3e</data_input_field_id>
+				<data_input_field_id>hash_070016a132bb52be1ba14b56dce9dae0be787a</data_input_field_id>
 				<t_value></t_value>
-				<value>Threads,SystemUpTime,SystemCallsPersec,ProcessorQueueLength,Processes,ContextSwitchesPersec</value>
+				<value></value>
 			</item_002>
 			<item_003>
 				<data_input_field_id>hash_070016361d6349a9431e762b593e1e65487d7d</data_input_field_id>
@@ -7331,15 +8753,20 @@
 				<value>Win32_PerfRawData_PerfOS_System</value>
 			</item_003>
 			<item_004>
-				<data_input_field_id>hash_070016588fddd7809a58482c95857be7084e07</data_input_field_id>
+				<data_input_field_id>hash_070016a233559706fb1f8b9ebac03cf0bb2b3e</data_input_field_id>
 				<t_value></t_value>
-				<value>credential</value>
+				<value>Threads,SystemUpTime,SystemCallsPersec,ProcessorQueueLength,Processes,ContextSwitchesPersec</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_070016588fddd7809a58482c95857be7084e07</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_07001676060bedd29c1865fbb379cf8bdf63ff</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_01001659f6c6f4567266b0dd52053385a0ed28>
 	<hash_010016aafb1bb75f2004a563ca000c6f50f5ff>
@@ -7471,9 +8898,9 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016e5b8318caf124001605b72469170f2aa</data_input_field_id>
-				<t_value>on</t_value>
-				<value>_Total</value>
+				<data_input_field_id>hash_070016a0b43d09c395b42e87839943aff2ced3</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
 			</item_000>
 			<item_001>
 				<data_input_field_id>hash_070016e868d2c0df2bdeec56038cfdfd9b678a</data_input_field_id>
@@ -7481,25 +8908,30 @@
 				<value>Name</value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_070016e5b8318caf124001605b72469170f2aa</data_input_field_id>
+				<t_value>on</t_value>
+				<value>_Total</value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_070016e11ba78487c01d6dc74bc36f0f96aae3</data_input_field_id>
 				<t_value></t_value>
 				<value>MessagesReceivedPersec,MessagesSentPersec,MessagesDeliveredPersec,DNSQueriesPersec,LocalQueueLength,LocalRetryQueueLength,RemoteQueueLength,RemoteRetryQueueLength</value>
-			</item_002>
-			<item_003>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_07001680cf3cdc6171a59e5fdfcb7ac2e75fc8</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfRawData_SMTPSVC_SMTPServer</value>
-			</item_003>
-			<item_004>
-				<data_input_field_id>hash_070016594d99c5b5b736174279a2266d36e510</data_input_field_id>
-				<t_value></t_value>
-				<value>credential</value>
 			</item_004>
 			<item_005>
 				<data_input_field_id>hash_0700164b7f9ea3817c6b94725a484ba5e829c9</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_005>
+			<item_006>
+				<data_input_field_id>hash_070016594d99c5b5b736174279a2266d36e510</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_006>
 		</data>
 	</hash_010016aafb1bb75f2004a563ca000c6f50f5ff>
 	<hash_0100165eadf6ad342d46413ea9432ed369a74d>
@@ -7645,35 +9077,40 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_07001628c500934bc012c7c21a97b3e402d566</data_input_field_id>
-				<t_value></t_value>
-				<value>PercentProcessorTime</value>
-			</item_000>
-			<item_001>
-				<data_input_field_id>hash_070016f05de4c4f7bf15cfed035f647989774b</data_input_field_id>
-				<t_value></t_value>
-				<value>Win32_PerfFormattedData_PerfOS_Processor</value>
-			</item_001>
-			<item_002>
-				<data_input_field_id>hash_0700165a971d0d885220d9e64bcbea92f23d10</data_input_field_id>
+				<data_input_field_id>hash_070016cbe617bd03db2a4915e8f5698a2b5fdd</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_002>
-			<item_003>
-				<data_input_field_id>hash_0700161b001cbfd1373f5663f57274a412c285</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
-			</item_003>
-			<item_004>
+			</item_000>
+			<item_001>
 				<data_input_field_id>hash_070016bbab8a231e260c2409a623b3404311b3</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
+			</item_001>
+			<item_002>
+				<data_input_field_id>hash_0700161b001cbfd1373f5663f57274a412c285</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_002>
+			<item_003>
+				<data_input_field_id>hash_070016f05de4c4f7bf15cfed035f647989774b</data_input_field_id>
+				<t_value></t_value>
+				<value>Win32_PerfFormattedData_PerfOS_Processor</value>
+			</item_003>
+			<item_004>
+				<data_input_field_id>hash_07001628c500934bc012c7c21a97b3e402d566</data_input_field_id>
+				<t_value></t_value>
+				<value>PercentProcessorTime</value>
 			</item_004>
 			<item_005>
 				<data_input_field_id>hash_070016e84918b1fac6c0dee2ab1188e5a0bc40</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_005>
+			<item_006>
+				<data_input_field_id>hash_0700165a971d0d885220d9e64bcbea92f23d10</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_006>
 		</data>
 	</hash_0100165eadf6ad342d46413ea9432ed369a74d>
 	<hash_010016a119f9f2e75414889d6f0836461f77c7>
@@ -7749,35 +9186,40 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700166a0d07858dd0b6f2515478c7827596dd</data_input_field_id>
+				<data_input_field_id>hash_0700161a840a9b1d532d87a76cca899aa52858</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016f2b238b884fcfbe49316dab184b47638</data_input_field_id>
+				<data_input_field_id>hash_0700166a0d07858dd0b6f2515478c7827596dd</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
+				<data_input_field_id>hash_070016f2b238b884fcfbe49316dab184b47638</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
 				<data_input_field_id>hash_070016b1df2471d7d4c5c5ab5644991763c837</data_input_field_id>
 				<t_value></t_value>
 				<value>OpenedSessions,ClosedSessions,TimedoutSessions,OpenSessions</value>
-			</item_002>
-			<item_003>
+			</item_003>
+			<item_004>
 				<data_input_field_id>hash_07001624ee835590dc575792288463b5531e9f</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfRawData_SurfControlScoutService_SurfControlWebFilter</value>
-			</item_003>
-			<item_004>
-				<data_input_field_id>hash_070016dddd44518d982d52ccf9355fce3393f8</data_input_field_id>
-				<t_value>on</t_value>
-				<value>credential</value>
 			</item_004>
 			<item_005>
+				<data_input_field_id>hash_070016dddd44518d982d52ccf9355fce3393f8</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_005>
+			<item_006>
 				<data_input_field_id>hash_070016719947e4ffab4160baedb28bab91db94</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
-			</item_005>
+			</item_006>
 		</data>
 	</hash_010016a119f9f2e75414889d6f0836461f77c7>
 	<hash_010016e3d492f04b28c4b4167beb2dd2a8c6b2>
@@ -7867,19 +9309,19 @@
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016e69e48f6052c8d212295657ef1502af5</data_input_field_id>
-				<t_value></t_value>
-				<value>WatchfileTableSize,VaultStoreDBLogSize,VaultStoreDBLogPercentUsed,VaultStoreDBLogBackup,VaultStoreDBBackup</value>
-			</item_000>
-			<item_001>
 				<data_input_field_id>hash_07001652157d2b5e6fda130c6ab2dcc8916621</data_input_field_id>
 				<t_value></t_value>
 				<value>Name</value>
-			</item_001>
-			<item_002>
+			</item_000>
+			<item_001>
 				<data_input_field_id>hash_07001659a6557deb1acc538c53d58ab7c74249</data_input_field_id>
 				<t_value>on</t_value>
 				<value>_Total</value>
+			</item_001>
+			<item_002>
+				<data_input_field_id>hash_070016e69e48f6052c8d212295657ef1502af5</data_input_field_id>
+				<t_value></t_value>
+				<value>WatchfileTableSize,VaultStoreDBLogSize,VaultStoreDBLogPercentUsed,VaultStoreDBLogBackup,VaultStoreDBBackup</value>
 			</item_002>
 			<item_003>
 				<data_input_field_id>hash_0700167fb2b49709604a728c77683094b6d284</data_input_field_id>
@@ -7888,20 +9330,657 @@
 			</item_003>
 			<item_004>
 				<data_input_field_id>hash_0700163ca12efaef158586e256f00df8f794b6</data_input_field_id>
-				<t_value></t_value>
-				<value>credential</value>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_004>
 			<item_005>
 				<data_input_field_id>hash_0700160f704157a27f02361b293cb2d12fa12c</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_005>
+			<item_006>
+				<data_input_field_id>hash_0700169cad3e47ff86e783bbdd9f4d56471c9a</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_006>
 		</data>
 	</hash_010016e3d492f04b28c4b4167beb2dd2a8c6b2>
+	<hash_01001607f62dcd42d1551ce5c0cb5f0a30bafe>
+		<name>IIS - Requests (WMI)</name>
+		<ds>
+			<t_name></t_name>
+			<name>|host_description| - IIS - Requests</name>
+			<data_input_id>hash_03001646d4b3dbf61712a7d155d67f115dccec</data_input_id>
+			<t_rra_id></t_rra_id>
+			<t_rrd_step></t_rrd_step>
+			<rrd_step>300</rrd_step>
+			<t_active></t_active>
+			<active>on</active>
+			<rra_items>hash_150016c21df5178e5c955013591239eb0afd46|hash_1500160d9c0af8b8acdc7807943937b3208e29|hash_1500166fc2d038fb42950138b0ce3e9874cc60|hash_150016e36f3adb9f152adfa5dc50fd2b23337e</rra_items>
+		</ds>
+		<items>
+			<hash_080016ac96c8352ece9ff19da1dbfc65da4048>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>MkcolRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_07001666fd85799d7e70d7dae443d606d29109</data_input_field_id>
+			</hash_080016ac96c8352ece9ff19da1dbfc65da4048>
+			<hash_0800162c9824ee14e46ab928f94ff7ddf84eb0>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>MoveRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_0700168cb02a05f7d5295d4e71384cc00ca436</data_input_field_id>
+			</hash_0800162c9824ee14e46ab928f94ff7ddf84eb0>
+			<hash_080016cdcde868974fe42b535be51f1c1b6f1c>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>OptionsRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_0700169d6391b2b7328ec4c10f1e3752ba71a7</data_input_field_id>
+			</hash_080016cdcde868974fe42b535be51f1c1b6f1c>
+			<hash_080016e08b644837ffdd54a9a9f3655cc4a913>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>OtherRequestMethods</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016102c7b8da030a9f11788ffabcd2b9ef4</data_input_field_id>
+			</hash_080016e08b644837ffdd54a9a9f3655cc4a913>
+			<hash_08001619c53ab738016c53657c56d8536f6531>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>PostRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_07001675976f6cec0cf0dbebc7bfe79bb73158</data_input_field_id>
+			</hash_08001619c53ab738016c53657c56d8536f6531>
+			<hash_080016a2028fc4d180271272bfecd5af57fda7>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>PropfindRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016ca40cb2973073945215a8d8582a68a93</data_input_field_id>
+			</hash_080016a2028fc4d180271272bfecd5af57fda7>
+			<hash_0800163dcab62d19bb8d8b64860f88e5f8a4a4>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>ProppatchRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_0700163500ec01b02556fcb0c1c626961a5ebb</data_input_field_id>
+			</hash_0800163dcab62d19bb8d8b64860f88e5f8a4a4>
+			<hash_080016101c874a56c098e3f4b7b1ef019e5fb7>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>PutRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016c2fd874dcc30b80ea2cb28ad06352147</data_input_field_id>
+			</hash_080016101c874a56c098e3f4b7b1ef019e5fb7>
+			<hash_08001630c18f4657f85c5b9cca2af2da2c9a9b>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>SearchRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016134147d2d55bbc31171e005f14686bbf</data_input_field_id>
+			</hash_08001630c18f4657f85c5b9cca2af2da2c9a9b>
+			<hash_08001633d2898aad9fd6c309fb8a5771b17fc8>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>TraceRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016dc9c25a437a3973742ff4fc1ee581882</data_input_field_id>
+			</hash_08001633d2898aad9fd6c309fb8a5771b17fc8>
+			<hash_080016653c8efebe3adc0145ce9dc6be260406>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>LockRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_0700165e6f822a6b46b14e844a7e702f1cc2b5</data_input_field_id>
+			</hash_080016653c8efebe3adc0145ce9dc6be260406>
+			<hash_08001684316de97bc8ad6dc886d906c7c40b1d>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>CopyRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016f4d5181fc4a6719eaa50fc71e076cb1b</data_input_field_id>
+			</hash_08001684316de97bc8ad6dc886d906c7c40b1d>
+			<hash_080016f3c4de14c2e6651a92793c6d6f6271a4>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>DeleteRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_0700162d1871307822c1cacfae41455d80afc5</data_input_field_id>
+			</hash_080016f3c4de14c2e6651a92793c6d6f6271a4>
+			<hash_0800169699fd3436a3f1e7e8cace8bdb8e7c2c>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>GetRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016b101175243b53f807e27fa7a5b5f7fad</data_input_field_id>
+			</hash_0800169699fd3436a3f1e7e8cace8bdb8e7c2c>
+			<hash_08001671febb4cc871d4f9505e469238157f1d>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>HeadRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_07001636bd986c677d88fdd4ac897bd7657b31</data_input_field_id>
+			</hash_08001671febb4cc871d4f9505e469238157f1d>
+			<hash_0800162cbfda65186615dd97d1bf891cd1429e>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>UnlockRequests</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>500000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_07001690e963a1babf722e829d230823bbf34d</data_input_field_id>
+			</hash_0800162cbfda65186615dd97d1bf891cd1429e>
+		</items>
+		<data>
+			<item_000>
+				<data_input_field_id>hash_07001623f0b360c9c545b8f1ed84eac219a1b1</data_input_field_id>
+				<t_value></t_value>
+				<value>CopyRequestsPersec,DeleteRequestsPersec,GetRequestsPersec,HeadRequestsPersec,LockRequestsPersec,MkcolRequestsPersec,MoveRequestsPersec,OptionsRequestsPersec,OtherRequestMethodsPersec,PostRequestsPersec,PropfindRequestsPersec,ProppatchRequestsPersec,PutRequestsPersec,SearchRequestsPersec,TraceRequestsPersec,UnlockRequestsPersec</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_070016b6052a40e201a54964b834a943823ac5</data_input_field_id>
+				<t_value>on</t_value>
+				<value>_Total</value>
+			</item_001>
+			<item_002>
+				<data_input_field_id>hash_070016e469a91c70f4e234f8a5d1de5d1d5530</data_input_field_id>
+				<t_value></t_value>
+				<value>Name</value>
+			</item_002>
+			<item_003>
+				<data_input_field_id>hash_0700164297487173197e74396ea699d152f12e</data_input_field_id>
+				<t_value></t_value>
+				<value>Win32_PerfRawData_W3SVC_WebService</value>
+			</item_003>
+			<item_004>
+				<data_input_field_id>hash_07001618f7e13d15309438568b4827e417c47d</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_004>
+			<item_005>
+				<data_input_field_id>hash_07001603d956b581b616c6ff57584e06def61b</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_005>
+			<item_006>
+				<data_input_field_id>hash_07001650780f0462121aeea9416e6856dd2c3c</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_006>
+		</data>
+	</hash_01001607f62dcd42d1551ce5c0cb5f0a30bafe>
+	<hash_010016aa6082d1e6446cf81c743da217bc736b>
+		<name>Windows - Redirector Stats (WMI)</name>
+		<ds>
+			<t_name></t_name>
+			<name>|host_description| - Redirector Stats</name>
+			<data_input_id>hash_030016e36eb62ec123ff8827850e6cb3e06c26</data_input_id>
+			<t_rra_id></t_rra_id>
+			<t_rrd_step></t_rrd_step>
+			<rrd_step>300</rrd_step>
+			<t_active></t_active>
+			<active>on</active>
+			<rra_items>hash_150016c21df5178e5c955013591239eb0afd46|hash_1500160d9c0af8b8acdc7807943937b3208e29|hash_1500166fc2d038fb42950138b0ce3e9874cc60|hash_150016e36f3adb9f152adfa5dc50fd2b23337e</rra_items>
+		</ds>
+		<items>
+			<hash_0800160ef9cc93491f5b65cccc9a26583f33e8>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>ServerDisconnects</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_0700168ec697fbdf3c6c34dc009f7bf2876878</data_input_field_id>
+			</hash_0800160ef9cc93491f5b65cccc9a26583f33e8>
+			<hash_08001687340bc14bed88babd246813c94b3d1b>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>CurrentCommands</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_07001637b2085cbb89c6e7386a3a8807895674</data_input_field_id>
+			</hash_08001687340bc14bed88babd246813c94b3d1b>
+			<hash_0800160ac4ab486f6fdfd8cb7258c604aa08f9>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>ServerSessions</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016e22908e9e660ae60d26b3785ea61277b</data_input_field_id>
+			</hash_0800160ac4ab486f6fdfd8cb7258c604aa08f9>
+			<hash_080016339f1b54a02c75862ed0aba5f3cf35c5>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>ServerReconnects</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_0700160277ab738833a7121171b27fb63d62f9</data_input_field_id>
+			</hash_080016339f1b54a02c75862ed0aba5f3cf35c5>
+		</items>
+		<data>
+			<item_000>
+				<data_input_field_id>hash_070016f6c35a4e33db1220f6e7da0f21917b05</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_07001690b2a7a7f99d92cdacdce389f5a17f11</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_001>
+			<item_002>
+				<data_input_field_id>hash_070016a2a3b6c5684c8d7d3fd1b16b73fe0717</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
+				<data_input_field_id>hash_070016bf064f16f087745089ac33177bea4679</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_003>
+			<item_004>
+				<data_input_field_id>hash_0700167ed7a32046720ebb8eb87aef2aaaa849</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_004>
+			<item_005>
+				<data_input_field_id>hash_0700169c429d2c68022ec3474829eeed0b0b82</data_input_field_id>
+				<t_value></t_value>
+				<value>Win32_PerfRawData_PerfNet_Redirector</value>
+			</item_005>
+			<item_006>
+				<data_input_field_id>hash_070016a48fb4b692a0c69a287a4c26b0f75977</data_input_field_id>
+				<t_value></t_value>
+				<value>CurrentCommands,ServerDisconnects,ServerReconnects,ServerSessions</value>
+			</item_006>
+		</data>
+	</hash_010016aa6082d1e6446cf81c743da217bc736b>
+	<hash_01001688f6f236398825a53ea4ff3c1efcb9f4>
+		<name>IIS - Connections (WMI)</name>
+		<ds>
+			<t_name></t_name>
+			<name>|host_description| - IIS - Connections</name>
+			<data_input_id>hash_030016bd59c21df8572fd4fa6ec74a69f82608</data_input_id>
+			<t_rra_id></t_rra_id>
+			<t_rrd_step></t_rrd_step>
+			<rrd_step>300</rrd_step>
+			<t_active></t_active>
+			<active>on</active>
+			<rra_items>hash_150016c21df5178e5c955013591239eb0afd46|hash_1500160d9c0af8b8acdc7807943937b3208e29|hash_1500166fc2d038fb42950138b0ce3e9874cc60|hash_150016e36f3adb9f152adfa5dc50fd2b23337e</rra_items>
+		</ds>
+		<items>
+			<hash_080016018deaaa2cefbed76b94811deeee911b>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>LogonAttemptsPersec</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_0700167aa2e64dad0730ce588251f833c3bab7</data_input_field_id>
+			</hash_080016018deaaa2cefbed76b94811deeee911b>
+			<hash_080016ee46763e52254aa053d9eab3f04f330c>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>NonAnonUsersPersec</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_07001623ca08238761f6c4d7af704e7e18a124</data_input_field_id>
+			</hash_080016ee46763e52254aa053d9eab3f04f330c>
+			<hash_080016bf6e196c2519104c3a69c3f78c0f9716>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>Connections</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>1</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016beafdf7fc64a68b2aa45bb273c9af1d8</data_input_field_id>
+			</hash_080016bf6e196c2519104c3a69c3f78c0f9716>
+			<hash_080016a0835c0750b77ae3b28b7f70693976d5>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>AnonUsers</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>1</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_07001607b16e74197b26a128462a4b289c5897</data_input_field_id>
+			</hash_080016a0835c0750b77ae3b28b7f70693976d5>
+			<hash_0800169dd968405102da502c44d69f3aa97ec7>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>ConnectionAttempts</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016d107711dad46883d308912881ffd67f2</data_input_field_id>
+			</hash_0800169dd968405102da502c44d69f3aa97ec7>
+			<hash_080016c75fa5bf8e41dd0e1f29b6168901bd32>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>NonAnonUsers</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>1</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016f65e5e7fb87b580ace35f1f1eee5c20d</data_input_field_id>
+			</hash_080016c75fa5bf8e41dd0e1f29b6168901bd32>
+			<hash_0800161acf0a04810fe879a0f08c8a683b8459>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>AnonUsersPersec</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>2</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_0700169efdcfcddecf88a5ec0dfe7a80b876be</data_input_field_id>
+			</hash_0800161acf0a04810fe879a0f08c8a683b8459>
+		</items>
+		<data>
+			<item_000>
+				<data_input_field_id>hash_070016ce63580f073d5dc5aeab4164ac8031b9</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_0700165551a4336e2548644573525f88910962</data_input_field_id>
+				<t_value></t_value>
+				<value>Win32_PerfRawData_W3SVC_WebService</value>
+			</item_001>
+			<item_002>
+				<data_input_field_id>hash_070016142a3efad76a43573e109f597622ed93</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_002>
+			<item_003>
+				<data_input_field_id>hash_070016eac780845da0c366c0dda09cd569cd8a</data_input_field_id>
+				<t_value>on</t_value>
+				<value>_Total</value>
+			</item_003>
+			<item_004>
+				<data_input_field_id>hash_0700162acac60aec9983cfe4c3e210b87d07bd</data_input_field_id>
+				<t_value></t_value>
+				<value>CurrentConnections,CurrentNonAnonymousUsers,CurrentAnonymousUsers,ConnectionAttemptsPersec,AnonymousUsersPersec,NonAnonymousUsersPersec,LogonAttemptsPersec</value>
+			</item_004>
+			<item_005>
+				<data_input_field_id>hash_0700160304aa39b7b24ff82e8ba1210285203a</data_input_field_id>
+				<t_value></t_value>
+				<value>Name</value>
+			</item_005>
+			<item_006>
+				<data_input_field_id>hash_07001689d3d3d7e9dd8effa353c9121876083c</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_006>
+		</data>
+	</hash_01001688f6f236398825a53ea4ff3c1efcb9f4>
+	<hash_010016fc2168382e9adde6b1fff530dc0aafbf>
+		<name>Exchange 2003 - Mailbox Stats (WMI)</name>
+		<ds>
+			<t_name>on</t_name>
+			<name>|host_description| - Exchange 2003 - Mailbox Stats</name>
+			<data_input_id>hash_0300166914ac7d470048202938394cc2d40f6b</data_input_id>
+			<t_rra_id></t_rra_id>
+			<t_rrd_step></t_rrd_step>
+			<rrd_step>300</rrd_step>
+			<t_active></t_active>
+			<active>on</active>
+			<rra_items>hash_150016c21df5178e5c955013591239eb0afd46|hash_1500160d9c0af8b8acdc7807943937b3208e29|hash_1500166fc2d038fb42950138b0ce3e9874cc60|hash_150016e36f3adb9f152adfa5dc50fd2b23337e</rra_items>
+		</ds>
+		<items>
+			<hash_0800166d1dc5f88bb5ee749869ae410ff3394e>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>Size</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>1</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016fcd9d213d2e47b120bfca2e642c03874</data_input_field_id>
+			</hash_0800166d1dc5f88bb5ee749869ae410ff3394e>
+			<hash_08001666e02266722ccd8478a4577d764ccddf>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>TotalItems</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>1</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_070016d16a4e95458a50e25f62bf9514205dce</data_input_field_id>
+			</hash_08001666e02266722ccd8478a4577d764ccddf>
+			<hash_080016df7bb29f1f70f7b24d3bb611f233e548>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>DeletedMessages</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>10000000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>1</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_0700168828bc68960488accf25515e164eb605</data_input_field_id>
+			</hash_080016df7bb29f1f70f7b24d3bb611f233e548>
+		</items>
+		<data>
+			<item_000>
+				<data_input_field_id>hash_070016a228e3776387376a3a70a139dc706aab</data_input_field_id>
+				<t_value></t_value>
+				<value></value>
+			</item_000>
+			<item_001>
+				<data_input_field_id>hash_07001619be039c0374852e52d0b11fd93524fb</data_input_field_id>
+				<t_value>on</t_value>
+				<value>/etc/cacti/cactiwmi.pw</value>
+			</item_001>
+			<item_002>
+				<data_input_field_id>hash_070016366228945c90669df876b84800960f87</data_input_field_id>
+				<t_value></t_value>
+				<value>Exchange_Mailbox</value>
+			</item_002>
+			<item_003>
+				<data_input_field_id>hash_070016640d8d2bac33f7cbad015eaab8d6c96b</data_input_field_id>
+				<t_value></t_value>
+				<value>Size,TotalItems,DeletedMessageSizeExtended</value>
+			</item_003>
+			<item_004>
+				<data_input_field_id>hash_070016cce0194b81a8f1ac266bbb87aef837e1</data_input_field_id>
+				<t_value></t_value>
+				<value>MailboxDisplayName</value>
+			</item_004>
+			<item_005>
+				<data_input_field_id>hash_070016fa3dd91cf63918c75db9bd2644f56441</data_input_field_id>
+				<t_value></t_value>
+				<value>root\MicrosoftExchangeV2</value>
+			</item_005>
+			<item_006>
+				<data_input_field_id>hash_070016d24baa24cb6eb57bf3686835f60b2a78</data_input_field_id>
+				<t_value>on</t_value>
+				<value></value>
+			</item_006>
+		</data>
+	</hash_010016fc2168382e9adde6b1fff530dc0aafbf>
 	<hash_0300160a878557571442da8050931896047b4f>
 		<name>WMI - Disk I/O</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700164e3635d624718e92d96aa6f28b35ece2>
 				<name>Name</name>
@@ -8011,12 +10090,21 @@
 				<input_output>out</input_output>
 				<data_name>DiskWriteBytesPersec</data_name>
 			</hash_070016076e9345f24acb43f67528fb30e4c88b>
+			<hash_07001679bb2302a899b042076e946b4f5d586b>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_07001679bb2302a899b042076e946b4f5d586b>
 		</fields>
 	</hash_0300160a878557571442da8050931896047b4f>
 	<hash_030016d29ab2a8fb3b5f87ac6eaf48237c1ba9>
 		<name>WMI - Disk Space</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016bb39d74949dd0103ca26ddb329441abb>
 				<name>Credential</name>
@@ -8099,12 +10187,21 @@
 				<input_output>out</input_output>
 				<data_name>DeviceID</data_name>
 			</hash_070016120f643ff1deb623edf8c7c86caac5d8>
+			<hash_07001609edac81752a30fe82d6f9970513a9a5>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_07001609edac81752a30fe82d6f9970513a9a5>
 		</fields>
 	</hash_030016d29ab2a8fb3b5f87ac6eaf48237c1ba9>
 	<hash_03001605a203d8464bcdf10b892a5e1d0883c4>
 		<name>WMI - SQL - Transactions</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016733acc470935645cbd7b2a2363c057da>
 				<name>Hostname</name>
@@ -8169,12 +10266,21 @@
 				<input_output>out</input_output>
 				<data_name>Transactions</data_name>
 			</hash_07001658b921857a580555df5d9912f825e50d>
+			<hash_0700161943abb6a2bf141f20e605dbc1ccbfe4>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_0700161943abb6a2bf141f20e605dbc1ccbfe4>
 		</fields>
 	</hash_03001605a203d8464bcdf10b892a5e1d0883c4>
 	<hash_03001632c173c206a87f7ef0694812bb745010>
 		<name>WMI - SQL - Statistics</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016e69fe8a3ce804b781db33757d084e2c4>
 				<name>Hostname</name>
@@ -8239,12 +10345,21 @@
 				<input_output>out</input_output>
 				<data_name>BatchRequestsPersec</data_name>
 			</hash_070016cc25153dece97955bda449aef6f0b7b0>
+			<hash_0700161f4dabea61196a805d1524a377894325>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_0700161f4dabea61196a805d1524a377894325>
 		</fields>
 	</hash_03001632c173c206a87f7ef0694812bb745010>
 	<hash_0300168479b6c6f5e5babce7179623898b4403>
 		<name>WMI - SQL - Buffer Manager</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016dd6fb328b93fe8725498b5e5d8fc1118>
 				<name>Hostname</name>
@@ -8318,12 +10433,21 @@
 				<input_output>out</input_output>
 				<data_name>Buffercachehitratio_Base</data_name>
 			</hash_070016efb014ab72680f7a9120aa8659420389>
+			<hash_07001647974617368eb41e5a6e5d0bf3d57a17>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_07001647974617368eb41e5a6e5d0bf3d57a17>
 		</fields>
 	</hash_0300168479b6c6f5e5babce7179623898b4403>
 	<hash_03001675367dc93528e2790761aa1fab14c9dc>
 		<name>WMI - Total Physical Memory</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700161ff8cff16e7e1b7e72ac3d1c60f5d747>
 				<name>Columns</name>
@@ -8397,12 +10521,21 @@
 				<input_output>in</input_output>
 				<data_name>host</data_name>
 			</hash_07001602ff3ac6e3a948d4f7878ad7ca027354>
+			<hash_070016d4a8e0ef6ebe0e787cb80539665a09ae>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016d4a8e0ef6ebe0e787cb80539665a09ae>
 		</fields>
 	</hash_03001675367dc93528e2790761aa1fab14c9dc>
 	<hash_0300165171887d9fbbc2b4682749b2dbbe5f19>
 		<name>WMI - Memory</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016cf6c316a70f21facf333ae0056bb8e37>
 				<name>Hostname</name>
@@ -8485,12 +10618,21 @@
 				<input_output>out</input_output>
 				<data_name>CommittedBytes</data_name>
 			</hash_07001646d9514960b15b73ad066579e4bf99ca>
+			<hash_070016b0b6d72ab9da2118efeae9b4e5cc1820>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016b0b6d72ab9da2118efeae9b4e5cc1820>
 		</fields>
 	</hash_0300165171887d9fbbc2b4682749b2dbbe5f19>
 	<hash_030016dbb68f654f0241074997934ad343a500>
 		<name>WMI - CPU Usage - 4CPU</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700162a741cf1d5e40e02506357d9cf239e69>
 				<name>Credential</name>
@@ -8636,12 +10778,21 @@
 				<input_output>out</input_output>
 				<data_name>PercentProcessorTime4</data_name>
 			</hash_070016c67cc3a691ba6a2fa6f97492cb6c17bb>
+			<hash_0700162120c8715dcc01592be77e195ec6faa0>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_0700162120c8715dcc01592be77e195ec6faa0>
 		</fields>
 	</hash_030016dbb68f654f0241074997934ad343a500>
 	<hash_030016cb46b0e6cb54eb81d1427362892f3427>
 		<name>WMI - CPU Usage - 1CPU</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700162bb6d582c577676c8366f9d50aea0fcf>
 				<name>Hostname</name>
@@ -8733,12 +10884,21 @@
 				<input_output>out</input_output>
 				<data_name>PercentPrivilegedTime1</data_name>
 			</hash_070016df6ba7ec8fb32f7fb45b7ea804280bde>
+			<hash_07001621c39b4501d774592fcee4c3be898766>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_07001621c39b4501d774592fcee4c3be898766>
 		</fields>
 	</hash_030016cb46b0e6cb54eb81d1427362892f3427>
 	<hash_0300163d128cf12cc89988589168791ad0564e>
 		<name>WMI - CPU Usage - 2CPU</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700167297b4af38e4ad7d40b539f7d862710f>
 				<name>Hostname</name>
@@ -8848,12 +11008,21 @@
 				<input_output>out</input_output>
 				<data_name>PercentProcessorTime2</data_name>
 			</hash_0700161f00c99fe3ccf16f6ff23549a05082ec>
+			<hash_0700162f447da177589f2fb6e4486296caff8f>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_0700162f447da177589f2fb6e4486296caff8f>
 		</fields>
 	</hash_0300163d128cf12cc89988589168791ad0564e>
 	<hash_030016e8ad067611631abf48be5adaabeb6d91>
 		<name>WMI - NTDS (DS)</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016c0fde84802c8917276c75f12dc0e775a>
 				<name>Hostname</name>
@@ -8972,12 +11141,21 @@
 				<input_output>out</input_output>
 				<data_name>KerberosAuthentications</data_name>
 			</hash_070016d14fa9d86687447d66feaed62e4c04ad>
+			<hash_070016549cd359e65c98a63b6ccc93d6777ac7>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016549cd359e65c98a63b6ccc93d6777ac7>
 		</fields>
 	</hash_030016e8ad067611631abf48be5adaabeb6d91>
 	<hash_03001696ce480132142045ceadcd5158773ce8>
 		<name>WMI - NTDS (LDAP)</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700161f2f4286bdd2a78bafa2589585d83d0d>
 				<name>Hostname</name>
@@ -9123,12 +11301,21 @@
 				<input_output>out</input_output>
 				<data_name>LDAPWritesPersec</data_name>
 			</hash_0700167059c13c0e029b958e5fca1c2ee30008>
+			<hash_070016b86a57b7fd75cb0c718e85d1b8c10715>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016b86a57b7fd75cb0c718e85d1b8c10715>
 		</fields>
 	</hash_03001696ce480132142045ceadcd5158773ce8>
 	<hash_030016e9b6a0e2660716a4b91f9806a10761d5>
-		<name>WMI - Exchange 2003 - Store Performance</name>
+		<name>WMI - Exchange 2003 - Database Performance</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016f96e1a38f5523f898caea193f1d75d9e>
 				<name>Hostname</name>
@@ -9265,12 +11452,21 @@
 				<input_output>out</input_output>
 				<data_name>ActiveClientLogons</data_name>
 			</hash_070016f9a62ac4a39445c243030da20c8ba910>
+			<hash_070016f338943d851f39efe7c5c36fe46a7ed0>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016f338943d851f39efe7c5c36fe46a7ed0>
 		</fields>
 	</hash_030016e9b6a0e2660716a4b91f9806a10761d5>
 	<hash_030016b2f500c3a3e3d35af7f155e16303adc0>
 		<name>WMI - Exchange 2003 - RPC Performance</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700165499c287b8339c20c7319f524ec0f811>
 				<name>Hostname</name>
@@ -9371,12 +11567,21 @@
 				<input_output>out</input_output>
 				<data_name>RPCPacketsPersec</data_name>
 			</hash_0700161c34cde170ab40f9e3ca943d95550a98>
+			<hash_0700162434673a677a0ef4726992372252b92d>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_0700162434673a677a0ef4726992372252b92d>
 		</fields>
 	</hash_030016b2f500c3a3e3d35af7f155e16303adc0>
 	<hash_0300163320e4b2c36246b59c4ba80ec8943e85>
 		<name>WMI - Process Stats</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016cdc22a38e98c77c9f321ac04b955001f>
 				<name>Hostname</name>
@@ -9513,12 +11718,21 @@
 				<input_output>out</input_output>
 				<data_name>PercentUserTime</data_name>
 			</hash_07001660420498ed56603bf0581b6aef2953d9>
+			<hash_070016efc29884d417c2fa7305f2dc46c21b01>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016efc29884d417c2fa7305f2dc46c21b01>
 		</fields>
 	</hash_0300163320e4b2c36246b59c4ba80ec8943e85>
 	<hash_030016312ecc48716953d1b288a8d0d2b1fead>
 		<name>WMI - System Stats</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_07001676060bedd29c1865fbb379cf8bdf63ff>
 				<name>Hostname</name>
@@ -9628,12 +11842,21 @@
 				<input_output>out</input_output>
 				<data_name>Threads</data_name>
 			</hash_070016fad70c2a1abedf683cec214c6cda57a4>
+			<hash_070016f85b4895b09ed314e8f6c0f27adc472c>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016f85b4895b09ed314e8f6c0f27adc472c>
 		</fields>
 	</hash_030016312ecc48716953d1b288a8d0d2b1fead>
 	<hash_0300160c1ed2c8c18b69b74a49668959017a33>
 		<name>WMI - Exchange 2003 - SMTP Performance</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700164b7f9ea3817c6b94725a484ba5e829c9>
 				<name>Hostname</name>
@@ -9770,12 +11993,21 @@
 				<input_output>out</input_output>
 				<data_name>Name</data_name>
 			</hash_0700162ac0f525603898adbc3184c25a9cef3f>
+			<hash_070016a0b43d09c395b42e87839943aff2ced3>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016a0b43d09c395b42e87839943aff2ced3>
 		</fields>
 	</hash_0300160c1ed2c8c18b69b74a49668959017a33>
 	<hash_030016cb83c78bc7ce1f2a417138feae85febe>
 		<name>WMI - CPU Usage - 8CPU</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_0700165a971d0d885220d9e64bcbea92f23d10>
 				<name>Hostname</name>
@@ -9993,12 +12225,21 @@
 				<input_output>out</input_output>
 				<data_name>PercentProcessorTime8</data_name>
 			</hash_0700168b9f7be1b2c69f3a6217e0e27d2456f5>
+			<hash_070016cbe617bd03db2a4915e8f5698a2b5fdd>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016cbe617bd03db2a4915e8f5698a2b5fdd>
 		</fields>
 	</hash_030016cb83c78bc7ce1f2a417138feae85febe>
 	<hash_030016e7ed175d7aa16286560ac8cf7e398018>
 		<name>WMI - Surf Control 5.5 - Web Filter</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
 			<hash_070016719947e4ffab4160baedb28bab91db94>
 				<name>Hostname</name>
@@ -10090,13 +12331,31 @@
 				<input_output>out</input_output>
 				<data_name>TimedoutSessions</data_name>
 			</hash_07001628d0fb4b9737d652b974a28dba9c7709>
+			<hash_0700161a840a9b1d532d87a76cca899aa52858>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_0700161a840a9b1d532d87a76cca899aa52858>
 		</fields>
 	</hash_030016e7ed175d7aa16286560ac8cf7e398018>
 	<hash_0300167f039f1916d823381b0b5e1c274b7e38>
 		<name>WMI - Enterprise Vault 2007 - Store Stats</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php &lt;host&gt; &lt;credential&gt; &lt;class&gt; &lt;columns&gt; &lt;filter&gt; &lt;filterval&gt;</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
 		<fields>
+			<hash_0700169cad3e47ff86e783bbdd9f4d56471c9a>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_0700169cad3e47ff86e783bbdd9f4d56471c9a>
 			<hash_0700160f704157a27f02361b293cb2d12fa12c>
 				<name>Hostname</name>
 				<update_rra></update_rra>
@@ -10207,6 +12466,619 @@
 			</hash_0700168d981b63c04cff52f8c7de92fdf5ae51>
 		</fields>
 	</hash_0300167f039f1916d823381b0b5e1c274b7e38>
+	<hash_03001646d4b3dbf61712a7d155d67f115dccec>
+		<name>WMI - IIS - Requests</name>
+		<type_id>1</type_id>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
+		<fields>
+			<hash_07001650780f0462121aeea9416e6856dd2c3c>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_07001650780f0462121aeea9416e6856dd2c3c>
+			<hash_07001603d956b581b616c6ff57584e06def61b>
+				<name>Hostname</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code>hostname</type_code>
+				<input_output>in</input_output>
+				<data_name>host</data_name>
+			</hash_07001603d956b581b616c6ff57584e06def61b>
+			<hash_07001618f7e13d15309438568b4827e417c47d>
+				<name>Credential</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>credential</data_name>
+			</hash_07001618f7e13d15309438568b4827e417c47d>
+			<hash_0700164297487173197e74396ea699d152f12e>
+				<name>Class</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>class</data_name>
+			</hash_0700164297487173197e74396ea699d152f12e>
+			<hash_07001623f0b360c9c545b8f1ed84eac219a1b1>
+				<name>Columns</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>columns</data_name>
+			</hash_07001623f0b360c9c545b8f1ed84eac219a1b1>
+			<hash_070016e469a91c70f4e234f8a5d1de5d1d5530>
+				<name>Filter</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>filter</data_name>
+			</hash_070016e469a91c70f4e234f8a5d1de5d1d5530>
+			<hash_070016b6052a40e201a54964b834a943823ac5>
+				<name>Filter Value</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>filterval</data_name>
+			</hash_070016b6052a40e201a54964b834a943823ac5>
+			<hash_070016f4d5181fc4a6719eaa50fc71e076cb1b>
+				<name>CopyRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>CopyRequestsPersec</data_name>
+			</hash_070016f4d5181fc4a6719eaa50fc71e076cb1b>
+			<hash_0700162d1871307822c1cacfae41455d80afc5>
+				<name>DeleteRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>DeleteRequestsPersec</data_name>
+			</hash_0700162d1871307822c1cacfae41455d80afc5>
+			<hash_070016b101175243b53f807e27fa7a5b5f7fad>
+				<name>GetRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>GetRequestsPersec</data_name>
+			</hash_070016b101175243b53f807e27fa7a5b5f7fad>
+			<hash_07001636bd986c677d88fdd4ac897bd7657b31>
+				<name>HeadRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>HeadRequestsPersec</data_name>
+			</hash_07001636bd986c677d88fdd4ac897bd7657b31>
+			<hash_0700165e6f822a6b46b14e844a7e702f1cc2b5>
+				<name>LockRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>LockRequestsPersec</data_name>
+			</hash_0700165e6f822a6b46b14e844a7e702f1cc2b5>
+			<hash_07001666fd85799d7e70d7dae443d606d29109>
+				<name>MkcolRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>MkcolRequestsPersec</data_name>
+			</hash_07001666fd85799d7e70d7dae443d606d29109>
+			<hash_0700168cb02a05f7d5295d4e71384cc00ca436>
+				<name>MoveRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>MoveRequestsPersec</data_name>
+			</hash_0700168cb02a05f7d5295d4e71384cc00ca436>
+			<hash_0700169d6391b2b7328ec4c10f1e3752ba71a7>
+				<name>OptionsRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>OptionsRequestsPersec</data_name>
+			</hash_0700169d6391b2b7328ec4c10f1e3752ba71a7>
+			<hash_070016102c7b8da030a9f11788ffabcd2b9ef4>
+				<name>OtherRequestMethodsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>OtherRequestMethodsPersec</data_name>
+			</hash_070016102c7b8da030a9f11788ffabcd2b9ef4>
+			<hash_07001675976f6cec0cf0dbebc7bfe79bb73158>
+				<name>PostRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>PostRequestsPersec</data_name>
+			</hash_07001675976f6cec0cf0dbebc7bfe79bb73158>
+			<hash_070016ca40cb2973073945215a8d8582a68a93>
+				<name>PropfindRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>PropfindRequestsPersec</data_name>
+			</hash_070016ca40cb2973073945215a8d8582a68a93>
+			<hash_0700163500ec01b02556fcb0c1c626961a5ebb>
+				<name>ProppatchRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>ProppatchRequestsPersec</data_name>
+			</hash_0700163500ec01b02556fcb0c1c626961a5ebb>
+			<hash_070016c2fd874dcc30b80ea2cb28ad06352147>
+				<name>PutRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>PutRequestsPersec</data_name>
+			</hash_070016c2fd874dcc30b80ea2cb28ad06352147>
+			<hash_070016134147d2d55bbc31171e005f14686bbf>
+				<name>SearchRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>SearchRequestsPersec</data_name>
+			</hash_070016134147d2d55bbc31171e005f14686bbf>
+			<hash_070016dc9c25a437a3973742ff4fc1ee581882>
+				<name>TraceRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>TraceRequestsPersec</data_name>
+			</hash_070016dc9c25a437a3973742ff4fc1ee581882>
+			<hash_07001690e963a1babf722e829d230823bbf34d>
+				<name>UnlockRequestsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>UnlockRequestsPersec</data_name>
+			</hash_07001690e963a1babf722e829d230823bbf34d>
+			<hash_070016f0907d276bd5c3ff6c71cf07a720d667>
+				<name>Name</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>Name</data_name>
+			</hash_070016f0907d276bd5c3ff6c71cf07a720d667>
+		</fields>
+	</hash_03001646d4b3dbf61712a7d155d67f115dccec>
+	<hash_030016e36eb62ec123ff8827850e6cb3e06c26>
+		<name>WMI - Redirector Stats</name>
+		<type_id>1</type_id>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
+		<fields>
+			<hash_070016a48fb4b692a0c69a287a4c26b0f75977>
+				<name>Columns</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>columns</data_name>
+			</hash_070016a48fb4b692a0c69a287a4c26b0f75977>
+			<hash_070016bf064f16f087745089ac33177bea4679>
+				<name>Hostname</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code>hostname</type_code>
+				<input_output>in</input_output>
+				<data_name>host</data_name>
+			</hash_070016bf064f16f087745089ac33177bea4679>
+			<hash_0700167ed7a32046720ebb8eb87aef2aaaa849>
+				<name>Credential</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>credential</data_name>
+			</hash_0700167ed7a32046720ebb8eb87aef2aaaa849>
+			<hash_0700169c429d2c68022ec3474829eeed0b0b82>
+				<name>Class</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>class</data_name>
+			</hash_0700169c429d2c68022ec3474829eeed0b0b82>
+			<hash_070016a2a3b6c5684c8d7d3fd1b16b73fe0717>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016a2a3b6c5684c8d7d3fd1b16b73fe0717>
+			<hash_070016e22908e9e660ae60d26b3785ea61277b>
+				<name>ServerSessions</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>ServerSessions</data_name>
+			</hash_070016e22908e9e660ae60d26b3785ea61277b>
+			<hash_0700160277ab738833a7121171b27fb63d62f9>
+				<name>ServerReconnects</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>ServerReconnects</data_name>
+			</hash_0700160277ab738833a7121171b27fb63d62f9>
+			<hash_07001690b2a7a7f99d92cdacdce389f5a17f11>
+				<name>Filter</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>filter</data_name>
+			</hash_07001690b2a7a7f99d92cdacdce389f5a17f11>
+			<hash_070016f6c35a4e33db1220f6e7da0f21917b05>
+				<name>Filter Value</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>filterval</data_name>
+			</hash_070016f6c35a4e33db1220f6e7da0f21917b05>
+			<hash_0700168ec697fbdf3c6c34dc009f7bf2876878>
+				<name>ServerDisconnects</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>ServerDisconnects</data_name>
+			</hash_0700168ec697fbdf3c6c34dc009f7bf2876878>
+			<hash_07001637b2085cbb89c6e7386a3a8807895674>
+				<name>CurrentCommands</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>CurrentCommands</data_name>
+			</hash_07001637b2085cbb89c6e7386a3a8807895674>
+		</fields>
+	</hash_030016e36eb62ec123ff8827850e6cb3e06c26>
+	<hash_030016bd59c21df8572fd4fa6ec74a69f82608>
+		<name>WMI - IIS - Connections</name>
+		<type_id>1</type_id>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
+		<fields>
+			<hash_07001689d3d3d7e9dd8effa353c9121876083c>
+				<name>Hostname</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code>hostname</type_code>
+				<input_output>in</input_output>
+				<data_name>host</data_name>
+			</hash_07001689d3d3d7e9dd8effa353c9121876083c>
+			<hash_0700160304aa39b7b24ff82e8ba1210285203a>
+				<name>Filter</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>filter</data_name>
+			</hash_0700160304aa39b7b24ff82e8ba1210285203a>
+			<hash_070016eac780845da0c366c0dda09cd569cd8a>
+				<name>Filter Value</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>filterval</data_name>
+			</hash_070016eac780845da0c366c0dda09cd569cd8a>
+			<hash_0700162acac60aec9983cfe4c3e210b87d07bd>
+				<name>Columns</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>columns</data_name>
+			</hash_0700162acac60aec9983cfe4c3e210b87d07bd>
+			<hash_070016beafdf7fc64a68b2aa45bb273c9af1d8>
+				<name>CurrentConnections</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>CurrentConnections</data_name>
+			</hash_070016beafdf7fc64a68b2aa45bb273c9af1d8>
+			<hash_070016f65e5e7fb87b580ace35f1f1eee5c20d>
+				<name>CurrentNonAnonymousUsers</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>CurrentNonAnonymousUsers</data_name>
+			</hash_070016f65e5e7fb87b580ace35f1f1eee5c20d>
+			<hash_070016142a3efad76a43573e109f597622ed93>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016142a3efad76a43573e109f597622ed93>
+			<hash_0700165551a4336e2548644573525f88910962>
+				<name>Class</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>class</data_name>
+			</hash_0700165551a4336e2548644573525f88910962>
+			<hash_070016ce63580f073d5dc5aeab4164ac8031b9>
+				<name>Credential</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>credential</data_name>
+			</hash_070016ce63580f073d5dc5aeab4164ac8031b9>
+			<hash_07001607b16e74197b26a128462a4b289c5897>
+				<name>CurrentAnonymousUsers</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>CurrentAnonymousUsers</data_name>
+			</hash_07001607b16e74197b26a128462a4b289c5897>
+			<hash_070016d107711dad46883d308912881ffd67f2>
+				<name>ConnectionAttemptsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>ConnectionAttemptsPersec</data_name>
+			</hash_070016d107711dad46883d308912881ffd67f2>
+			<hash_0700169efdcfcddecf88a5ec0dfe7a80b876be>
+				<name>AnonymousUsersPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>AnonymousUsersPersec</data_name>
+			</hash_0700169efdcfcddecf88a5ec0dfe7a80b876be>
+			<hash_07001623ca08238761f6c4d7af704e7e18a124>
+				<name>NonAnonymousUsersPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>NonAnonymousUsersPersec</data_name>
+			</hash_07001623ca08238761f6c4d7af704e7e18a124>
+			<hash_0700167aa2e64dad0730ce588251f833c3bab7>
+				<name>LogonAttemptsPersec</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>LogonAttemptsPersec</data_name>
+			</hash_0700167aa2e64dad0730ce588251f833c3bab7>
+			<hash_070016e7366a9d366d8e925299836f208d1eb8>
+				<name>Name</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>Name</data_name>
+			</hash_070016e7366a9d366d8e925299836f208d1eb8>
+		</fields>
+	</hash_030016bd59c21df8572fd4fa6ec74a69f82608>
+	<hash_0300166914ac7d470048202938394cc2d40f6b>
+		<name>WMI - Exchange 2003 - Mailbox Stats</name>
+		<type_id>1</type_id>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
+		<fields>
+			<hash_0700168828bc68960488accf25515e164eb605>
+				<name>DeletedMessageSizeExtended</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>DeletedMessageSizeExtended</data_name>
+			</hash_0700168828bc68960488accf25515e164eb605>
+			<hash_070016d24baa24cb6eb57bf3686835f60b2a78>
+				<name>Filter Value</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>filterval</data_name>
+			</hash_070016d24baa24cb6eb57bf3686835f60b2a78>
+			<hash_070016cce0194b81a8f1ac266bbb87aef837e1>
+				<name>Filter</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>filter</data_name>
+			</hash_070016cce0194b81a8f1ac266bbb87aef837e1>
+			<hash_070016fa3dd91cf63918c75db9bd2644f56441>
+				<name>Namespace</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls>on</allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>namespace</data_name>
+			</hash_070016fa3dd91cf63918c75db9bd2644f56441>
+			<hash_070016640d8d2bac33f7cbad015eaab8d6c96b>
+				<name>Columns</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>columns</data_name>
+			</hash_070016640d8d2bac33f7cbad015eaab8d6c96b>
+			<hash_070016366228945c90669df876b84800960f87>
+				<name>Class</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>class</data_name>
+			</hash_070016366228945c90669df876b84800960f87>
+			<hash_07001619be039c0374852e52d0b11fd93524fb>
+				<name>Credential</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>in</input_output>
+				<data_name>credential</data_name>
+			</hash_07001619be039c0374852e52d0b11fd93524fb>
+			<hash_070016a228e3776387376a3a70a139dc706aab>
+				<name>Hostname</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code>hostname</type_code>
+				<input_output>in</input_output>
+				<data_name>host</data_name>
+			</hash_070016a228e3776387376a3a70a139dc706aab>
+			<hash_07001677e566965d2f5bf27cf214639c79ced9>
+				<name>LegacyDN</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>LegacyDN</data_name>
+			</hash_07001677e566965d2f5bf27cf214639c79ced9>
+			<hash_0700161bb0786e38221505eb845b6a7bf147ae>
+				<name>MailboxGUID</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>MailboxGUID</data_name>
+			</hash_0700161bb0786e38221505eb845b6a7bf147ae>
+			<hash_070016aa1de5ac526ada4a2ee62a68649daf76>
+				<name>ServerName</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>ServerName</data_name>
+			</hash_070016aa1de5ac526ada4a2ee62a68649daf76>
+			<hash_070016fcd9d213d2e47b120bfca2e642c03874>
+				<name>Size</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>Size</data_name>
+			</hash_070016fcd9d213d2e47b120bfca2e642c03874>
+			<hash_07001637f46edd6d3dd7c68cb7179f50b3b62e>
+				<name>StorageGroupName</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>StorageGroupName</data_name>
+			</hash_07001637f46edd6d3dd7c68cb7179f50b3b62e>
+			<hash_0700162c3e4355a2564a7c1525a1dffd476162>
+				<name>StoreName</name>
+				<update_rra></update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>StoreName</data_name>
+			</hash_0700162c3e4355a2564a7c1525a1dffd476162>
+			<hash_070016d16a4e95458a50e25f62bf9514205dce>
+				<name>TotalItems</name>
+				<update_rra>on</update_rra>
+				<regexp_match></regexp_match>
+				<allow_nulls></allow_nulls>
+				<type_code></type_code>
+				<input_output>out</input_output>
+				<data_name>TotalItems</data_name>
+			</hash_070016d16a4e95458a50e25f62bf9514205dce>
+		</fields>
+	</hash_0300166914ac7d470048202938394cc2d40f6b>
 	<hash_150016c21df5178e5c955013591239eb0afd46>
 		<name>Daily (5 Minute Average)</name>
 		<x_files_factor>0.5</x_files_factor>
