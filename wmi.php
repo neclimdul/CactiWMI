@@ -21,7 +21,7 @@ $output = null; // by default the output is null
 $inc = null; // by default needs to be null
 $sep = " "; // character to use between results
 $dbug_levels = array(0,1,2); // valid debug levels
-$version = '0.6-SVN'; // version
+$version = '0.0.6-RC1'; // version
 $namespace = escapeshellarg('root\CIMV2'); // default namespace
 $columns = '*'; // default to select all columns
 
