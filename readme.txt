@@ -13,9 +13,9 @@ need to create a new template and ensure the correct password file is used.
 
 REQUIREMENTS
 
-Cacti 0.8.7b (Older and newer versions require CDEF tweaks)
+Cacti 0.8.7c+ (Older versions will require CDEF tweaks)
 PHP 5 or higher (May work with PHP4 but is untested)
-WMI Client 1.1.3+ (Note the newer the better, 1.1.3 breaks on some classes)
+WMI Client 1.1.3+ (1.1.3 and older have problems with some classes. Latest confirmed working version 1.3.5)
 Remote RPC privelages (Your credential must be allowed to remotely run WMI queries)
 Rempte RPC firewall access (And you of course need your firewall to allow RPC)
 
