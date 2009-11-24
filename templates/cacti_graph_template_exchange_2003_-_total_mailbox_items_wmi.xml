@@ -1,5 +1,5 @@
 <cacti>	
-	<hash_00001640905e7e440d1155c3b8e6865d72332d>
+	<hash_00001940905e7e440d1155c3b8e6865d72332d>
 		<name>Exchange 2003 - Total Mailbox Items (WMI)</name>
 		<graph>
 			<t_title>on</t_title>
@@ -9,7 +9,7 @@
 			<t_height></t_height>
 			<height>120</height>
 			<t_width></t_width>
-			<width>500</width>
+			<width>750</width>
 			<t_slope_mode></t_slope_mode>
 			<slope_mode>on</slope_mode>
 			<t_auto_scale></t_auto_scale>
@@ -40,96 +40,96 @@
 			<vertical_label>Items</vertical_label>
 		</graph>
 		<items>
-			<hash_100016f8214d981f8608a85fd840f582d261c3>
-				<task_item_id>hash_08001666e02266722ccd8478a4577d764ccddf</task_item_id>
+			<hash_100019f8214d981f8608a85fd840f582d261c3>
+				<task_item_id>hash_08001966e02266722ccd8478a4577d764ccddf</task_item_id>
 				<color_id>FF0000</color_id>
 				<alpha>33</alpha>
 				<graph_type_id>7</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
-				<gprint_id>hash_06001619414480d6897c8731c7dc6c5310653e</gprint_id>
+				<gprint_id>hash_06001919414480d6897c8731c7dc6c5310653e</gprint_id>
 				<text_format></text_format>
 				<hard_return></hard_return>
 				<sequence>1</sequence>
-			</hash_100016f8214d981f8608a85fd840f582d261c3>
-			<hash_10001650524e632ef7ae8dbb9d5e26163ee194>
-				<task_item_id>hash_08001666e02266722ccd8478a4577d764ccddf</task_item_id>
+			</hash_100019f8214d981f8608a85fd840f582d261c3>
+			<hash_10001950524e632ef7ae8dbb9d5e26163ee194>
+				<task_item_id>hash_08001966e02266722ccd8478a4577d764ccddf</task_item_id>
 				<color_id>FF0000</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>4</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
-				<gprint_id>hash_06001619414480d6897c8731c7dc6c5310653e</gprint_id>
+				<gprint_id>hash_06001919414480d6897c8731c7dc6c5310653e</gprint_id>
 				<text_format>Items:</text_format>
 				<hard_return></hard_return>
 				<sequence>2</sequence>
-			</hash_10001650524e632ef7ae8dbb9d5e26163ee194>
-			<hash_100016215bb8ef8a117e9c6c5593d852449504>
-				<task_item_id>hash_08001666e02266722ccd8478a4577d764ccddf</task_item_id>
+			</hash_10001950524e632ef7ae8dbb9d5e26163ee194>
+			<hash_100019215bb8ef8a117e9c6c5593d852449504>
+				<task_item_id>hash_08001966e02266722ccd8478a4577d764ccddf</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
 				<consolidation_function_id>2</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
-				<gprint_id>hash_06001619414480d6897c8731c7dc6c5310653e</gprint_id>
+				<gprint_id>hash_06001919414480d6897c8731c7dc6c5310653e</gprint_id>
 				<text_format>Minimum:</text_format>
 				<hard_return></hard_return>
 				<sequence>3</sequence>
-			</hash_100016215bb8ef8a117e9c6c5593d852449504>
-			<hash_1000160879f968f597aebef8618d2c468dbe1c>
-				<task_item_id>hash_08001666e02266722ccd8478a4577d764ccddf</task_item_id>
+			</hash_100019215bb8ef8a117e9c6c5593d852449504>
+			<hash_1000190879f968f597aebef8618d2c468dbe1c>
+				<task_item_id>hash_08001966e02266722ccd8478a4577d764ccddf</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
-				<gprint_id>hash_06001619414480d6897c8731c7dc6c5310653e</gprint_id>
+				<gprint_id>hash_06001919414480d6897c8731c7dc6c5310653e</gprint_id>
 				<text_format>Average:</text_format>
 				<hard_return></hard_return>
 				<sequence>4</sequence>
-			</hash_1000160879f968f597aebef8618d2c468dbe1c>
-			<hash_100016fc950f712c0833a16dc4a6aade78855a>
-				<task_item_id>hash_08001666e02266722ccd8478a4577d764ccddf</task_item_id>
+			</hash_1000190879f968f597aebef8618d2c468dbe1c>
+			<hash_100019fc950f712c0833a16dc4a6aade78855a>
+				<task_item_id>hash_08001966e02266722ccd8478a4577d764ccddf</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
 				<consolidation_function_id>3</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
-				<gprint_id>hash_06001619414480d6897c8731c7dc6c5310653e</gprint_id>
+				<gprint_id>hash_06001919414480d6897c8731c7dc6c5310653e</gprint_id>
 				<text_format>Maximum:</text_format>
 				<hard_return></hard_return>
 				<sequence>5</sequence>
-			</hash_100016fc950f712c0833a16dc4a6aade78855a>
+			</hash_100019fc950f712c0833a16dc4a6aade78855a>
 		</items>
 		<inputs>
-			<hash_090016bb550a62f6aba575c1b40ba5bc35c48d>
+			<hash_090019bb550a62f6aba575c1b40ba5bc35c48d>
 				<name>Data Source [TotalItems]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_00001650524e632ef7ae8dbb9d5e26163ee194|hash_000016f8214d981f8608a85fd840f582d261c3|hash_000016215bb8ef8a117e9c6c5593d852449504|hash_0000160879f968f597aebef8618d2c468dbe1c|hash_000016fc950f712c0833a16dc4a6aade78855a</items>
-			</hash_090016bb550a62f6aba575c1b40ba5bc35c48d>
+				<items>hash_00001950524e632ef7ae8dbb9d5e26163ee194|hash_000019f8214d981f8608a85fd840f582d261c3|hash_000019215bb8ef8a117e9c6c5593d852449504|hash_0000190879f968f597aebef8618d2c468dbe1c|hash_000019fc950f712c0833a16dc4a6aade78855a</items>
+			</hash_090019bb550a62f6aba575c1b40ba5bc35c48d>
 		</inputs>
-	</hash_00001640905e7e440d1155c3b8e6865d72332d>
-	<hash_010016fc2168382e9adde6b1fff530dc0aafbf>
+	</hash_00001940905e7e440d1155c3b8e6865d72332d>
+	<hash_010019fc2168382e9adde6b1fff530dc0aafbf>
 		<name>Exchange 2003 - Mailbox Stats (WMI)</name>
 		<ds>
 			<t_name>on</t_name>
 			<name>|host_description| - Exchange 2003 - Mailbox Stats</name>
-			<data_input_id>hash_0300166914ac7d470048202938394cc2d40f6b</data_input_id>
+			<data_input_id>hash_0300196914ac7d470048202938394cc2d40f6b</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
 			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
-			<rra_items>hash_150016c21df5178e5c955013591239eb0afd46|hash_1500160d9c0af8b8acdc7807943937b3208e29|hash_1500166fc2d038fb42950138b0ce3e9874cc60|hash_150016e36f3adb9f152adfa5dc50fd2b23337e</rra_items>
+			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
 		</ds>
 		<items>
-			<hash_0800166d1dc5f88bb5ee749869ae410ff3394e>
+			<hash_0800196d1dc5f88bb5ee749869ae410ff3394e>
 				<t_data_source_name></t_data_source_name>
 				<data_source_name>Size</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
@@ -141,9 +141,9 @@
 				<t_rrd_heartbeat></t_rrd_heartbeat>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_070016fcd9d213d2e47b120bfca2e642c03874</data_input_field_id>
-			</hash_0800166d1dc5f88bb5ee749869ae410ff3394e>
-			<hash_08001666e02266722ccd8478a4577d764ccddf>
+				<data_input_field_id>hash_070019fcd9d213d2e47b120bfca2e642c03874</data_input_field_id>
+			</hash_0800196d1dc5f88bb5ee749869ae410ff3394e>
+			<hash_08001966e02266722ccd8478a4577d764ccddf>
 				<t_data_source_name></t_data_source_name>
 				<data_source_name>TotalItems</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
@@ -155,9 +155,9 @@
 				<t_rrd_heartbeat></t_rrd_heartbeat>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_070016d16a4e95458a50e25f62bf9514205dce</data_input_field_id>
-			</hash_08001666e02266722ccd8478a4577d764ccddf>
-			<hash_080016df7bb29f1f70f7b24d3bb611f233e548>
+				<data_input_field_id>hash_070019d16a4e95458a50e25f62bf9514205dce</data_input_field_id>
+			</hash_08001966e02266722ccd8478a4577d764ccddf>
+			<hash_080019df7bb29f1f70f7b24d3bb611f233e548>
 				<t_data_source_name></t_data_source_name>
 				<data_source_name>DeletedMessages</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
@@ -169,53 +169,53 @@
 				<t_rrd_heartbeat></t_rrd_heartbeat>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_0700168828bc68960488accf25515e164eb605</data_input_field_id>
-			</hash_080016df7bb29f1f70f7b24d3bb611f233e548>
+				<data_input_field_id>hash_0700198828bc68960488accf25515e164eb605</data_input_field_id>
+			</hash_080019df7bb29f1f70f7b24d3bb611f233e548>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_070016a228e3776387376a3a70a139dc706aab</data_input_field_id>
+				<data_input_field_id>hash_070019a228e3776387376a3a70a139dc706aab</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_07001619be039c0374852e52d0b11fd93524fb</data_input_field_id>
+				<data_input_field_id>hash_07001919be039c0374852e52d0b11fd93524fb</data_input_field_id>
 				<t_value>on</t_value>
 				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_070016366228945c90669df876b84800960f87</data_input_field_id>
+				<data_input_field_id>hash_070019366228945c90669df876b84800960f87</data_input_field_id>
 				<t_value></t_value>
 				<value>Exchange_Mailbox</value>
 			</item_002>
 			<item_003>
-				<data_input_field_id>hash_070016640d8d2bac33f7cbad015eaab8d6c96b</data_input_field_id>
+				<data_input_field_id>hash_070019640d8d2bac33f7cbad015eaab8d6c96b</data_input_field_id>
 				<t_value></t_value>
 				<value>Size,TotalItems,DeletedMessageSizeExtended</value>
 			</item_003>
 			<item_004>
-				<data_input_field_id>hash_070016cce0194b81a8f1ac266bbb87aef837e1</data_input_field_id>
+				<data_input_field_id>hash_070019cce0194b81a8f1ac266bbb87aef837e1</data_input_field_id>
 				<t_value></t_value>
 				<value>MailboxDisplayName</value>
 			</item_004>
 			<item_005>
-				<data_input_field_id>hash_070016fa3dd91cf63918c75db9bd2644f56441</data_input_field_id>
+				<data_input_field_id>hash_070019fa3dd91cf63918c75db9bd2644f56441</data_input_field_id>
 				<t_value></t_value>
 				<value>root\MicrosoftExchangeV2</value>
 			</item_005>
 			<item_006>
-				<data_input_field_id>hash_070016d24baa24cb6eb57bf3686835f60b2a78</data_input_field_id>
+				<data_input_field_id>hash_070019d24baa24cb6eb57bf3686835f60b2a78</data_input_field_id>
 				<t_value>on</t_value>
 				<value></value>
 			</item_006>
 		</data>
-	</hash_010016fc2168382e9adde6b1fff530dc0aafbf>
-	<hash_0300166914ac7d470048202938394cc2d40f6b>
+	</hash_010019fc2168382e9adde6b1fff530dc0aafbf>
+	<hash_0300196914ac7d470048202938394cc2d40f6b>
 		<name>WMI - Exchange 2003 - Mailbox Stats</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h &#039;&lt;host&gt;&#039; -u &#039;&lt;credential&gt;&#039; -w &#039;&lt;class&gt;&#039; -n &#039;&lt;namespace&gt;&#039; -k &#039;&lt;filter&gt;&#039; -v &#039;&lt;filterval&gt;&#039; -c &#039;&lt;columns&gt;&#039;</input_string>
 		<fields>
-			<hash_0700168828bc68960488accf25515e164eb605>
+			<hash_0700198828bc68960488accf25515e164eb605>
 				<name>DeletedMessageSizeExtended</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
@@ -223,8 +223,8 @@
 				<type_code></type_code>
 				<input_output>out</input_output>
 				<data_name>DeletedMessageSizeExtended</data_name>
-			</hash_0700168828bc68960488accf25515e164eb605>
-			<hash_070016d24baa24cb6eb57bf3686835f60b2a78>
+			</hash_0700198828bc68960488accf25515e164eb605>
+			<hash_070019d24baa24cb6eb57bf3686835f60b2a78>
 				<name>Filter Value</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -232,8 +232,8 @@
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>filterval</data_name>
-			</hash_070016d24baa24cb6eb57bf3686835f60b2a78>
-			<hash_070016cce0194b81a8f1ac266bbb87aef837e1>
+			</hash_070019d24baa24cb6eb57bf3686835f60b2a78>
+			<hash_070019cce0194b81a8f1ac266bbb87aef837e1>
 				<name>Filter</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -241,8 +241,8 @@
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>filter</data_name>
-			</hash_070016cce0194b81a8f1ac266bbb87aef837e1>
-			<hash_070016fa3dd91cf63918c75db9bd2644f56441>
+			</hash_070019cce0194b81a8f1ac266bbb87aef837e1>
+			<hash_070019fa3dd91cf63918c75db9bd2644f56441>
 				<name>Namespace</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -250,8 +250,8 @@
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>namespace</data_name>
-			</hash_070016fa3dd91cf63918c75db9bd2644f56441>
-			<hash_070016640d8d2bac33f7cbad015eaab8d6c96b>
+			</hash_070019fa3dd91cf63918c75db9bd2644f56441>
+			<hash_070019640d8d2bac33f7cbad015eaab8d6c96b>
 				<name>Columns</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -259,8 +259,8 @@
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>columns</data_name>
-			</hash_070016640d8d2bac33f7cbad015eaab8d6c96b>
-			<hash_070016366228945c90669df876b84800960f87>
+			</hash_070019640d8d2bac33f7cbad015eaab8d6c96b>
+			<hash_070019366228945c90669df876b84800960f87>
 				<name>Class</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -268,8 +268,8 @@
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>class</data_name>
-			</hash_070016366228945c90669df876b84800960f87>
-			<hash_07001619be039c0374852e52d0b11fd93524fb>
+			</hash_070019366228945c90669df876b84800960f87>
+			<hash_07001919be039c0374852e52d0b11fd93524fb>
 				<name>Credential</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -277,8 +277,8 @@
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>credential</data_name>
-			</hash_07001619be039c0374852e52d0b11fd93524fb>
-			<hash_070016a228e3776387376a3a70a139dc706aab>
+			</hash_07001919be039c0374852e52d0b11fd93524fb>
+			<hash_070019a228e3776387376a3a70a139dc706aab>
 				<name>Hostname</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -286,8 +286,8 @@
 				<type_code>hostname</type_code>
 				<input_output>in</input_output>
 				<data_name>host</data_name>
-			</hash_070016a228e3776387376a3a70a139dc706aab>
-			<hash_07001677e566965d2f5bf27cf214639c79ced9>
+			</hash_070019a228e3776387376a3a70a139dc706aab>
+			<hash_07001977e566965d2f5bf27cf214639c79ced9>
 				<name>LegacyDN</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -295,8 +295,8 @@
 				<type_code></type_code>
 				<input_output>out</input_output>
 				<data_name>LegacyDN</data_name>
-			</hash_07001677e566965d2f5bf27cf214639c79ced9>
-			<hash_0700161bb0786e38221505eb845b6a7bf147ae>
+			</hash_07001977e566965d2f5bf27cf214639c79ced9>
+			<hash_0700191bb0786e38221505eb845b6a7bf147ae>
 				<name>MailboxGUID</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -304,8 +304,8 @@
 				<type_code></type_code>
 				<input_output>out</input_output>
 				<data_name>MailboxGUID</data_name>
-			</hash_0700161bb0786e38221505eb845b6a7bf147ae>
-			<hash_070016aa1de5ac526ada4a2ee62a68649daf76>
+			</hash_0700191bb0786e38221505eb845b6a7bf147ae>
+			<hash_070019aa1de5ac526ada4a2ee62a68649daf76>
 				<name>ServerName</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -313,8 +313,8 @@
 				<type_code></type_code>
 				<input_output>out</input_output>
 				<data_name>ServerName</data_name>
-			</hash_070016aa1de5ac526ada4a2ee62a68649daf76>
-			<hash_070016fcd9d213d2e47b120bfca2e642c03874>
+			</hash_070019aa1de5ac526ada4a2ee62a68649daf76>
+			<hash_070019fcd9d213d2e47b120bfca2e642c03874>
 				<name>Size</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
@@ -322,8 +322,8 @@
 				<type_code></type_code>
 				<input_output>out</input_output>
 				<data_name>Size</data_name>
-			</hash_070016fcd9d213d2e47b120bfca2e642c03874>
-			<hash_07001637f46edd6d3dd7c68cb7179f50b3b62e>
+			</hash_070019fcd9d213d2e47b120bfca2e642c03874>
+			<hash_07001937f46edd6d3dd7c68cb7179f50b3b62e>
 				<name>StorageGroupName</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -331,8 +331,8 @@
 				<type_code></type_code>
 				<input_output>out</input_output>
 				<data_name>StorageGroupName</data_name>
-			</hash_07001637f46edd6d3dd7c68cb7179f50b3b62e>
-			<hash_0700162c3e4355a2564a7c1525a1dffd476162>
+			</hash_07001937f46edd6d3dd7c68cb7179f50b3b62e>
+			<hash_0700192c3e4355a2564a7c1525a1dffd476162>
 				<name>StoreName</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -340,8 +340,8 @@
 				<type_code></type_code>
 				<input_output>out</input_output>
 				<data_name>StoreName</data_name>
-			</hash_0700162c3e4355a2564a7c1525a1dffd476162>
-			<hash_070016d16a4e95458a50e25f62bf9514205dce>
+			</hash_0700192c3e4355a2564a7c1525a1dffd476162>
+			<hash_070019d16a4e95458a50e25f62bf9514205dce>
 				<name>TotalItems</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
@@ -349,43 +349,51 @@
 				<type_code></type_code>
 				<input_output>out</input_output>
 				<data_name>TotalItems</data_name>
-			</hash_070016d16a4e95458a50e25f62bf9514205dce>
+			</hash_070019d16a4e95458a50e25f62bf9514205dce>
 		</fields>
-	</hash_0300166914ac7d470048202938394cc2d40f6b>
-	<hash_150016c21df5178e5c955013591239eb0afd46>
+	</hash_0300196914ac7d470048202938394cc2d40f6b>
+	<hash_150019c21df5178e5c955013591239eb0afd46>
 		<name>Daily (5 Minute Average)</name>
 		<x_files_factor>0.5</x_files_factor>
 		<steps>1</steps>
 		<rows>600</rows>
 		<timespan>86400</timespan>
-		<cf_items>1|2|3|4</cf_items>
-	</hash_150016c21df5178e5c955013591239eb0afd46>
-	<hash_1500160d9c0af8b8acdc7807943937b3208e29>
+		<cf_items>1|3</cf_items>
+	</hash_150019c21df5178e5c955013591239eb0afd46>
+	<hash_1500190d9c0af8b8acdc7807943937b3208e29>
 		<name>Weekly (30 Minute Average)</name>
 		<x_files_factor>0.5</x_files_factor>
 		<steps>6</steps>
 		<rows>700</rows>
 		<timespan>604800</timespan>
-		<cf_items>1|2|3|4</cf_items>
-	</hash_1500160d9c0af8b8acdc7807943937b3208e29>
-	<hash_1500166fc2d038fb42950138b0ce3e9874cc60>
+		<cf_items>1|3</cf_items>
+	</hash_1500190d9c0af8b8acdc7807943937b3208e29>
+	<hash_1500196fc2d038fb42950138b0ce3e9874cc60>
 		<name>Monthly (2 Hour Average)</name>
 		<x_files_factor>0.5</x_files_factor>
 		<steps>24</steps>
 		<rows>775</rows>
 		<timespan>2678400</timespan>
-		<cf_items>1|2|3|4</cf_items>
-	</hash_1500166fc2d038fb42950138b0ce3e9874cc60>
-	<hash_150016e36f3adb9f152adfa5dc50fd2b23337e>
+		<cf_items>1|3</cf_items>
+	</hash_1500196fc2d038fb42950138b0ce3e9874cc60>
+	<hash_150019e36f3adb9f152adfa5dc50fd2b23337e>
 		<name>Yearly (1 Day Average)</name>
 		<x_files_factor>0.5</x_files_factor>
 		<steps>288</steps>
 		<rows>797</rows>
 		<timespan>33053184</timespan>
-		<cf_items>1|2|3|4</cf_items>
-	</hash_150016e36f3adb9f152adfa5dc50fd2b23337e>
-	<hash_06001619414480d6897c8731c7dc6c5310653e>
+		<cf_items>1|3</cf_items>
+	</hash_150019e36f3adb9f152adfa5dc50fd2b23337e>
+	<hash_150019283ea2bf1634d92ce081ec82a634f513>
+		<name>Hourly (1 Minute Average)</name>
+		<x_files_factor>0.5</x_files_factor>
+		<steps>1</steps>
+		<rows>500</rows>
+		<timespan>14400</timespan>
+		<cf_items>1|3</cf_items>
+	</hash_150019283ea2bf1634d92ce081ec82a634f513>
+	<hash_06001919414480d6897c8731c7dc6c5310653e>
 		<name>Exact Numbers</name>
 		<gprint_text>%8.0lf</gprint_text>
-	</hash_06001619414480d6897c8731c7dc6c5310653e>
+	</hash_06001919414480d6897c8731c7dc6c5310653e>
 </cacti>

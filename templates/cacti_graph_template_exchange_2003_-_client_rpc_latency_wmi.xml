@@ -1,5 +1,5 @@
 <cacti>	
-	<hash_000016307cbb389003ca76f5dcbcc4a83902a6>
+	<hash_000019307cbb389003ca76f5dcbcc4a83902a6>
 		<name>Exchange 2003 - Client RPC Latency (WMI)</name>
 		<graph>
 			<t_title></t_title>
@@ -9,7 +9,7 @@
 			<t_height></t_height>
 			<height>120</height>
 			<t_width></t_width>
-			<width>500</width>
+			<width>750</width>
 			<t_slope_mode></t_slope_mode>
 			<slope_mode>on</slope_mode>
 			<t_auto_scale></t_auto_scale>
@@ -40,72 +40,72 @@
 			<vertical_label>Latency</vertical_label>
 		</graph>
 		<items>
-			<hash_1000166b7b95a6b56830fa538db99eb46f1912>
-				<task_item_id>hash_0800163569c776d396dbc05f6f971fce5c5d77</task_item_id>
+			<hash_1000196b7b95a6b56830fa538db99eb46f1912>
+				<task_item_id>hash_0800193569c776d396dbc05f6f971fce5c5d77</task_item_id>
 				<color_id>FF0000</color_id>
 				<alpha>33</alpha>
 				<graph_type_id>7</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
-				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<gprint_id>hash_060019e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<text_format></text_format>
 				<hard_return></hard_return>
 				<sequence>1</sequence>
-			</hash_1000166b7b95a6b56830fa538db99eb46f1912>
-			<hash_1000168f574895ff0f765b439156382064d3f8>
-				<task_item_id>hash_0800163569c776d396dbc05f6f971fce5c5d77</task_item_id>
+			</hash_1000196b7b95a6b56830fa538db99eb46f1912>
+			<hash_1000198f574895ff0f765b439156382064d3f8>
+				<task_item_id>hash_0800193569c776d396dbc05f6f971fce5c5d77</task_item_id>
 				<color_id>FF0000</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>4</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
-				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<gprint_id>hash_060019e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<text_format>Average Latency:</text_format>
 				<hard_return></hard_return>
 				<sequence>2</sequence>
-			</hash_1000168f574895ff0f765b439156382064d3f8>
-			<hash_100016aeae27f30b8f57b3674d0b40ec449b58>
-				<task_item_id>hash_0800163569c776d396dbc05f6f971fce5c5d77</task_item_id>
+			</hash_1000198f574895ff0f765b439156382064d3f8>
+			<hash_100019aeae27f30b8f57b3674d0b40ec449b58>
+				<task_item_id>hash_0800193569c776d396dbc05f6f971fce5c5d77</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
 				<consolidation_function_id>4</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
-				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<gprint_id>hash_060019e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<text_format>Current:</text_format>
 				<hard_return></hard_return>
 				<sequence>3</sequence>
-			</hash_100016aeae27f30b8f57b3674d0b40ec449b58>
-			<hash_1000166a58d1b4f63a42345651986a84611948>
-				<task_item_id>hash_0800163569c776d396dbc05f6f971fce5c5d77</task_item_id>
+			</hash_100019aeae27f30b8f57b3674d0b40ec449b58>
+			<hash_1000196a58d1b4f63a42345651986a84611948>
+				<task_item_id>hash_0800193569c776d396dbc05f6f971fce5c5d77</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
-				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<gprint_id>hash_060019e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<text_format>Average:</text_format>
 				<hard_return></hard_return>
 				<sequence>4</sequence>
-			</hash_1000166a58d1b4f63a42345651986a84611948>
-			<hash_1000165c46c30606454df0b1c4bfae09ab8f2e>
-				<task_item_id>hash_0800163569c776d396dbc05f6f971fce5c5d77</task_item_id>
+			</hash_1000196a58d1b4f63a42345651986a84611948>
+			<hash_1000195c46c30606454df0b1c4bfae09ab8f2e>
+				<task_item_id>hash_0800193569c776d396dbc05f6f971fce5c5d77</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
 				<consolidation_function_id>3</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
-				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<gprint_id>hash_060019e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<text_format>Maximum:</text_format>
 				<hard_return>on</hard_return>
 				<sequence>5</sequence>
-			</hash_1000165c46c30606454df0b1c4bfae09ab8f2e>
-			<hash_1000166c42b80fbdbbaee77629bacca1461d71>
+			</hash_1000195c46c30606454df0b1c4bfae09ab8f2e>
+			<hash_1000196c42b80fbdbbaee77629bacca1461d71>
 				<task_item_id>0</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
@@ -113,36 +113,36 @@
 				<consolidation_function_id>1</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
-				<gprint_id>hash_060016e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<gprint_id>hash_060019e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<text_format>Latency should average 30ms or lower!</text_format>
 				<hard_return>on</hard_return>
 				<sequence>6</sequence>
-			</hash_1000166c42b80fbdbbaee77629bacca1461d71>
+			</hash_1000196c42b80fbdbbaee77629bacca1461d71>
 		</items>
 		<inputs>
-			<hash_0900163342507da3b3d3ea3010c47a9fb7c7c6>
+			<hash_0900193342507da3b3d3ea3010c47a9fb7c7c6>
 				<name>Data Source [AveragedLatency]</name>
 				<description></description>
 				<column_name>task_item_id</column_name>
-				<items>hash_0000168f574895ff0f765b439156382064d3f8|hash_000016aeae27f30b8f57b3674d0b40ec449b58|hash_0000166a58d1b4f63a42345651986a84611948|hash_0000165c46c30606454df0b1c4bfae09ab8f2e|hash_0000166b7b95a6b56830fa538db99eb46f1912</items>
-			</hash_0900163342507da3b3d3ea3010c47a9fb7c7c6>
+				<items>hash_0000196b7b95a6b56830fa538db99eb46f1912|hash_0000198f574895ff0f765b439156382064d3f8|hash_000019aeae27f30b8f57b3674d0b40ec449b58|hash_0000196a58d1b4f63a42345651986a84611948|hash_0000195c46c30606454df0b1c4bfae09ab8f2e</items>
+			</hash_0900193342507da3b3d3ea3010c47a9fb7c7c6>
 		</inputs>
-	</hash_000016307cbb389003ca76f5dcbcc4a83902a6>
-	<hash_010016706c468e7dbb2b7e3bf39dde3983f1d2>
+	</hash_000019307cbb389003ca76f5dcbcc4a83902a6>
+	<hash_010019706c468e7dbb2b7e3bf39dde3983f1d2>
 		<name>Exchange 2003 - RPC Performance (WMI)</name>
 		<ds>
 			<t_name></t_name>
 			<name>|host_description| - Exchange 2003 - RPC Performance</name>
-			<data_input_id>hash_030016b2f500c3a3e3d35af7f155e16303adc0</data_input_id>
+			<data_input_id>hash_030019b2f500c3a3e3d35af7f155e16303adc0</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
 			<rrd_step>300</rrd_step>
 			<t_active></t_active>
 			<active>on</active>
-			<rra_items>hash_150016c21df5178e5c955013591239eb0afd46|hash_1500160d9c0af8b8acdc7807943937b3208e29|hash_1500166fc2d038fb42950138b0ce3e9874cc60|hash_150016e36f3adb9f152adfa5dc50fd2b23337e|hash_150016283ea2bf1634d92ce081ec82a634f513</rra_items>
+			<rra_items>hash_150019c21df5178e5c955013591239eb0afd46|hash_1500190d9c0af8b8acdc7807943937b3208e29|hash_1500196fc2d038fb42950138b0ce3e9874cc60|hash_150019e36f3adb9f152adfa5dc50fd2b23337e|hash_150019283ea2bf1634d92ce081ec82a634f513</rra_items>
 		</ds>
 		<items>
-			<hash_0800163569c776d396dbc05f6f971fce5c5d77>
+			<hash_0800193569c776d396dbc05f6f971fce5c5d77>
 				<t_data_source_name></t_data_source_name>
 				<data_source_name>AveragedLatency</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
@@ -154,9 +154,9 @@
 				<t_rrd_heartbeat></t_rrd_heartbeat>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_070016bd437bf4b33e89670b191ec4550cf28d</data_input_field_id>
-			</hash_0800163569c776d396dbc05f6f971fce5c5d77>
-			<hash_080016158f759b28a324b5608e026fb8457901>
+				<data_input_field_id>hash_070019bd437bf4b33e89670b191ec4550cf28d</data_input_field_id>
+			</hash_0800193569c776d396dbc05f6f971fce5c5d77>
+			<hash_080019158f759b28a324b5608e026fb8457901>
 				<t_data_source_name></t_data_source_name>
 				<data_source_name>ClientsBytesWritten</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
@@ -168,9 +168,9 @@
 				<t_rrd_heartbeat></t_rrd_heartbeat>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_070016a9db8f70da8e3cc960720680fb1f69b0</data_input_field_id>
-			</hash_080016158f759b28a324b5608e026fb8457901>
-			<hash_0800164bfae4252bcbc485c04d9d674b1a8f5b>
+				<data_input_field_id>hash_070019a9db8f70da8e3cc960720680fb1f69b0</data_input_field_id>
+			</hash_080019158f759b28a324b5608e026fb8457901>
+			<hash_0800194bfae4252bcbc485c04d9d674b1a8f5b>
 				<t_data_source_name></t_data_source_name>
 				<data_source_name>ClientsBytesRead</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
@@ -182,9 +182,9 @@
 				<t_rrd_heartbeat></t_rrd_heartbeat>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_07001638ad598db280b72e100b5f77ccaf885c</data_input_field_id>
-			</hash_0800164bfae4252bcbc485c04d9d674b1a8f5b>
-			<hash_08001625c4fd7141aaba2eec4e1cd04f19fc47>
+				<data_input_field_id>hash_07001938ad598db280b72e100b5f77ccaf885c</data_input_field_id>
+			</hash_0800194bfae4252bcbc485c04d9d674b1a8f5b>
+			<hash_08001925c4fd7141aaba2eec4e1cd04f19fc47>
 				<t_data_source_name></t_data_source_name>
 				<data_source_name>OperationsPersec</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
@@ -196,9 +196,9 @@
 				<t_rrd_heartbeat></t_rrd_heartbeat>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_070016fab9a4906c545cf31d44c2b7e7ee2f01</data_input_field_id>
-			</hash_08001625c4fd7141aaba2eec4e1cd04f19fc47>
-			<hash_080016cad1d3dd7f60d2ba1e84452e02b5759b>
+				<data_input_field_id>hash_070019fab9a4906c545cf31d44c2b7e7ee2f01</data_input_field_id>
+			</hash_08001925c4fd7141aaba2eec4e1cd04f19fc47>
+			<hash_080019cad1d3dd7f60d2ba1e84452e02b5759b>
 				<t_data_source_name></t_data_source_name>
 				<data_source_name>PacketsPersec</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
@@ -210,53 +210,53 @@
 				<t_rrd_heartbeat></t_rrd_heartbeat>
 				<rrd_heartbeat>600</rrd_heartbeat>
 				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_0700161c34cde170ab40f9e3ca943d95550a98</data_input_field_id>
-			</hash_080016cad1d3dd7f60d2ba1e84452e02b5759b>
+				<data_input_field_id>hash_0700191c34cde170ab40f9e3ca943d95550a98</data_input_field_id>
+			</hash_080019cad1d3dd7f60d2ba1e84452e02b5759b>
 		</items>
 		<data>
 			<item_000>
-				<data_input_field_id>hash_0700162434673a677a0ef4726992372252b92d</data_input_field_id>
+				<data_input_field_id>hash_0700192434673a677a0ef4726992372252b92d</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_000>
 			<item_001>
-				<data_input_field_id>hash_070016021a556c8577b4dab9a2be37b9a8bf96</data_input_field_id>
+				<data_input_field_id>hash_070019021a556c8577b4dab9a2be37b9a8bf96</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_001>
 			<item_002>
-				<data_input_field_id>hash_0700168bd853000c2455c84c98fe8210268ba3</data_input_field_id>
+				<data_input_field_id>hash_0700198bd853000c2455c84c98fe8210268ba3</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_002>
 			<item_003>
-				<data_input_field_id>hash_070016efea13979f4f8d1736268927026dfa0f</data_input_field_id>
+				<data_input_field_id>hash_070019efea13979f4f8d1736268927026dfa0f</data_input_field_id>
 				<t_value></t_value>
 				<value>RPCAveragedLatency,RPCClientsBytesRead,RPCClientsBytesWritten,RPCOperationsPersec,RPCPacketsPersec</value>
 			</item_003>
 			<item_004>
-				<data_input_field_id>hash_070016ce168f39f850db09ecf200262277bab4</data_input_field_id>
+				<data_input_field_id>hash_070019ce168f39f850db09ecf200262277bab4</data_input_field_id>
 				<t_value></t_value>
 				<value>Win32_PerfRawData_MSExchangeIS_MSExchangeIS</value>
 			</item_004>
 			<item_005>
-				<data_input_field_id>hash_0700167369a0e937a7e5df13c27eec76fb88b0</data_input_field_id>
+				<data_input_field_id>hash_0700197369a0e937a7e5df13c27eec76fb88b0</data_input_field_id>
 				<t_value>on</t_value>
 				<value>/etc/cacti/cactiwmi.pw</value>
 			</item_005>
 			<item_006>
-				<data_input_field_id>hash_0700165499c287b8339c20c7319f524ec0f811</data_input_field_id>
+				<data_input_field_id>hash_0700195499c287b8339c20c7319f524ec0f811</data_input_field_id>
 				<t_value></t_value>
 				<value></value>
 			</item_006>
 		</data>
-	</hash_010016706c468e7dbb2b7e3bf39dde3983f1d2>
-	<hash_030016b2f500c3a3e3d35af7f155e16303adc0>
+	</hash_010019706c468e7dbb2b7e3bf39dde3983f1d2>
+	<hash_030019b2f500c3a3e3d35af7f155e16303adc0>
 		<name>WMI - Exchange 2003 - RPC Performance</name>
 		<type_id>1</type_id>
-		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h '&lt;host&gt;' -u '&lt;credential&gt;' -w '&lt;class&gt;' -n '&lt;namespace&gt;' -k '&lt;filter&gt;' -v '&lt;filterval&gt;' -c '&lt;columns&gt;'</input_string>
+		<input_string>/usr/bin/php -q &lt;path_cacti&gt;/scripts/wmi.php -h &#039;&lt;host&gt;&#039; -u &#039;&lt;credential&gt;&#039; -w &#039;&lt;class&gt;&#039; -n &#039;&lt;namespace&gt;&#039; -k &#039;&lt;filter&gt;&#039; -v &#039;&lt;filterval&gt;&#039; -c &#039;&lt;columns&gt;&#039;</input_string>
 		<fields>
-			<hash_0700165499c287b8339c20c7319f524ec0f811>
+			<hash_0700195499c287b8339c20c7319f524ec0f811>
 				<name>Hostname</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -264,8 +264,8 @@
 				<type_code>hostname</type_code>
 				<input_output>in</input_output>
 				<data_name>host</data_name>
-			</hash_0700165499c287b8339c20c7319f524ec0f811>
-			<hash_0700167369a0e937a7e5df13c27eec76fb88b0>
+			</hash_0700195499c287b8339c20c7319f524ec0f811>
+			<hash_0700197369a0e937a7e5df13c27eec76fb88b0>
 				<name>Credential</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -273,8 +273,8 @@
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>credential</data_name>
-			</hash_0700167369a0e937a7e5df13c27eec76fb88b0>
-			<hash_070016ce168f39f850db09ecf200262277bab4>
+			</hash_0700197369a0e937a7e5df13c27eec76fb88b0>
+			<hash_070019ce168f39f850db09ecf200262277bab4>
 				<name>Class</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -282,8 +282,8 @@
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>class</data_name>
-			</hash_070016ce168f39f850db09ecf200262277bab4>
-			<hash_070016efea13979f4f8d1736268927026dfa0f>
+			</hash_070019ce168f39f850db09ecf200262277bab4>
+			<hash_070019efea13979f4f8d1736268927026dfa0f>
 				<name>Columns</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -291,8 +291,8 @@
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>columns</data_name>
-			</hash_070016efea13979f4f8d1736268927026dfa0f>
-			<hash_0700168bd853000c2455c84c98fe8210268ba3>
+			</hash_070019efea13979f4f8d1736268927026dfa0f>
+			<hash_0700198bd853000c2455c84c98fe8210268ba3>
 				<name>Filter</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -300,8 +300,8 @@
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>filter</data_name>
-			</hash_0700168bd853000c2455c84c98fe8210268ba3>
-			<hash_070016021a556c8577b4dab9a2be37b9a8bf96>
+			</hash_0700198bd853000c2455c84c98fe8210268ba3>
+			<hash_070019021a556c8577b4dab9a2be37b9a8bf96>
 				<name>Filter Value</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -309,8 +309,8 @@
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>filterval</data_name>
-			</hash_070016021a556c8577b4dab9a2be37b9a8bf96>
-			<hash_070016bd437bf4b33e89670b191ec4550cf28d>
+			</hash_070019021a556c8577b4dab9a2be37b9a8bf96>
+			<hash_070019bd437bf4b33e89670b191ec4550cf28d>
 				<name>RPCAveragedLatency</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
@@ -318,8 +318,8 @@
 				<type_code></type_code>
 				<input_output>out</input_output>
 				<data_name>RPCAveragedLatency</data_name>
-			</hash_070016bd437bf4b33e89670b191ec4550cf28d>
-			<hash_07001638ad598db280b72e100b5f77ccaf885c>
+			</hash_070019bd437bf4b33e89670b191ec4550cf28d>
+			<hash_07001938ad598db280b72e100b5f77ccaf885c>
 				<name>RPCClientsBytesRead</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
@@ -327,8 +327,8 @@
 				<type_code></type_code>
 				<input_output>out</input_output>
 				<data_name>RPCClientsBytesRead</data_name>
-			</hash_07001638ad598db280b72e100b5f77ccaf885c>
-			<hash_070016a9db8f70da8e3cc960720680fb1f69b0>
+			</hash_07001938ad598db280b72e100b5f77ccaf885c>
+			<hash_070019a9db8f70da8e3cc960720680fb1f69b0>
 				<name>RPCClientsBytesWritten</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
@@ -336,8 +336,8 @@
 				<type_code></type_code>
 				<input_output>out</input_output>
 				<data_name>RPCClientsBytesWritten</data_name>
-			</hash_070016a9db8f70da8e3cc960720680fb1f69b0>
-			<hash_070016fab9a4906c545cf31d44c2b7e7ee2f01>
+			</hash_070019a9db8f70da8e3cc960720680fb1f69b0>
+			<hash_070019fab9a4906c545cf31d44c2b7e7ee2f01>
 				<name>RPCOperationsPersec</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
@@ -345,8 +345,8 @@
 				<type_code></type_code>
 				<input_output>out</input_output>
 				<data_name>RPCOperationsPersec</data_name>
-			</hash_070016fab9a4906c545cf31d44c2b7e7ee2f01>
-			<hash_0700161c34cde170ab40f9e3ca943d95550a98>
+			</hash_070019fab9a4906c545cf31d44c2b7e7ee2f01>
+			<hash_0700191c34cde170ab40f9e3ca943d95550a98>
 				<name>RPCPacketsPersec</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
@@ -354,8 +354,8 @@
 				<type_code></type_code>
 				<input_output>out</input_output>
 				<data_name>RPCPacketsPersec</data_name>
-			</hash_0700161c34cde170ab40f9e3ca943d95550a98>
-			<hash_0700162434673a677a0ef4726992372252b92d>
+			</hash_0700191c34cde170ab40f9e3ca943d95550a98>
+			<hash_0700192434673a677a0ef4726992372252b92d>
 				<name>Namespace</name>
 				<update_rra></update_rra>
 				<regexp_match></regexp_match>
@@ -363,51 +363,51 @@
 				<type_code></type_code>
 				<input_output>in</input_output>
 				<data_name>namespace</data_name>
-			</hash_0700162434673a677a0ef4726992372252b92d>
+			</hash_0700192434673a677a0ef4726992372252b92d>
 		</fields>
-	</hash_030016b2f500c3a3e3d35af7f155e16303adc0>
-	<hash_150016c21df5178e5c955013591239eb0afd46>
+	</hash_030019b2f500c3a3e3d35af7f155e16303adc0>
+	<hash_150019c21df5178e5c955013591239eb0afd46>
 		<name>Daily (5 Minute Average)</name>
 		<x_files_factor>0.5</x_files_factor>
 		<steps>1</steps>
 		<rows>600</rows>
 		<timespan>86400</timespan>
-		<cf_items>1|2|3|4</cf_items>
-	</hash_150016c21df5178e5c955013591239eb0afd46>
-	<hash_1500160d9c0af8b8acdc7807943937b3208e29>
+		<cf_items>1|3</cf_items>
+	</hash_150019c21df5178e5c955013591239eb0afd46>
+	<hash_1500190d9c0af8b8acdc7807943937b3208e29>
 		<name>Weekly (30 Minute Average)</name>
 		<x_files_factor>0.5</x_files_factor>
 		<steps>6</steps>
 		<rows>700</rows>
 		<timespan>604800</timespan>
-		<cf_items>1|2|3|4</cf_items>
-	</hash_1500160d9c0af8b8acdc7807943937b3208e29>
-	<hash_1500166fc2d038fb42950138b0ce3e9874cc60>
+		<cf_items>1|3</cf_items>
+	</hash_1500190d9c0af8b8acdc7807943937b3208e29>
+	<hash_1500196fc2d038fb42950138b0ce3e9874cc60>
 		<name>Monthly (2 Hour Average)</name>
 		<x_files_factor>0.5</x_files_factor>
 		<steps>24</steps>
 		<rows>775</rows>
 		<timespan>2678400</timespan>
-		<cf_items>1|2|3|4</cf_items>
-	</hash_1500166fc2d038fb42950138b0ce3e9874cc60>
-	<hash_150016e36f3adb9f152adfa5dc50fd2b23337e>
+		<cf_items>1|3</cf_items>
+	</hash_1500196fc2d038fb42950138b0ce3e9874cc60>
+	<hash_150019e36f3adb9f152adfa5dc50fd2b23337e>
 		<name>Yearly (1 Day Average)</name>
 		<x_files_factor>0.5</x_files_factor>
 		<steps>288</steps>
 		<rows>797</rows>
 		<timespan>33053184</timespan>
-		<cf_items>1|2|3|4</cf_items>
-	</hash_150016e36f3adb9f152adfa5dc50fd2b23337e>
-	<hash_150016283ea2bf1634d92ce081ec82a634f513>
+		<cf_items>1|3</cf_items>
+	</hash_150019e36f3adb9f152adfa5dc50fd2b23337e>
+	<hash_150019283ea2bf1634d92ce081ec82a634f513>
 		<name>Hourly (1 Minute Average)</name>
 		<x_files_factor>0.5</x_files_factor>
 		<steps>1</steps>
 		<rows>500</rows>
 		<timespan>14400</timespan>
 		<cf_items>1|3</cf_items>
-	</hash_150016283ea2bf1634d92ce081ec82a634f513>
-	<hash_060016e9c43831e54eca8069317a2ce8c6f751>
+	</hash_150019283ea2bf1634d92ce081ec82a634f513>
+	<hash_060019e9c43831e54eca8069317a2ce8c6f751>
 		<name>Normal</name>
 		<gprint_text>%8.2lf %s</gprint_text>
-	</hash_060016e9c43831e54eca8069317a2ce8c6f751>
+	</hash_060019e9c43831e54eca8069317a2ce8c6f751>
 </cacti>
