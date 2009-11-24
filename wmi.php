@@ -93,7 +93,7 @@ if (isset($condition_key)) {
 };
 $wmiquery = '"'.$wmiquery.'"'; // encapsulate the query in " "
 
-$wmiexec = $wmiexe.' --namespace='.$namespace.' --authentication-file='.$credential.' //'.$host.' '.$wmiquery. ' 2>/dev/null'; // setup the query to be run
+$wmiexec = $wmiexe.' --namespace='.$namespace.' --authentication-file='.$credential.' //'.$host.' '.$wmiquery. ' 2>/dev/null'; // setup the query to be run and hide error messages
 
 exec($wmiexec,$wmiout,$execstatus); // execute the query and store output in $wmiout and return code in $execstatus
 
