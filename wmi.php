@@ -13,7 +13,8 @@ configuration is done via the templates.
 
 // general configuration
 $wmiexe = '/usr/local/bin/wmic'; // executable for the wmic command
-$log_location = '/var/log/cacti/wmi/'; // location for the log files ensure trailing slash
+$pw_location '/etc/cacti/'; // location of the password files, ensure the trailing slash
+$log_location = '/var/log/cacti/wmi/'; // location for the log files, ensure trailing slash
 $dbug = 0; // debug level 0,1 or 2
 
 // globals
