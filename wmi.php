@@ -1,15 +1,20 @@
 #!/usr/bin/php -q
 <?php
-/*
-This file is the main application which interfaces the wmic binary with the
-input and output from Cacti. The idea of this is to move the configuration
-into Cacti rather than creating a new script for each item that you wish to
-monitor via WMI.
-
-The only configurable options are listed under general configuration and are
-the debug level, log location and wmic location. Other than that all other
-configuration is done via the templates.
-*/
+/**
+ * CactiWMI
+ * Version 0.0.7-SVN
+ * 
+ * Copyright (c) 2008-2010 Ross Fawcett
+ * 
+ * This file is the main application which interfaces the wmic binary with the
+ * input and output from Cacti. The idea of this is to move the configuration
+ * into Cacti rather than creating a new script for each item that you wish to
+ * monitor via WMI.
+ * 
+ * The only configurable options are listed under general configuration and are
+ * the debug level, log location and wmic location. Other than that all other
+ * configuration is done via the templates.
+ */
 
 // general configuration
 $wmiexe = '/usr/local/bin/wmic'; // executable for the wmic command
