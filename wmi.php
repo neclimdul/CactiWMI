@@ -17,7 +17,7 @@
  */
 
 // general configuration
-$wmiexe = `which wmic`; // executable for the wmic command
+$wmiexe = trim(`which wmic`); // executable for the wmic command
 if (empty($wmiexe)) {
 	print "You must install the wmi client to use this script.\n\n";
 	exit;
@@ -159,7 +159,7 @@ if ($wmi_count > 0) {
 		$j=0;
 		foreach($data as $item) {
 			if ( $wmi_count > 3 ) { $inc = $i-2; } // if there are multiple rows returned add an incremental number to the returned keyname
-			$output = $output.$names[$j++].$inc.':'.str_replace(array(':',' '),array('','_'),$item).$sep;
+			$output .= $names[$j++] . $inc . ':' . str_replace(array(':',' '), array('','_'), $item) . $sep;
 		}
 	}
 }
