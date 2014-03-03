@@ -24,15 +24,21 @@ It was written to be as generic as possible such that the script should not need
 ### Setup cacti
 
 1. Copy wmi.php to your Cacti scripts directory.
+
         $ cp wmi.php /var/www/cacti/scripts
+
 2. Create directories
+
         $ mkdir -p /etc/cacti
         $ mkdir -p /var/log/cacti/wmi
+
 3. Ensure cacti owns directories and permissions are secure.
+
         $ chown cacti:cacti /etc/cacti -R
         $ chown cacti:cacti /var/log/cacti/wmi -R
         $ chmod 700 /etc/cacti -R
         $ chmod 700 /var/log/cacti/wmi -R
+
 4. (optional) Configure wmi.php and set the path to your wmic binary.
 5. Create your password file in /etc/cacti as per the format below.
 6. Import the templates into Cacti.
@@ -40,11 +46,15 @@ It was written to be as generic as possible such that the script should not need
 ### Building wmic
 Most distributions do not include the wmi client any longer so you will need to manually build it.
 1. Grab a copy of the latest WMI client for linux
+
         $ svn export http://dev.zenoss.org/svn/tags/wmi-1.3.16/
+
 2. Build wmic
+
         $ cd wmi-*/Samba/source
         $ ./autogen.sh
         $ make proto bin/wmic
+
 3. Copy the wmic binary to /usr/local/bin/ or somewhere else on in your path.
 
 ### Auth File Format
