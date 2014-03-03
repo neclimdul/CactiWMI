@@ -30,12 +30,11 @@ INSTALLATION
 
 BUILDING WMIC
 
-1. Grab a copy of the latest WMI client for linux (http://dev.zenoss.org/svn/trunk/inst/externallibs)
-2. Extract the files tar -jxvf wmi-x.x.x.tar.bz2
-3. Change directory to wmi-x.x.x/Samba/source
-4. Run ./autogen.sh
-5. Now run make proto bin/wmic
-6. Copy the wmic binary to /usr/local/bin/
+1. Grab a copy of the latest WMI client for linux (svn export http://dev.zenoss.org/svn/tags/wmi-1.3.16/)
+2. Change directory to wmi-x.x.x/Samba/source
+3. Run ./autogen.sh
+4. Now run make proto bin/wmic
+5. Copy the wmic binary to /usr/local/bin/ or somewhere else on in your path.
 
 QUICK INSTALLATION
 
