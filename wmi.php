@@ -44,7 +44,7 @@ function display_help() {
 		 "       -h <hostname>         Hostname of the server to query. (required)\n",
 		 "       -u <credential path>  Path to the credential file. See format below. (required)\n",
 		 "       -w <wmi class>        WMI Class to be used. (required)\n",
-		 "       -n <namespace>        What namespace to use. (optional, defaults to root\CIMV2)\n",
+		 "       -n <namespace>        What namespace to use. (optional, defaults to root\\CIMV2)\n",
 		 "       -c <columns>          What columns to select. (optional, defaults to *)\n",
 		 "       -k <filter key>       What key to filter on. (optional, default is no filter)\n",
 		 "       -v <filter value>     What value for the key. (required, only when using filter key)\n",
