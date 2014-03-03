@@ -37,6 +37,32 @@ $args = getopt("h:u:w:c:k:v:n:d:");
 $opt_count = count($args); // count number of options, saves having to recount later
 $arg_count = count($argv); // count number of arguments, again saving recounts further on
 
+function display_help() {
+	echo "wmi.php version $GLOBALS[version]\n",
+	     "\n",
+	     "Usage:\n",
+		 "       -h <hostname>         Hostname of the server to query.\n",
+		 "       -u <credential path>  Path to the credential file. See format below.\n",
+		 "       -n <namespace>        What namespace to use. (optional, defaults to root\CIMV2)\n",
+		 "       -w <wmi class>        WMI Class to be used.\n",
+		 "       -c <columns>          What columns to select. (optional, defaults to *)\n",
+		 "       -k <filter key>       What key to filter on. (optional, default is no filter)\n",
+		 "       -v <filter value>     What value for the key. (required, only when using filter key)\n",
+		 "       -d <debug level>      Debug level. (optional, default is none, levels are 1 & 2)\n",
+		 "\n",
+		 "                             All special characters and spaces must be escaped or enclosed in single quotes!\n",
+		 "\n",
+	     "Example: wmi.php -h 10.0.0.1 -u /etc/wmi.pw -w Win32_ComputerSystem -c PrimaryOwnerName,NumberOfProcessors -n 'root\\CIMV2' \n",
+		 "\n",
+		 "Password file format: Plain text file with the following 3 lines replaced with your details.\n",
+		 "\n",
+		 "                      username=<your username>\n",
+		 "                      password=<your password>\n",
+		 "                      domain=<your domain> (can be WORKGROUP if not using a domain)\n",
+		 "\n";
+	exit;
+}
+
 if ($opt_count > 0) { // test to see if using new style arguments and if so default to use them
 	$host = $args['h']; // hostname in form xxx.xxx.xxx.xxx
 	$credential = $args['u']; // credential from wmi-logins to use for the query
@@ -58,30 +84,6 @@ if ($opt_count > 0) { // test to see if using new style arguments and if so defa
 		$condition_key = $args['k']; // the condition key we are filtering on
 		$condition_val = str_replace('\\','',escapeshellarg($args['v'])); // the value we are filtering with, and also strip out any slashes (backwards compatibility)
 	}
-} elseif ($opt_count == 0 && $arg_count == 1) { // display help if old style arguments are not present and no new style arguments passed
-	echo "wmi.php version $version\n",
-	     "\n",
-	     "Usage:\n",
-		 "       -h <hostname>         Hostname of the server to query.\n",
-		 "       -u <credential path>  Path to the credential file. See format below.\n",
-		 "       -n <namespace>        What namespace to use. (optional, defaults to root\CIMV2)\n",
-		 "       -w <wmi class>        WMI Class to be used.\n",
-		 "       -c <columns>          What columns to select. (optional, defaults to *)\n",
-		 "       -k <filter key>       What key to filter on. (optional, default is no filter)\n",
-		 "       -v <filter value>     What value for the key. (required, only when using filter key)\n",
-		 "       -d <debug level>      Debug level. (optional, default is none, levels are 1 & 2)\n",
-		 "\n",
-		 "                             All special characters and spaces must be escaped or enclosed in single quotes!\n",
-		 "\n",
-	     "Example: wmi.php -h 10.0.0.1 -u /etc/wmi.pw -w Win32_ComputerSystem -c PrimaryOwnerName,NumberOfProcessors -n 'root\CIMV2' \n",
-		 "\n",
-		 "Password file format: Plain text file with the following 3 lines replaced with your details.\n",
-		 "\n",
-		 "                      username=<your username>\n",
-		 "                      password=<your password>\n",
-		 "                      domain=<your domain> (can be WORKGROUP if not using a domain)\n",
-		 "\n";
-	exit;
 } elseif ($opt_count == 0 && $arg_count > 1) { // if using old style arguments, process them accordingly
 	$host = $argv[1]; // hostname in form xxx.xxx.xxx.xxx
 	$credential = $argv[2]; // credential from wmi-logins to use for the query
@@ -91,6 +93,8 @@ if ($opt_count > 0) { // test to see if using new style arguments and if so defa
 		$condition_key = $argv[5];
 		$condition_val = escapeshellarg($argv[6]);
 	}
+} else {
+	display_help();
 }
 
 $wmiquery = 'SELECT '.$columns.' FROM '.$wmiclass; // basic query built
