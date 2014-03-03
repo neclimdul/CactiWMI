@@ -16,8 +16,8 @@ REQUIREMENTS
 Cacti 0.8.7c+ (Older versions will require CDEF tweaks)
 PHP 5 or higher (May work with PHP4 but is untested)
 WMI Client 1.1.3+ (1.1.3 and older have problems with some classes. Latest confirmed working version 1.3.5)
-Remote RPC privelages (Your credential must be allowed to remotely run WMI queries)
-Rempte RPC firewall access (And you of course need your firewall to allow RPC)
+Remote RPC privileges (Your credential must be allowed to remotely run WMI queries)
+Remote RPC firewall access (And you of course need your firewall to allow RPC)
 
 INSTALLATION
 
