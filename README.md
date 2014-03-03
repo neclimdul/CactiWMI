@@ -45,6 +45,7 @@ It was written to be as generic as possible such that the script should not need
 
 ### Building wmic
 Most distributions do not include the wmi client any longer so you will need to manually build it.
+
 1. Grab a copy of the latest WMI client for linux
 
         $ svn export http://dev.zenoss.org/svn/tags/wmi-1.3.16/
