@@ -120,19 +120,25 @@ $wmiexec = $wmiexe.' --namespace='.$namespace.' --authentication-file='.$credent
 exec($wmiexec,$wmiout,$execstatus); // execute the query and store output in $wmiout and return code in $execstatus
 
 if ($execstatus != 0) {
-	$dbug = 1;
-	echo "\n\nReturn code non-zero, debug mode enabled!\n\n";
+	$dbug = max($dbug, 1);
+	echo "\nReturn code non-zero, debug mode enabled!\n";
 }
 
 if ($dbug == 1) { // basic debug, show output in easy to read format and display the exact execution command
-	echo "\n\n".$wmiexec."\nExec Status: ".$execstatus."\n\n";
+	echo "\n".$wmiexec."\nExec Status: ".$execstatus."\n";
 	$sep = "\n";
 }
 if ($dbug == 2) { // advanced debug, logs everything to file for full debug
 	$dbug_log = $log_location.'dbug_'.$host.'.log';
 	$fp = fopen($dbug_log,'a+');
-	$dbug_time = date('l jS \of F Y h:i:s A');
-	fwrite($fp,"Time: $dbug_time\nWMI Class: $wmiclass\nCredential: $credential\nColumns: $columns\nCondition Key: $condition_key\nCondition Val: $condition_val\nQuery: $wmiquery\nExec: $wmiexec\nOutput:\n".$wmiout[0]."\n".$wmiout[1]."\n");
+	if ($fp) {
+		$dbug_time = date('l jS \of F Y h:i:s A');
+		fwrite($fp,"Time: $dbug_time\nWMI Class: $wmiclass\nCredential: $credential\nColumns: $columns\nCondition Key: $condition_key\nCondition Val: $condition_val\nQuery: $wmiquery\nExec: $wmiexec\nOutput:\n".$wmiout[0]."\n".$wmiout[1]."\n");
+	} else {
+		echo "\nUnable to open log file. Either file does not exist or user does not have access to write to it.\n";
+		// Skip future writes.
+		$dbug = 1;
+	}
 }
 
 $wmi_count = count($wmiout); // count the number of lines returned from wmic, saves recouting later
