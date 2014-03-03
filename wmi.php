@@ -145,6 +145,12 @@ if ($dbug == 2) { // advanced debug, logs everything to file for full debug
 	}
 }
 
+// If client failed parsing code is going to fail so drop out without verbose errors.
+if ($execstatus) {
+	echo "WMI Client Output: " . implode("\n", $wmiout) . "\n";
+	exit($execstatus);
+}
+
 $wmi_count = count($wmiout); // count the number of lines returned from wmic, saves recouting later
 
 if ($wmi_count > 0) {
