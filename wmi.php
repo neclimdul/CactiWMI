@@ -17,7 +17,11 @@
  */
 
 // general configuration
-$wmiexe = '/usr/local/bin/wmic'; // executable for the wmic command
+$wmiexe = `which wmic`; // executable for the wmic command
+if (empty($wmiexe)) {
+	print "You must install the wmi client to use this script.\n\n";
+	exit;
+}
 $pw_location = '/etc/cacti/'; // location of the password files, ensure the trailing slash
 $log_location = '/var/log/cacti/wmi/'; // location for the log files, ensure trailing slash
 $dbug = 0; // debug level 0,1 or 2
