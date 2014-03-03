@@ -41,10 +41,10 @@ function display_help() {
 	echo "wmi.php version $GLOBALS[version]\n",
 	     "\n",
 	     "Usage:\n",
-		 "       -h <hostname>         Hostname of the server to query.\n",
-		 "       -u <credential path>  Path to the credential file. See format below.\n",
+		 "       -h <hostname>         Hostname of the server to query. (required)\n",
+		 "       -u <credential path>  Path to the credential file. See format below. (required)\n",
+		 "       -w <wmi class>        WMI Class to be used. (required)\n",
 		 "       -n <namespace>        What namespace to use. (optional, defaults to root\CIMV2)\n",
-		 "       -w <wmi class>        WMI Class to be used.\n",
 		 "       -c <columns>          What columns to select. (optional, defaults to *)\n",
 		 "       -k <filter key>       What key to filter on. (optional, default is no filter)\n",
 		 "       -v <filter value>     What value for the key. (required, only when using filter key)\n",
@@ -64,16 +64,28 @@ function display_help() {
 }
 
 if ($opt_count > 0) { // test to see if using new style arguments and if so default to use them
-	$host = $args['h']; // hostname in form xxx.xxx.xxx.xxx
-	$credential = $args['u']; // credential from wmi-logins to use for the query
-	$wmiclass = $args['w']; // what wmic class to query in form Win32_ClassName
-	if (isset($args['d'])) {
-		if (in_array($args['d'],$dbug_levels)) { // enables debug mode when the argument is passed (and is valid)
-			$dbug = $args['d'];
-		}
+	if (empty($args['h'])) {
+		display_help();
+	} else {
+		$host = $args['h']; // hostname in form xxx.xxx.xxx.xxx
 	}
-	if (isset($args['c']) && $args['c'] != '') {
-		$columns = $args['c']; // what columns to retrieve
+	if (empty($args['u'])) {
+		display_help();
+	} else {
+		$credential = $args['u']; // credential from wmi-logins to use for the query
+	}
+	if (empty($args['w'])) {
+		display_help();
+	} else {
+		$wmiclass = $args['w']; // what wmic class to query in form Win32_ClassName
+	}
+	// enables debug mode when the argument is passed (and is valid)
+	if (isset($args['d']) && in_array($args['d'],$dbug_levels)) {
+		$dbug = $args['d'];
+	}
+	// what columns to retrieve.
+	if (!empty($args['c'])) {
+		$columns = $args['c'];
 	}
 
 	if (isset($args['n']) && $args['n'] != '') { // test to check if namespace was passed
