@@ -115,7 +115,7 @@ if ($opt_count > 0) { // test to see if using new style arguments and if so defa
 
 $wmiquery = 'SELECT '.$columns.' FROM '.$wmiclass; // basic query built
 if (isset($condition_key)) {
-        $wmiquery = $wmiquery.' WHERE '.$condition_key.'='.$condition_val; // if the query has a filter argument add it in
+    $wmiquery = $wmiquery.' WHERE '.$condition_key.'='.$condition_val; // if the query has a filter argument add it in
 }
 $wmiquery = '"'.$wmiquery.'"'; // encapsulate the query in " "
 
@@ -169,6 +169,4 @@ if ($dbug == 2) {
 	fclose($fp);
 }
 
-$output = substr($output,0,-1); // strip of the trailing space just in case cacti doesn't like it
-
-echo $output;
+echo substr($output,0,-1); // strip of the trailing space just in case cacti doesn't like it
