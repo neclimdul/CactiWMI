@@ -3,14 +3,14 @@
 /**
  * CactiWMI
  * Version 0.0.7-SVN
- * 
+ *
  * Copyright (c) 2008-2010 Ross Fawcett
- * 
+ *
  * This file is the main application which interfaces the wmic binary with the
  * input and output from Cacti. The idea of this is to move the configuration
  * into Cacti rather than creating a new script for each item that you wish to
  * monitor via WMI.
- * 
+ *
  * The only configurable options are listed under general configuration and are
  * the debug level, log location and wmic location. Other than that all other
  * configuration is done via the templates.
@@ -44,20 +44,20 @@ if ($opt_count > 0) { // test to see if using new style arguments and if so defa
 	if (isset($args['d'])) {
 		if (in_array($args['d'],$dbug_levels)) { // enables debug mode when the argument is passed (and is valid)
 			$dbug = $args['d'];
-		};
-	};
+		}
+	}
 	if (isset($args['c']) && $args['c'] != '') {
 		$columns = $args['c']; // what columns to retrieve
-	};
-	
+	}
+
 	if (isset($args['n']) && $args['n'] != '') { // test to check if namespace was passed
 		$namespace = escapeshellarg($args['n']);
-	};
+	}
 
 	if (isset($args['k'])&& $args['k'] != '') { // check to see if a filter is being used, also check to see if it is "none" as required to work around cacti...
 		$condition_key = $args['k']; // the condition key we are filtering on
 		$condition_val = str_replace('\\','',escapeshellarg($args['v'])); // the value we are filtering with, and also strip out any slashes (backwards compatibility)
-	};
+	}
 } elseif ($opt_count == 0 && $arg_count == 1) { // display help if old style arguments are not present and no new style arguments passed
 	echo "wmi.php version $version\n",
 	     "\n",
@@ -90,13 +90,13 @@ if ($opt_count > 0) { // test to see if using new style arguments and if so defa
 	if (isset($argv[5])) { // if the number of arguments isnt above 5 then don't bother with the where = etc
 		$condition_key = $argv[5];
 		$condition_val = escapeshellarg($argv[6]);
-	};
-};
+	}
+}
 
 $wmiquery = 'SELECT '.$columns.' FROM '.$wmiclass; // basic query built
 if (isset($condition_key)) {
         $wmiquery = $wmiquery.' WHERE '.$condition_key.'='.$condition_val; // if the query has a filter argument add it in
-};
+}
 $wmiquery = '"'.$wmiquery.'"'; // encapsulate the query in " "
 
 $wmiexec = $wmiexe.' --namespace='.$namespace.' --authentication-file='.$credential.' //'.$host.' '.$wmiquery. ' 2>/dev/null'; // setup the query to be run and hide error messages
@@ -106,45 +106,43 @@ exec($wmiexec,$wmiout,$execstatus); // execute the query and store output in $wm
 if ($execstatus != 0) {
 	$dbug = 1;
 	echo "\n\nReturn code non-zero, debug mode enabled!\n\n";
-};
+}
 
 if ($dbug == 1) { // basic debug, show output in easy to read format and display the exact execution command
 	echo "\n\n".$wmiexec."\nExec Status: ".$execstatus."\n\n";
 	$sep = "\n";
-};
+}
 if ($dbug == 2) { // advanced debug, logs everything to file for full debug
 	$dbug_log = $log_location.'dbug_'.$host.'.log';
 	$fp = fopen($dbug_log,'a+');
 	$dbug_time = date('l jS \of F Y h:i:s A');
 	fwrite($fp,"Time: $dbug_time\nWMI Class: $wmiclass\nCredential: $credential\nColumns: $columns\nCondition Key: $condition_key\nCondition Val: $condition_val\nQuery: $wmiquery\nExec: $wmiexec\nOutput:\n".$wmiout[0]."\n".$wmiout[1]."\n");
-};
+}
 
 $wmi_count = count($wmiout); // count the number of lines returned from wmic, saves recouting later
 
 if ($wmi_count > 0) {
 
-$names = explode('|',$wmiout[1]); // build the names list to dymanically output it
+	$names = explode('|',$wmiout[1]); // build the names list to dymanically output it
 
-for($i=2;$i<$wmi_count;$i++) { // dynamically output the key:value pairs to suit cacti
-	$data = explode('|',$wmiout[$i]);
-	if ($dbug == 2) {
-		fwrite($fp,$wmiout[$i]."\n");
-	};
-	$j=0;
-	foreach($data as $item) {
-		if ( $wmi_count > 3 ) { $inc = $i-2; }; // if there are multiple rows returned add an incremental number to the returned keyname
-		$output = $output.$names[$j++].$inc.':'.str_replace(array(':',' '),array('','_'),$item).$sep;
-	};
-};
-
-};
+	for($i=2;$i<$wmi_count;$i++) { // dynamically output the key:value pairs to suit cacti
+		$data = explode('|',$wmiout[$i]);
+		if ($dbug == 2) {
+			fwrite($fp,$wmiout[$i]."\n");
+		}
+		$j=0;
+		foreach($data as $item) {
+			if ( $wmi_count > 3 ) { $inc = $i-2; } // if there are multiple rows returned add an incremental number to the returned keyname
+			$output = $output.$names[$j++].$inc.':'.str_replace(array(':',' '),array('','_'),$item).$sep;
+		}
+	}
+}
 
 if ($dbug == 2) {
 	fwrite($fp,"Output to Cacti: $output\n\n\n");
 	fclose($fp);
-};
+}
 
 $output = substr($output,0,-1); // strip of the trailing space just in case cacti doesn't like it
 
 echo $output;
-?>
